@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Step1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Step1.res" /d "NDEBUG" /d "_AFXDLL" "D:\Important\OGLForQiao\Program\Chap03_Step1\Step1.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9226.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Step1.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Important\OGLForQiao\Program\Chap03_Step1\MainFrm.cpp"
+"D:\Important\OGLForQiao\Program\Chap03_Step1\Step1.cpp"
+"D:\Important\OGLForQiao\Program\Chap03_Step1\Step1Doc.cpp"
+"D:\Important\OGLForQiao\Program\Chap03_Step1\Step1View.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9226.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9227.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Step1.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Important\OGLForQiao\Program\Chap03_Step1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9227.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9228.TMP" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Step1.pdb" /machine:I386 /out:"Release/Step1.exe" 
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\Step1.obj
+.\Release\Step1Doc.obj
+.\Release\Step1View.obj
+.\Release\Step1.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9228.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Step1.cpp
+Step1Doc.cpp
+Step1View.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Step1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

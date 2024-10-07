@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: glpuzzle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPD264.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/glpuzzle.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD264.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD265.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glaux.lib /nologo /subsystem:console /incremental:no /pdb:"Release/glpuzzle.pdb" /machine:I386 /out:"Release/glpuzzle.exe" 
+.\Release\glpuzzle.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD265.TMP"
+<h3>Output Window</h3>
+Compiling...
+glpuzzle.c
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(167) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(170) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(187) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(190) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(264) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(264) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(303) : warning C4244: 'function' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(303) : warning C4244: 'function' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(502) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(506) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(518) : warning C4244: '/=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(519) : warning C4244: '/=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(525) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(526) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(556) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(564) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(565) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(588) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(600) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(601) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(616) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(617) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(685) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(688) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Puzzle\glpuzzle.c(689) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+glpuzzle.exe - 0 error(s), 25 warning(s)
+</pre>
+</body>
+</html>

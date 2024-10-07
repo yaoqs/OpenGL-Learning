@@ -1,0 +1,26 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  glpuzzle.c
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(167): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(170): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(187): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(190): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(264): warning C4244: “函数”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(303): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(502): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(506): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(518): warning C4244: “/=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(519): warning C4244: “/=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(525): warning C4244: “-=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(526): warning C4244: “-=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(556): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(564): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(565): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(588): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(600): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(601): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(616): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(617): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(685): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(688): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap07_puzzle\glpuzzle.c(689): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  glpuzzle.vcxproj -> G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Puzzle\.\Debug\glpuzzle.exe

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyNeon - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyNeon.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\MyNeon.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP127.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyNeon.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\MainFrm.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\MyNeon.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\MyNeonDoc.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\MyNeonView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP127.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP128.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyNeon.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyNeon\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP128.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP129.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyNeon.pdb" /debug /machine:I386 /out:"Debug/MyNeon.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\MyNeon.obj"
+".\Debug\MyNeonDoc.obj"
+".\Debug\MyNeonView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyNeon.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP129.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyNeon.cpp
+MyNeonDoc.cpp
+MyNeonView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyNeon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

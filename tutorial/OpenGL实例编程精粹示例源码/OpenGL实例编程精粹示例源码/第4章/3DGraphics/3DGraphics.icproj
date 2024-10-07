@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="3DGraphics"
+	ProjectGUID="{10D3D2DA-C8A9-4327-A646-423D4AE12964}"
+	VCNestedProjectGUID="{78DEACE0-7FF8-4C5A-8180-BEA355A22498}"
+	VCNestedProjectFileName="3DGraphics.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

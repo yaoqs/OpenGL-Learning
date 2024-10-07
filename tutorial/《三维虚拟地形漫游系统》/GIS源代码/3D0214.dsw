@@ -1,0 +1,32 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "3D0214"=".\3D0214.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {DD4B8602-61F1-4528-82DF-8B5ACC862F84}
+    {B7D4358E-3CBC-11D6-AA09-00104BB6FC1C}
+    {A0F9A9A2-4A3F-4888-826F-CA2BFA23CF17}
+}}}
+
+###############################################################################
+

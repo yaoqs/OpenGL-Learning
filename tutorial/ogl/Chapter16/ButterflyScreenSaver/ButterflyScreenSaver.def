@@ -1,0 +1,10 @@
+NAME	ButterflyScreenSaver.SCR
+
+DESCRIPTION	'ButterflyScreenSaver screen saver'
+
+HEAPSIZE 1024 
+STACKSIZE 4096 
+
+EXPORTS 
+	ScreenSaverProc 
+	ScreenSaverConfigureDialog 

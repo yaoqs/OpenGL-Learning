@@ -1,0 +1,2074 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (ec514626).
+//
+// esriFramework.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGIS/com/esriFramework.olb
+// compiler-generated file created 01/08/07 at 20:58:34 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriSystem.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriSystemUI.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriDisplay.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("8e52b9a5-307b-11d2-94c9-080009eebecb"))
+/* dual interface */ IApplication;
+struct __declspec(uuid("3e927177-307a-11d2-94c9-080009eebecb"))
+/* dual interface */ IDocument;
+struct __declspec(uuid("289fc451-d249-11d1-91ad-0080c718df97"))
+/* interface */ ICommandBars;
+struct __declspec(uuid("32e9d003-b867-11d1-947b-080009eebecb"))
+/* interface */ ICommandBar;
+struct __declspec(uuid("423b7723-b858-11d1-947b-080009eebecb"))
+/* interface */ ICommandItem;
+struct __declspec(uuid("08300de2-27fd-11d2-aa2f-000000000000"))
+/* interface */ IAcceleratorTable;
+struct __declspec(uuid("08300de1-27fd-11d2-aa2f-000000000000"))
+/* interface */ IAccelerator;
+struct __declspec(uuid("792d7e87-7993-11d2-a2d1-0000f8774fb5"))
+/* interface */ ICustomizationFilter;
+struct __declspec(uuid("ce7c5749-3921-11d2-94cf-080009eebecb"))
+/* interface */ ITemplates;
+struct __declspec(uuid("68e13af7-f1bf-11d1-949f-080009eebecb"))
+/* interface */ IShortcutMenu;
+struct __declspec(uuid("d4511a0e-1d47-461e-bc44-2475545ee2d9"))
+/* interface */ IAcceleratorHook;
+struct __declspec(uuid("66767665-d576-11d2-9f57-00c04f6bc61a"))
+/* interface */ IRootLevelMenu;
+struct __declspec(uuid("ceb59b81-d86d-11d1-a21c-080009b6f22b"))
+/* interface */ IPaletteEvents;
+struct __declspec(uuid("5fdd7101-8e9f-11d1-a1b2-080009b6f22b"))
+/* interface */ ISelectionPalette;
+struct __declspec(uuid("88c995ae-64a7-43f5-bf12-88ac179b25a6"))
+/* interface */ IWindowPosition;
+struct __declspec(uuid("f91752ef-3339-482f-ad92-4b752c98e744"))
+/* interface */ IMouseCursor;
+struct __declspec(uuid("60a1409b-9b67-431b-b428-e2c17be36e9a"))
+/* interface */ IObjectFactory;
+struct __declspec(uuid("d7ee3483-004d-11d4-9fe7-00c04f6bc78e"))
+/* interface */ IVbaApplication;
+struct __declspec(uuid("3ee6d0c3-e3f2-11d3-a679-0008c7df97b9"))
+/* interface */ IDockableWindow;
+struct __declspec(uuid("3d1fa10a-f154-11d3-a67e-0008c7df97b9"))
+/* interface */ IDockableWindowDef;
+struct __declspec(uuid("3ee6d0c2-e3f2-11d3-a679-0008c7df97b9"))
+/* interface */ IDockableWindowManager;
+struct __declspec(uuid("52bcff1b-6a36-49df-b14f-be227d8543ef"))
+/* interface */ IDllThreadManager;
+struct __declspec(uuid("34709a45-8e39-4397-a0cf-63963e5f52e4"))
+/* interface */ IMultiThreadedApplication;
+struct __declspec(uuid("b26de0cf-5c0a-433d-9082-097004e13a0a"))
+/* interface */ IDocumentDirty;
+struct __declspec(uuid("a684089c-cde0-407c-92d8-811a3f8e850c"))
+/* interface */ IDocumentDirty2;
+struct __declspec(uuid("b8352370-23e6-42fc-9b43-5e7536c13af9"))
+/* interface */ IDDECommandHandler;
+struct __declspec(uuid("fabc30f9-d273-11d2-9f36-00c04f6bc61a"))
+/* interface */ IAppROT;
+struct __declspec(uuid("fabc30fa-d273-11d2-9f36-00c04f6bc61a"))
+/* interface */ IAppROTEvents;
+struct __declspec(uuid("f87fa8a3-e51a-11d1-877c-0000f8751720"))
+/* interface */ IPropertyPageContext;
+struct __declspec(uuid("14746473-1534-11d3-9f49-00c04f6bc709"))
+/* interface */ IColorPalette;
+struct __declspec(uuid("0acdfe44-f5e2-11d3-a623-0008c711c8c1"))
+/* interface */ IArcToolboxTool;
+struct /* coclass */ MouseCursor;
+struct __declspec(uuid("316f1e91-30b6-43fe-9fd8-9c08c5394eb8"))
+/* interface */ IFileOpenHandler;
+struct __declspec(uuid("ea936dfe-2aa1-11d4-a632-0008c711c8c1"))
+/* interface */ IAtbApplication;
+struct __declspec(uuid("ca787e4d-17a0-11d4-a629-0008c711c8c1"))
+/* interface */ IArcToolboxFind;
+struct __declspec(uuid("2b718169-1b85-11d2-94b6-080009eebecb"))
+/* interface */ IMenuItem;
+struct /* coclass */ AppRef;
+struct /* coclass */ AppROT;
+struct /* coclass */ Accelerator;
+struct /* coclass */ Templates;
+struct /* coclass */ CommandBars;
+struct /* coclass */ CommandBar;
+struct /* coclass */ AcceleratorTable;
+struct /* coclass */ CommandItem;
+struct /* coclass */ DockableWindow;
+struct /* coclass */ DllThreadManager;
+struct /* coclass */ Button;
+struct /* coclass */ Tool;
+struct /* coclass */ ToolControl;
+struct /* coclass */ MultiItem;
+struct __declspec(uuid("c7fb79b7-41a6-4f58-b58b-c39fb83aaa0a"))
+/* interface */ IComPropertySheet2;
+struct __declspec(uuid("b6165ddf-808e-11d4-80f3-00c04fa0adf8"))
+/* interface */ IApplicationIdentifyDialog;
+struct /* coclass */ StyleGalleryItem;
+struct /* coclass */ EnumStyleGalleryItem;
+struct /* coclass */ StyleGallery;
+struct __declspec(uuid("e82a1a9b-7b12-11d1-946c-080009eebecb"))
+/* interface */ IColorBrowser;
+struct __declspec(uuid("569c3921-01ba-11d3-9f38-00c04f6bc709"))
+/* interface */ IColorSelector;
+struct __declspec(uuid("7f579088-5407-42f1-bd80-548e7f3c1e6e"))
+/* interface */ ICustomColorPalette;
+struct /* coclass */ ColorSelector;
+struct /* coclass */ ColorPalette;
+struct /* coclass */ ColorBrowser;
+struct /* coclass */ ColorPageSite;
+struct __declspec(uuid("3b81f6f1-54a0-11d3-b8c3-00600802e603"))
+/* interface */ IComPropertyPageSite;
+struct /* coclass */ RgbPropertyPage;
+struct __declspec(uuid("76951cc6-dbb1-11d2-b868-00600802e603"))
+/* interface */ IComPropertyPage;
+struct __declspec(uuid("97afb06f-5c30-4eb3-a4c9-0327a64246c0"))
+/* interface */ IComPropertyPage2;
+struct /* coclass */ CmykPropertyPage;
+struct /* coclass */ HsvPropertyPage;
+struct /* coclass */ GrayPropertyPage;
+struct /* coclass */ ColorNamePropertyPage;
+struct __declspec(uuid("06861e43-9020-49eb-b949-824552ee2de0"))
+/* interface */ IModelessFrame;
+struct __declspec(uuid("a7b8ec8f-ac12-11d2-ab27-00c04fa334b3"))
+/* interface */ IGetStringDialog;
+struct __declspec(uuid("b7f5ddff-1301-47a2-901a-d38f364544d2"))
+/* interface */ IGetUserAndPasswordDialog;
+struct __declspec(uuid("759f7b98-e07d-11d1-aa87-00c04fa374bd"))
+/* interface */ INumberDialog;
+struct __declspec(uuid("48f2c005-25c4-11d3-9fba-00c04f6bc8dd"))
+/* interface */ IMessageDialog;
+struct __declspec(uuid("759f7b9b-e07d-11d1-aa87-00c04fa374bd"))
+/* interface */ ICoordinateDialog;
+struct __declspec(uuid("0e21fd01-1dc9-4230-95cd-64ee2c4266a1"))
+/* interface */ IProgressDialog2;
+struct __declspec(uuid("31a6aeb1-f644-11d1-a248-080009b6f22b"))
+/* interface */ IProgressDialogFactory;
+struct __declspec(uuid("5f399a16-0b7d-11d2-8c1e-0000f8774f55"))
+/* interface */ IListDialog;
+struct __declspec(uuid("c98e418d-78e7-11d2-87d4-0000f8751720"))
+/* interface */ IStyleSelector;
+struct __declspec(uuid("063304c3-7b90-48e9-b2d3-e795a8ba926b"))
+/* interface */ IComEmbeddedPropertyPage;
+struct __declspec(uuid("76951cc8-dbb1-11d2-b868-00600802e603"))
+/* interface */ IComPropertyPageObjectFactory;
+struct __declspec(uuid("76951cc7-dbb1-11d2-b868-00600802e603"))
+/* interface */ IComPropertySheet;
+struct __declspec(uuid("2645f960-b557-4b7b-b017-10f10159b78b"))
+/* interface */ IPropertyPageSiteConfig;
+struct __declspec(uuid("88002c09-939a-11d2-ae73-080009ec732a"))
+/* interface */ INumberFormatDialog;
+struct __declspec(uuid("5c8df895-d553-41f2-b5d3-2703efe0b07a"))
+/* interface */ ISymbolPickerDialog;
+struct /* coclass */ ModelessFrame;
+struct /* coclass */ SymbolPickerDialog;
+struct /* coclass */ ComPropertySheet;
+struct /* coclass */ ComPropertyPageSite;
+struct /* coclass */ NumberDialog;
+struct /* coclass */ MessageDialog;
+struct /* coclass */ CoordinateDialog;
+struct /* coclass */ ProgressDialogFactory;
+struct /* coclass */ ListDialog;
+struct /* coclass */ NumberFormatDialog;
+struct /* coclass */ NumericPropertyPage;
+struct /* coclass */ CurrencyPropertyPage;
+struct /* coclass */ ScientificPropertyPage;
+struct /* coclass */ AnglePropertyPage;
+struct /* coclass */ PercentagePropertyPage;
+struct /* coclass */ CustomPropertyPage;
+struct /* coclass */ RatePropertyPage;
+struct /* coclass */ FractionPropertyPage;
+struct /* coclass */ GetStringDialog;
+struct /* coclass */ GetUserAndPasswordDialog;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IApplication, __uuidof(IApplication));
+_COM_SMARTPTR_TYPEDEF(IDocument, __uuidof(IDocument));
+_COM_SMARTPTR_TYPEDEF(ICommandBars, __uuidof(ICommandBars));
+_COM_SMARTPTR_TYPEDEF(ICommandBar, __uuidof(ICommandBar));
+_COM_SMARTPTR_TYPEDEF(ICommandItem, __uuidof(ICommandItem));
+_COM_SMARTPTR_TYPEDEF(IAcceleratorTable, __uuidof(IAcceleratorTable));
+_COM_SMARTPTR_TYPEDEF(IAccelerator, __uuidof(IAccelerator));
+_COM_SMARTPTR_TYPEDEF(ICustomizationFilter, __uuidof(ICustomizationFilter));
+_COM_SMARTPTR_TYPEDEF(ITemplates, __uuidof(ITemplates));
+_COM_SMARTPTR_TYPEDEF(IShortcutMenu, __uuidof(IShortcutMenu));
+_COM_SMARTPTR_TYPEDEF(IAcceleratorHook, __uuidof(IAcceleratorHook));
+_COM_SMARTPTR_TYPEDEF(IRootLevelMenu, __uuidof(IRootLevelMenu));
+_COM_SMARTPTR_TYPEDEF(IPaletteEvents, __uuidof(IPaletteEvents));
+_COM_SMARTPTR_TYPEDEF(ISelectionPalette, __uuidof(ISelectionPalette));
+_COM_SMARTPTR_TYPEDEF(IWindowPosition, __uuidof(IWindowPosition));
+_COM_SMARTPTR_TYPEDEF(IMouseCursor, __uuidof(IMouseCursor));
+_COM_SMARTPTR_TYPEDEF(IObjectFactory, __uuidof(IObjectFactory));
+_COM_SMARTPTR_TYPEDEF(IVbaApplication, __uuidof(IVbaApplication));
+_COM_SMARTPTR_TYPEDEF(IDockableWindow, __uuidof(IDockableWindow));
+_COM_SMARTPTR_TYPEDEF(IDockableWindowDef, __uuidof(IDockableWindowDef));
+_COM_SMARTPTR_TYPEDEF(IDockableWindowManager, __uuidof(IDockableWindowManager));
+_COM_SMARTPTR_TYPEDEF(IDllThreadManager, __uuidof(IDllThreadManager));
+_COM_SMARTPTR_TYPEDEF(IMultiThreadedApplication, __uuidof(IMultiThreadedApplication));
+_COM_SMARTPTR_TYPEDEF(IDocumentDirty, __uuidof(IDocumentDirty));
+_COM_SMARTPTR_TYPEDEF(IDocumentDirty2, __uuidof(IDocumentDirty2));
+_COM_SMARTPTR_TYPEDEF(IDDECommandHandler, __uuidof(IDDECommandHandler));
+_COM_SMARTPTR_TYPEDEF(IAppROT, __uuidof(IAppROT));
+_COM_SMARTPTR_TYPEDEF(IAppROTEvents, __uuidof(IAppROTEvents));
+_COM_SMARTPTR_TYPEDEF(IPropertyPageContext, __uuidof(IPropertyPageContext));
+_COM_SMARTPTR_TYPEDEF(IColorPalette, __uuidof(IColorPalette));
+_COM_SMARTPTR_TYPEDEF(IArcToolboxTool, __uuidof(IArcToolboxTool));
+_COM_SMARTPTR_TYPEDEF(IFileOpenHandler, __uuidof(IFileOpenHandler));
+_COM_SMARTPTR_TYPEDEF(IAtbApplication, __uuidof(IAtbApplication));
+_COM_SMARTPTR_TYPEDEF(IArcToolboxFind, __uuidof(IArcToolboxFind));
+_COM_SMARTPTR_TYPEDEF(IMenuItem, __uuidof(IMenuItem));
+_COM_SMARTPTR_TYPEDEF(IComPropertySheet2, __uuidof(IComPropertySheet2));
+_COM_SMARTPTR_TYPEDEF(IApplicationIdentifyDialog, __uuidof(IApplicationIdentifyDialog));
+_COM_SMARTPTR_TYPEDEF(IColorBrowser, __uuidof(IColorBrowser));
+_COM_SMARTPTR_TYPEDEF(IColorSelector, __uuidof(IColorSelector));
+_COM_SMARTPTR_TYPEDEF(ICustomColorPalette, __uuidof(ICustomColorPalette));
+_COM_SMARTPTR_TYPEDEF(IComPropertyPageSite, __uuidof(IComPropertyPageSite));
+_COM_SMARTPTR_TYPEDEF(IComPropertyPage, __uuidof(IComPropertyPage));
+_COM_SMARTPTR_TYPEDEF(IComPropertyPage2, __uuidof(IComPropertyPage2));
+_COM_SMARTPTR_TYPEDEF(IModelessFrame, __uuidof(IModelessFrame));
+_COM_SMARTPTR_TYPEDEF(IGetStringDialog, __uuidof(IGetStringDialog));
+_COM_SMARTPTR_TYPEDEF(IGetUserAndPasswordDialog, __uuidof(IGetUserAndPasswordDialog));
+_COM_SMARTPTR_TYPEDEF(INumberDialog, __uuidof(INumberDialog));
+_COM_SMARTPTR_TYPEDEF(IMessageDialog, __uuidof(IMessageDialog));
+_COM_SMARTPTR_TYPEDEF(ICoordinateDialog, __uuidof(ICoordinateDialog));
+_COM_SMARTPTR_TYPEDEF(IProgressDialog2, __uuidof(IProgressDialog2));
+_COM_SMARTPTR_TYPEDEF(IProgressDialogFactory, __uuidof(IProgressDialogFactory));
+_COM_SMARTPTR_TYPEDEF(IListDialog, __uuidof(IListDialog));
+_COM_SMARTPTR_TYPEDEF(IStyleSelector, __uuidof(IStyleSelector));
+_COM_SMARTPTR_TYPEDEF(IComEmbeddedPropertyPage, __uuidof(IComEmbeddedPropertyPage));
+_COM_SMARTPTR_TYPEDEF(IComPropertyPageObjectFactory, __uuidof(IComPropertyPageObjectFactory));
+_COM_SMARTPTR_TYPEDEF(IComPropertySheet, __uuidof(IComPropertySheet));
+_COM_SMARTPTR_TYPEDEF(IPropertyPageSiteConfig, __uuidof(IPropertyPageSiteConfig));
+_COM_SMARTPTR_TYPEDEF(INumberFormatDialog, __uuidof(INumberFormatDialog));
+_COM_SMARTPTR_TYPEDEF(ISymbolPickerDialog, __uuidof(ISymbolPickerDialog));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("8e52b9a5-307b-11d2-94c9-080009eebecb"))
+IApplication : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Document (
+        struct IDocument * * doc ) = 0;
+    virtual HRESULT __stdcall get_StatusBar (
+        struct IStatusBar * * StatusBar ) = 0;
+    virtual HRESULT __stdcall ShowDialog (
+        long dialogID,
+        VARIANT * bShow,
+        VARIANT * result ) = 0;
+    virtual HRESULT __stdcall IsDialogVisible (
+        long dialogID,
+        VARIANT_BOOL * bVisible ) = 0;
+    virtual HRESULT __stdcall get_CurrentTool (
+        struct ICommandItem * * Tool ) = 0;
+    virtual HRESULT __stdcall putref_CurrentTool (
+        struct ICommandItem * Tool ) = 0;
+    virtual HRESULT __stdcall get_VBE (
+        IDispatch * * ppVBE ) = 0;
+    virtual HRESULT __stdcall NewDocument (
+        VARIANT_BOOL selectTemplate,
+        BSTR templatePath ) = 0;
+    virtual HRESULT __stdcall OpenDocument (
+        BSTR path ) = 0;
+    virtual HRESULT __stdcall SaveDocument (
+        BSTR saveAsPath ) = 0;
+    virtual HRESULT __stdcall SaveAsDocument (
+        BSTR saveAsPath,
+        VARIANT_BOOL saveAsCopy ) = 0;
+    virtual HRESULT __stdcall PrintPreview ( ) = 0;
+    virtual HRESULT __stdcall PrintDocument ( ) = 0;
+    virtual HRESULT __stdcall LockCustomization (
+        BSTR Password,
+        struct ICustomizationFilter * custFilter ) = 0;
+    virtual HRESULT __stdcall UnlockCustomization (
+        BSTR Password ) = 0;
+    virtual HRESULT __stdcall RefreshWindow ( ) = 0;
+    virtual HRESULT __stdcall get_Templates (
+        struct ITemplates * * Templates ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        OLE_HANDLE * hWnd ) = 0;
+    virtual HRESULT __stdcall FindExtensionByName (
+        BSTR extensionName,
+        struct IExtension * * extension ) = 0;
+    virtual HRESULT __stdcall FindExtensionByCLSID (
+        struct IUID * extensionCLSID,
+        struct IExtension * * extension ) = 0;
+    virtual HRESULT __stdcall Shutdown ( ) = 0;
+    virtual HRESULT __stdcall get_Visible (
+        VARIANT_BOOL * Visible ) = 0;
+    virtual HRESULT __stdcall put_Visible (
+        VARIANT_BOOL Visible ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR Caption ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Caption ) = 0;
+};
+
+struct __declspec(uuid("3e927177-307a-11d2-94c9-080009eebecb"))
+IDocument : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Parent (
+        struct IApplication * * app ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * Title ) = 0;
+    virtual HRESULT __stdcall get_CommandBars (
+        struct ICommandBars * * cmdBars ) = 0;
+    virtual HRESULT __stdcall get_Accelerators (
+        struct IAcceleratorTable * * accelTable ) = 0;
+    virtual HRESULT __stdcall get_ID (
+        struct IUID * * ID ) = 0;
+    virtual HRESULT __stdcall get_Type (
+        enum esriDocumentType * Type ) = 0;
+    virtual HRESULT __stdcall get_VBProject (
+        IDispatch * * VBProject ) = 0;
+};
+
+struct __declspec(uuid("289fc451-d249-11d1-91ad-0080c718df97"))
+ICommandBars : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_ShowToolTips (
+        VARIANT_BOOL bShow ) = 0;
+    virtual HRESULT __stdcall get_ShowToolTips (
+        VARIANT_BOOL * bShow ) = 0;
+    virtual HRESULT __stdcall put_LargeIcons (
+        VARIANT_BOOL bLarge ) = 0;
+    virtual HRESULT __stdcall get_LargeIcons (
+        VARIANT_BOOL * bLarge ) = 0;
+    virtual HRESULT __stdcall Create (
+        BSTR Name,
+        enum esriCmdBarType barType,
+        struct ICommandBar * * newBar ) = 0;
+    virtual HRESULT __stdcall Find (
+        VARIANT identifier,
+        VARIANT_BOOL noRecurse,
+        VARIANT_BOOL noCreate,
+        struct ICommandItem * * Item ) = 0;
+    virtual HRESULT __stdcall HideAllToolbars ( ) = 0;
+};
+
+struct __declspec(uuid("32e9d003-b867-11d1-947b-080009eebecb"))
+ICommandBar : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Add (
+        struct IUID * cmdID,
+        VARIANT * Index,
+        struct ICommandItem * * Item ) = 0;
+    virtual HRESULT __stdcall CreateMenu (
+        BSTR Name,
+        VARIANT * Index,
+        struct ICommandBar * * menu ) = 0;
+    virtual HRESULT __stdcall CreateMacroItem (
+        BSTR Name,
+        VARIANT * FaceID,
+        BSTR Action,
+        VARIANT * Index,
+        struct ICommandItem * * macro ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall Find (
+        VARIANT identifier,
+        VARIANT_BOOL noRecurse,
+        struct ICommandItem * * Item ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        long Index,
+        struct ICommandItem * * Item ) = 0;
+    virtual HRESULT __stdcall Popup (
+        long X,
+        long Y,
+        struct ICommandItem * * Choice ) = 0;
+    virtual HRESULT __stdcall Dock (
+        enum esriDockFlags dockFlags,
+        struct ICommandBar * referenceBar ) = 0;
+    virtual HRESULT __stdcall IsVisible (
+        VARIANT_BOOL * bVisible ) = 0;
+};
+
+struct __declspec(uuid("423b7723-b858-11d1-947b-080009eebecb"))
+ICommandItem : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Action (
+        BSTR * macro ) = 0;
+    virtual HRESULT __stdcall put_Action (
+        BSTR macro ) = 0;
+    virtual HRESULT __stdcall get_BuiltIn (
+        VARIANT_BOOL * BuiltIn ) = 0;
+    virtual HRESULT __stdcall get_Category (
+        BSTR * Category ) = 0;
+    virtual HRESULT __stdcall get_Command (
+        struct ICommand * * Command ) = 0;
+    virtual HRESULT __stdcall Delete ( ) = 0;
+    virtual HRESULT __stdcall put_FaceID (
+        VARIANT FaceID ) = 0;
+    virtual HRESULT __stdcall get_FaceID (
+        VARIANT * FaceID ) = 0;
+    virtual HRESULT __stdcall put_Group (
+        VARIANT_BOOL Group ) = 0;
+    virtual HRESULT __stdcall get_Group (
+        VARIANT_BOOL * Group ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall put_HelpFile (
+        BSTR HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long * contextID ) = 0;
+    virtual HRESULT __stdcall put_HelpContextID (
+        long contextID ) = 0;
+    virtual HRESULT __stdcall get_ID (
+        struct IUID * * identity ) = 0;
+    virtual HRESULT __stdcall get_Index (
+        long * Index ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall put_Name (
+        BSTR Name ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Parent (
+        struct ICommandBar * * bar ) = 0;
+    virtual HRESULT __stdcall Reset ( ) = 0;
+    virtual HRESULT __stdcall get_Style (
+        enum esriCommandStyles * Style ) = 0;
+    virtual HRESULT __stdcall put_Style (
+        enum esriCommandStyles Style ) = 0;
+    virtual HRESULT __stdcall get_Tag (
+        BSTR * Tag ) = 0;
+    virtual HRESULT __stdcall put_Tag (
+        BSTR Tag ) = 0;
+    virtual HRESULT __stdcall get_Tooltip (
+        BSTR * Tooltip ) = 0;
+    virtual HRESULT __stdcall put_Tooltip (
+        BSTR Tooltip ) = 0;
+    virtual HRESULT __stdcall get_Type (
+        enum esriCommandTypes * Type ) = 0;
+    virtual HRESULT __stdcall get_Message (
+        BSTR * Message ) = 0;
+    virtual HRESULT __stdcall put_Message (
+        BSTR Message ) = 0;
+    virtual HRESULT __stdcall Execute ( ) = 0;
+    virtual HRESULT __stdcall Refresh ( ) = 0;
+};
+
+enum esriCommandTypes
+{
+    esriCmdTypeCommand = 0,
+    esriCmdTypeMenu = 1,
+    esriCmdTypeToolbar = 2,
+    esriCmdTypeMacro = 3,
+    esriCmdTypeUIButtonCtrl = 4,
+    esriCmdTypeUIToolCtrl = 5,
+    esriCmdTypeUIComboBoxCtrl = 6,
+    esriCmdTypeUIEditBoxCtrl = 7
+};
+
+enum esriDockFlags
+{
+    esriDockHide = 0,
+    esriDockShow = 1,
+    esriDockLeft = 2,
+    esriDockRight = 4,
+    esriDockTop = 8,
+    esriDockBottom = 16,
+    esriDockFloat = 32,
+    esriDockToggle = 64
+};
+
+struct __declspec(uuid("08300de2-27fd-11d2-aa2f-000000000000"))
+IAcceleratorTable : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        long Index,
+        struct IAccelerator * * Accelerator ) = 0;
+    virtual HRESULT __stdcall Add (
+        VARIANT ID,
+        long Key,
+        VARIANT_BOOL bCtrl,
+        VARIANT_BOOL bAlt,
+        VARIANT_BOOL bShift,
+        VARIANT_BOOL * bSucceeded ) = 0;
+    virtual HRESULT __stdcall Find (
+        VARIANT ID,
+        struct IArray * * accelArray ) = 0;
+    virtual HRESULT __stdcall FindByKey (
+        long Key,
+        VARIANT_BOOL bCtrl,
+        VARIANT_BOOL bAlt,
+        VARIANT_BOOL bShift,
+        struct IAccelerator * * Accelerator ) = 0;
+};
+
+struct __declspec(uuid("08300de1-27fd-11d2-aa2f-000000000000"))
+IAccelerator : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Shift (
+        VARIANT_BOOL bShift ) = 0;
+    virtual HRESULT __stdcall get_Shift (
+        VARIANT_BOOL * bShift ) = 0;
+    virtual HRESULT __stdcall put_Alt (
+        VARIANT_BOOL bAlt ) = 0;
+    virtual HRESULT __stdcall get_Alt (
+        VARIANT_BOOL * bAlt ) = 0;
+    virtual HRESULT __stdcall put_Ctrl (
+        VARIANT_BOOL bCtrl ) = 0;
+    virtual HRESULT __stdcall get_Ctrl (
+        VARIANT_BOOL * bCtrl ) = 0;
+    virtual HRESULT __stdcall put_Key (
+        long keyCode ) = 0;
+    virtual HRESULT __stdcall get_Key (
+        long * keyCode ) = 0;
+    virtual HRESULT __stdcall put_CommandID (
+        VARIANT cmdID ) = 0;
+    virtual HRESULT __stdcall get_CommandID (
+        VARIANT * cmdID ) = 0;
+    virtual HRESULT __stdcall Delete ( ) = 0;
+};
+
+enum esriDocumentType
+{
+    esriDocumentTypeNormal = 0,
+    esriDocumentTypeTemplate = 1,
+    esriDocumentTypeDocument = 2
+};
+
+struct __declspec(uuid("792d7e87-7993-11d2-a2d1-0000f8774fb5"))
+ICustomizationFilter : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnCustomizationEvent (
+        enum esriCustomizationEvent custEventType,
+        VARIANT eventCtx,
+        VARIANT_BOOL * bDeny ) = 0;
+};
+
+enum esriCustomizationEvent
+{
+    esriCEAddCategory = 0,
+    esriCEAddCommand = 1,
+    esriCEShowCustDlg = 2,
+    esriCEShowVBAIDE = 3,
+    esriCEInvokeCommand = 4,
+    esriCEShowCustCtxMenu = 5
+};
+
+struct __declspec(uuid("ce7c5749-3921-11d2-94cf-080009eebecb"))
+ITemplates : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        long Index,
+        BSTR * pathName ) = 0;
+};
+
+enum esriStatusBarPanes
+{
+    esriStatusMain = 0,
+    esriStatusAnimation = 1,
+    esriStatusPosition = 2,
+    esriStatusPagePosition = 4,
+    esriStatusSize = 8,
+    esriStatusCapsLock = 16,
+    esriStatusNumLock = 32,
+    esriStatusScrollLock = 64,
+    esriStatusClock = 128
+};
+
+enum CustomizationErrors
+{
+    cust_err_builtin_only = -2147221404,
+    cust_err_invalid_on_builtin = -2147221403,
+    cust_err_invalid_on_commandbar = -2147221402,
+    cust_err_invalid_type = -2147221401,
+    cust_err_cmdNotAvail = -2147221400,
+    cust_err_invalid = -2147221399,
+    cust_err_alreadyLocked = -2147221392,
+    cust_err_badPasswordLen = -2147221391,
+    cust_err_no_template_lock = -2147221390
+};
+
+enum esriWindowState
+{
+    esriWSNormal = 0,
+    esriWSMinimize = 1,
+    esriWSMaximize = 2,
+    esriWSFloating = 4
+};
+
+struct __declspec(uuid("68e13af7-f1bf-11d1-949f-080009eebecb"))
+IShortcutMenu : IUnknown
+{};
+
+struct __declspec(uuid("d4511a0e-1d47-461e-bc44-2475545ee2d9"))
+IAcceleratorHook : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall CheckAccelerator (
+        long vkey,
+        VARIANT_BOOL * check ) = 0;
+};
+
+struct __declspec(uuid("66767665-d576-11d2-9f57-00c04f6bc61a"))
+IRootLevelMenu : IUnknown
+{};
+
+struct __declspec(uuid("ceb59b81-d86d-11d1-a21c-080009b6f22b"))
+IPaletteEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall ContentsChanged ( ) = 0;
+};
+
+struct __declspec(uuid("5fdd7101-8e9f-11d1-a1b2-080009b6f22b"))
+ISelectionPalette : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * Enabled ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_ItemCount (
+        long * ItemCount ) = 0;
+    virtual HRESULT __stdcall QueryItem (
+        long Index,
+        OLE_HANDLE * Bitmap,
+        BSTR * Tooltip ) = 0;
+    virtual HRESULT __stdcall get_MoreButtonCount (
+        long * MoreButtonCount ) = 0;
+    virtual HRESULT __stdcall QueryMoreButton (
+        long Index,
+        BSTR * Tooltip,
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Category (
+        BSTR * Category ) = 0;
+    virtual HRESULT __stdcall get_ShortCutKey (
+        BSTR * shortCutText ) = 0;
+    virtual HRESULT __stdcall get_NumColumns (
+        long * NumColumns ) = 0;
+    virtual HRESULT __stdcall put_NumColumns (
+        long NumColumns ) = 0;
+    virtual HRESULT __stdcall get_NumRows (
+        long * NumRows ) = 0;
+    virtual HRESULT __stdcall put_NumRows (
+        long NumRows ) = 0;
+    virtual HRESULT __stdcall get_LastSelected (
+        long * Index ) = 0;
+    virtual HRESULT __stdcall put_LastSelected (
+        long Index ) = 0;
+    virtual HRESULT __stdcall OnCreate (
+        IDispatch * hook ) = 0;
+    virtual HRESULT __stdcall OnClick (
+        long Index ) = 0;
+};
+
+struct __declspec(uuid("88c995ae-64a7-43f5-bf12-88ac179b25a6"))
+IWindowPosition : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Left (
+        long Left ) = 0;
+    virtual HRESULT __stdcall get_Left (
+        long * Left ) = 0;
+    virtual HRESULT __stdcall put_Top (
+        long Top ) = 0;
+    virtual HRESULT __stdcall get_Top (
+        long * Top ) = 0;
+    virtual HRESULT __stdcall put_Width (
+        long Width ) = 0;
+    virtual HRESULT __stdcall get_Width (
+        long * Width ) = 0;
+    virtual HRESULT __stdcall put_Height (
+        long Height ) = 0;
+    virtual HRESULT __stdcall get_Height (
+        long * Height ) = 0;
+    virtual HRESULT __stdcall Move (
+        long Left,
+        long Top,
+        long Width,
+        long Height ) = 0;
+    virtual HRESULT __stdcall put_State (
+        enum esriWindowState windowState ) = 0;
+    virtual HRESULT __stdcall get_State (
+        enum esriWindowState * windowState ) = 0;
+};
+
+struct __declspec(uuid("f91752ef-3339-482f-ad92-4b752c98e744"))
+IMouseCursor : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetCursor (
+        VARIANT cursorID ) = 0;
+};
+
+struct __declspec(uuid("60a1409b-9b67-431b-b428-e2c17be36e9a"))
+IObjectFactory : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Create (
+        VARIANT objectID,
+        IUnknown * * ppObj ) = 0;
+};
+
+struct __declspec(uuid("d7ee3483-004d-11d4-9fe7-00c04f6bc78e"))
+IVbaApplication : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall RunVBAMacro (
+        BSTR docName,
+        BSTR moduleName,
+        BSTR macroName,
+        VARIANT * arguments,
+        VARIANT * returnValue ) = 0;
+    virtual HRESULT __stdcall CreateCodeModule (
+        BSTR docName,
+        BSTR moduleName ) = 0;
+    virtual HRESULT __stdcall RemoveCodeModule (
+        BSTR docName,
+        BSTR moduleName ) = 0;
+    virtual HRESULT __stdcall InsertCode (
+        BSTR docName,
+        BSTR moduleName,
+        BSTR codeText ) = 0;
+};
+
+struct __declspec(uuid("3ee6d0c3-e3f2-11d3-a679-0008c7df97b9"))
+IDockableWindow : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Caption ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR Caption ) = 0;
+    virtual HRESULT __stdcall get_ID (
+        struct IUID * * ID ) = 0;
+    virtual HRESULT __stdcall Show (
+        VARIANT_BOOL Show ) = 0;
+    virtual HRESULT __stdcall IsVisible (
+        VARIANT_BOOL * bVisible ) = 0;
+    virtual HRESULT __stdcall Dock (
+        enum esriDockFlags dockFlags ) = 0;
+    virtual HRESULT __stdcall get_UserData (
+        VARIANT * data ) = 0;
+};
+
+struct __declspec(uuid("3d1fa10a-f154-11d3-a67e-0008c7df97b9"))
+IDockableWindowDef : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnCreate (
+        IDispatch * hook ) = 0;
+    virtual HRESULT __stdcall get_ChildHWND (
+        OLE_HANDLE * hWnd ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Caption ) = 0;
+    virtual HRESULT __stdcall OnDestroy ( ) = 0;
+    virtual HRESULT __stdcall get_UserData (
+        VARIANT * data ) = 0;
+};
+
+struct __declspec(uuid("3ee6d0c2-e3f2-11d3-a679-0008c7df97b9"))
+IDockableWindowManager : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall GetDockableWindow (
+        struct IUID * dockWnd,
+        struct IDockableWindow * * Item ) = 0;
+};
+
+struct __declspec(uuid("52bcff1b-6a36-49df-b14f-be227d8543ef"))
+IDllThreadManager : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnShutdown ( ) = 0;
+};
+
+struct __declspec(uuid("34709a45-8e39-4397-a0cf-63963e5f52e4"))
+IMultiThreadedApplication : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall GetProcessID (
+        long * pid ) = 0;
+    virtual HRESULT __stdcall RegisterThreadManager (
+        struct IDllThreadManager * pThreadMgr,
+        long * mgrCookie ) = 0;
+    virtual HRESULT __stdcall UnregisterThreadManager (
+        long mgrCookie ) = 0;
+};
+
+struct __declspec(uuid("b26de0cf-5c0a-433d-9082-097004e13a0a"))
+IDocumentDirty : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetDirty ( ) = 0;
+};
+
+struct __declspec(uuid("a684089c-cde0-407c-92d8-811a3f8e850c"))
+IDocumentDirty2 : IDocumentDirty
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetClean ( ) = 0;
+};
+
+struct __declspec(uuid("b8352370-23e6-42fc-9b43-5e7536c13af9"))
+IDDECommandHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall CanExecute (
+        BSTR Command,
+        VARIANT_BOOL * CanExecute ) = 0;
+    virtual HRESULT __stdcall Execute (
+        BSTR Command ) = 0;
+};
+
+struct __declspec(uuid("fabc30f9-d273-11d2-9f36-00c04f6bc61a"))
+IAppROT : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Add (
+        struct IApplication * pApp,
+        long * cookie ) = 0;
+    virtual HRESULT __stdcall Remove (
+        long cookie ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        long Index,
+        struct IApplication * * pApp ) = 0;
+};
+
+struct __declspec(uuid("fabc30fa-d273-11d2-9f36-00c04f6bc61a"))
+IAppROTEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall AppAdded (
+        struct IApplication * pApp ) = 0;
+    virtual HRESULT __stdcall AppRemoved (
+        struct IApplication * pApp ) = 0;
+};
+
+struct __declspec(uuid("f87fa8a3-e51a-11d1-877c-0000f8751720"))
+IPropertyPageContext : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Priority (
+        long * Priority ) = 0;
+    virtual HRESULT __stdcall Applies (
+        VARIANT unkArray,
+        VARIANT_BOOL * Applies ) = 0;
+    virtual HRESULT __stdcall CreateCompatibleObject (
+        VARIANT kind,
+        VARIANT * pNewObject ) = 0;
+    virtual HRESULT __stdcall QueryObject (
+        VARIANT theObject ) = 0;
+    virtual HRESULT __stdcall GetHelpFile (
+        long controlID,
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall GetHelpId (
+        long controlID,
+        long * helpID ) = 0;
+    virtual HRESULT __stdcall Cancel ( ) = 0;
+};
+
+struct __declspec(uuid("14746473-1534-11d3-9f49-00c04f6bc709"))
+IColorPalette : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall TrackPopupMenu (
+        struct tagRECT * rect,
+        struct IColor * currentColor,
+        VARIANT_BOOL orientation,
+        OLE_HANDLE hParentWnd,
+        VARIANT_BOOL * ok ) = 0;
+    virtual HRESULT __stdcall get_Color (
+        struct IColor * * newColor ) = 0;
+};
+
+enum esriATModality
+{
+    esriATModeless = 0,
+    esriATModal = 1
+};
+
+struct __declspec(uuid("0acdfe44-f5e2-11d3-a623-0008c711c8c1"))
+IArcToolboxTool : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Modality (
+        enum esriATModality dialogModality ) = 0;
+    virtual HRESULT __stdcall get_Modality (
+        enum esriATModality * dialogModality ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Message (
+        BSTR * Message ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long * helpID ) = 0;
+    virtual HRESULT __stdcall get_Bitmap (
+        IPictureDisp * * Bitmap ) = 0;
+    virtual HRESULT __stdcall get_TreeviewLocation (
+        BSTR * TreeviewLocation ) = 0;
+    virtual HRESULT __stdcall OnCreate (
+        IDispatch * hook ) = 0;
+    virtual HRESULT __stdcall Execute (
+        VARIANT * InputData = &vtMissing ) = 0;
+};
+
+struct __declspec(uuid("dcab4344-69d0-492a-9468-9a89a8e9b571"))
+MouseCursor;
+    // [ default ] interface IMouseCursor
+
+struct __declspec(uuid("316f1e91-30b6-43fe-9fd8-9c08c5394eb8"))
+IFileOpenHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall CanOpen (
+        BSTR filename,
+        VARIANT_BOOL * CanOpen ) = 0;
+    virtual HRESULT __stdcall Open (
+        BSTR filename ) = 0;
+};
+
+struct __declspec(uuid("ea936dfe-2aa1-11d4-a632-0008c711c8c1"))
+IAtbApplication : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_hWnd (
+        OLE_HANDLE * hWnd ) = 0;
+};
+
+struct __declspec(uuid("ca787e4d-17a0-11d4-a629-0008c711c8c1"))
+IArcToolboxFind : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ArcCommands (
+        BSTR * commands ) = 0;
+    virtual HRESULT __stdcall get_Keywords (
+        BSTR * Keywords ) = 0;
+};
+
+struct __declspec(uuid("2b718169-1b85-11d2-94b6-080009eebecb"))
+IMenuItem : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnPopup (
+        struct ICommandBar * pParentMenu ) = 0;
+    virtual HRESULT __stdcall OnClose ( ) = 0;
+};
+
+struct __declspec(uuid("e1740ec5-9513-11d2-a2df-0000f8774fb5"))
+AppRef;
+    // [ default ] interface IApplication
+
+struct __declspec(uuid("fabc30fb-d273-11d2-9f36-00c04f6bc61a"))
+AppROT;
+    // [ default ] interface IAppROT
+    // [ default, source ] interface IAppROTEvents
+    // interface IConnectionPointContainer
+
+struct __declspec(uuid("8a85d730-2949-49da-8995-cec77f68bdfa"))
+Accelerator;
+    // [ default ] interface IUnknown
+    // interface IAccelerator
+
+struct __declspec(uuid("c32ff69d-cf6a-4fe5-b62f-a38feaead0d8"))
+Templates;
+    // [ default ] interface IUnknown
+    // interface ITemplates
+
+struct __declspec(uuid("5c396018-9b88-493c-b47d-8c6332aedbdd"))
+CommandBars;
+    // [ default ] interface IUnknown
+    // interface ICommandBars
+
+struct __declspec(uuid("a37ef60a-59b9-4599-8621-ac81112df947"))
+CommandBar;
+    // [ default ] interface IUnknown
+    // interface ICommandItem
+    // interface ICommandBar
+    // interface IWindowPosition
+
+struct __declspec(uuid("ce259b71-280c-11d2-aa2f-000000000000"))
+AcceleratorTable;
+    // [ default ] interface IAcceleratorTable
+    // interface IPersist
+    // interface IPersistStream
+
+struct __declspec(uuid("fa73ef95-b87c-11d1-947b-080009eebecb"))
+CommandItem;
+    // [ default ] interface IUnknown
+    // interface ICommandItem
+    // interface IPersist
+    // interface IPersistStream
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("d91ed352-e414-11d3-a679-0008c7df97b9"))
+DockableWindow;
+    // [ default ] interface IUnknown
+    // interface IDockableWindow
+    // interface ISupportErrorInfo
+    // interface IWindowPosition
+
+struct __declspec(uuid("057c74e0-faf0-45cb-89e3-af132be1a2a7"))
+DllThreadManager;
+    // [ default ] interface IUnknown
+    // interface IDllThreadManager
+
+struct __declspec(uuid("d13cbe84-71b0-4eef-8bd6-60d358b431f6"))
+Button;
+    // [ default ] interface IUnknown
+    // interface ICommand
+
+struct __declspec(uuid("da53dc37-e97c-4997-bbde-93f2be061ec0"))
+Tool;
+    // [ default ] interface IUnknown
+    // interface ICommand
+    // interface ITool
+
+struct __declspec(uuid("b6bff46f-6dcf-4db7-9985-5f41a41f17fc"))
+ToolControl;
+    // [ default ] interface IUnknown
+    // interface ICommand
+    // interface IToolControl
+
+struct __declspec(uuid("bf3dd473-a408-4014-b913-69a31af6115d"))
+MultiItem;
+    // [ default ] interface IUnknown
+    // interface IMultiItem
+
+struct __declspec(uuid("c7fb79b7-41a6-4f58-b58b-c39fb83aaa0a"))
+IComPropertySheet2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_ActivePageUID (
+        struct IUID * _arg1 ) = 0;
+    virtual HRESULT __stdcall GetActivePage (
+        struct ISet * pObjects,
+        GUID * pGUID ) = 0;
+};
+
+struct __declspec(uuid("b6165ddf-808e-11d4-80f3-00c04fa0adf8"))
+IApplicationIdentifyDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall GetClassID (
+        GUID * classID ) = 0;
+};
+
+struct __declspec(uuid("ac0e9829-91cb-11d1-8813-080009ec732a"))
+StyleGalleryItem;
+    // [ default ] interface IUnknown
+    // interface IStyleGalleryItem
+    // interface IPersistStream
+    // interface IPersist
+    // interface IClone
+
+struct __declspec(uuid("ac0e982a-91cb-11d1-8813-080009ec732a"))
+EnumStyleGalleryItem;
+    // [ default ] interface IUnknown
+    // interface IEnumStyleGalleryItem
+
+struct __declspec(uuid("ac0e9827-91cb-11d1-8813-080009ec732a"))
+StyleGallery;
+    // [ default ] interface IUnknown
+    // interface IStyleGallery
+    // interface IStyleGalleryStorage
+    // interface IPersistStream
+
+struct __declspec(uuid("e82a1a9b-7b12-11d1-946c-080009eebecb"))
+IColorBrowser : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Color (
+        struct IColor * Color ) = 0;
+    virtual HRESULT __stdcall get_Color (
+        struct IColor * * Color ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * ok ) = 0;
+};
+
+struct __declspec(uuid("569c3921-01ba-11d3-9f38-00c04f6bc709"))
+IColorSelector : IColorBrowser
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall InitPopupPosition (
+        long parentLeft,
+        long parentTop,
+        long parentRight,
+        long parentBottom,
+        VARIANT_BOOL aboveParent ) = 0;
+};
+
+struct __declspec(uuid("7f579088-5407-42f1-bd80-548e7f3c1e6e"))
+ICustomColorPalette : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall putref_ColorSet (
+        struct ISet * _arg1 ) = 0;
+};
+
+struct __declspec(uuid("93051635-f841-11d2-9f36-00c04f6bc709"))
+ColorSelector;
+    // [ default ] interface IUnknown
+    // interface IColorBrowser
+    // interface IColorSelector
+
+struct __declspec(uuid("14746474-1534-11d3-9f49-00c04f6bc709"))
+ColorPalette;
+    // [ default ] interface IUnknown
+    // interface IColorPalette
+    // interface ICustomColorPalette
+
+struct __declspec(uuid("20cd4001-8f3d-11d0-8590-0800091a2a72"))
+ColorBrowser;
+    // [ default ] interface IUnknown
+    // interface IColorBrowser
+
+struct __declspec(uuid("20cd4002-8f3d-11d0-8590-0800091a2a72"))
+ColorPageSite;
+    // [ default ] interface IUnknown
+    // interface IPropertyPageSite
+    // interface IComPropertyPageSite
+
+struct __declspec(uuid("3b81f6f1-54a0-11d3-b8c3-00600802e603"))
+IComPropertyPageSite : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall PageChanged ( ) = 0;
+};
+
+struct __declspec(uuid("20cd4003-8f3d-11d0-8590-0800091a2a72"))
+RgbPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+    // interface IPropertyPageContext
+
+struct __declspec(uuid("76951cc6-dbb1-11d2-b868-00600802e603"))
+IComPropertyPage : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Title (
+        BSTR Title ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * Title ) = 0;
+    virtual HRESULT __stdcall put_Priority (
+        long Priority ) = 0;
+    virtual HRESULT __stdcall get_Priority (
+        long * Priority ) = 0;
+    virtual HRESULT __stdcall get_Width (
+        long * Width ) = 0;
+    virtual HRESULT __stdcall get_Height (
+        long * Height ) = 0;
+    virtual HRESULT __stdcall putref_PageSite (
+        struct IComPropertyPageSite * _arg1 ) = 0;
+    virtual HRESULT __stdcall get_IsPageDirty (
+        VARIANT_BOOL * isDirty ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long controlID,
+        long * helpID ) = 0;
+    virtual HRESULT __stdcall Activate (
+        OLE_HANDLE * hWnd ) = 0;
+    virtual HRESULT __stdcall Deactivate ( ) = 0;
+    virtual HRESULT __stdcall Applies (
+        struct ISet * objects,
+        VARIANT_BOOL * pApplies ) = 0;
+    virtual HRESULT __stdcall SetObjects (
+        struct ISet * objects ) = 0;
+    virtual HRESULT __stdcall Show ( ) = 0;
+    virtual HRESULT __stdcall Hide ( ) = 0;
+    virtual HRESULT __stdcall Apply ( ) = 0;
+    virtual HRESULT __stdcall Cancel ( ) = 0;
+};
+
+struct __declspec(uuid("97afb06f-5c30-4eb3-a4c9-0327a64246c0"))
+IComPropertyPage2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Title (
+        BSTR Title ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * Title ) = 0;
+    virtual HRESULT __stdcall put_Priority (
+        long Priority ) = 0;
+    virtual HRESULT __stdcall get_Priority (
+        long * Priority ) = 0;
+    virtual HRESULT __stdcall get_Width (
+        long * Width ) = 0;
+    virtual HRESULT __stdcall get_Height (
+        long * Height ) = 0;
+    virtual HRESULT __stdcall putref_PageSite (
+        struct IComPropertyPageSite * _arg1 ) = 0;
+    virtual HRESULT __stdcall get_IsPageDirty (
+        VARIANT_BOOL * isDirty ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long controlID,
+        long * helpID ) = 0;
+    virtual HRESULT __stdcall Activate (
+        OLE_HANDLE * hWnd ) = 0;
+    virtual HRESULT __stdcall Deactivate ( ) = 0;
+    virtual HRESULT __stdcall Applies (
+        struct ISet * objects,
+        VARIANT_BOOL * pApplies ) = 0;
+    virtual HRESULT __stdcall SetObjects (
+        struct ISet * objects ) = 0;
+    virtual HRESULT __stdcall Show ( ) = 0;
+    virtual HRESULT __stdcall Hide ( ) = 0;
+    virtual HRESULT __stdcall Apply ( ) = 0;
+    virtual HRESULT __stdcall Cancel ( ) = 0;
+    virtual HRESULT __stdcall QueryCancel (
+        VARIANT_BOOL * QueryCancel ) = 0;
+};
+
+struct __declspec(uuid("20cd4004-8f3d-11d0-8590-0800091a2a72"))
+CmykPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+    // interface IPropertyPageContext
+
+struct __declspec(uuid("20cd4005-8f3d-11d0-8590-0800091a2a72"))
+HsvPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+    // interface IPropertyPageContext
+
+struct __declspec(uuid("20cd4006-8f3d-11d0-8590-0800091a2a72"))
+GrayPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+    // interface IPropertyPageContext
+
+struct __declspec(uuid("20cd4007-8f3d-11d0-8590-0800091a2a72"))
+ColorNamePropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+    // interface IPropertyPageContext
+
+enum esriProgressAnimationTypes
+{
+    esriProgressGlobe = 0,
+    esriDownloadFile = 1,
+    esriNoAnimation = 2
+};
+
+struct __declspec(uuid("06861e43-9020-49eb-b949-824552ee2de0"))
+IModelessFrame : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Create (
+        IDispatch * vbForm ) = 0;
+    virtual HRESULT __stdcall put_Visible (
+        VARIANT_BOOL bVisible ) = 0;
+    virtual HRESULT __stdcall get_Visible (
+        VARIANT_BOOL * bVisible ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR pCaption ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * pCaption ) = 0;
+};
+
+struct __declspec(uuid("a7b8ec8f-ac12-11d2-ab27-00c04fa334b3"))
+IGetStringDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Value (
+        BSTR * val ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        BSTR dialogTitle,
+        BSTR getStringLabel,
+        BSTR initialValue,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("b7f5ddff-1301-47a2-901a-d38f364544d2"))
+IGetUserAndPasswordDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_UserName (
+        BSTR * UserName ) = 0;
+    virtual HRESULT __stdcall get_Password (
+        BSTR * Password ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        BSTR dialogTitle,
+        BSTR stringLabel,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("759f7b98-e07d-11d1-aa87-00c04fa374bd"))
+INumberDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Value (
+        double * val ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        BSTR Title,
+        double initialValue,
+        long numDecs,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("48f2c005-25c4-11d3-9fba-00c04f6bc8dd"))
+IMessageDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModal (
+        BSTR Title,
+        BSTR Message,
+        BSTR OKButtonMessage,
+        BSTR CANCELButtonMessage,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("759f7b9b-e07d-11d1-aa87-00c04fa374bd"))
+ICoordinateDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_X (
+        double * val ) = 0;
+    virtual HRESULT __stdcall get_Y (
+        double * val ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        BSTR Title,
+        double initialX,
+        double initialY,
+        long numDecs,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("0e21fd01-1dc9-4230-95cd-64ee2c4266a1"))
+IProgressDialog2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall ShowDialog ( ) = 0;
+    virtual HRESULT __stdcall HideDialog ( ) = 0;
+    virtual HRESULT __stdcall get_CancelEnabled (
+        VARIANT_BOOL * bVal ) = 0;
+    virtual HRESULT __stdcall put_CancelEnabled (
+        VARIANT_BOOL bVal ) = 0;
+    virtual HRESULT __stdcall put_Description (
+        BSTR status ) = 0;
+    virtual HRESULT __stdcall get_Description (
+        BSTR * status ) = 0;
+    virtual HRESULT __stdcall put_Title (
+        BSTR Title ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * Title ) = 0;
+    virtual HRESULT __stdcall put_Animation (
+        enum esriProgressAnimationTypes Type ) = 0;
+    virtual HRESULT __stdcall get_Animation (
+        enum esriProgressAnimationTypes * Type ) = 0;
+};
+
+struct __declspec(uuid("31a6aeb1-f644-11d1-a248-080009b6f22b"))
+IProgressDialogFactory : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Create (
+        struct ITrackCancel * trackCancel,
+        OLE_HANDLE hWnd,
+        struct IStepProgressor * * stepProgressor ) = 0;
+};
+
+struct __declspec(uuid("5f399a16-0b7d-11d2-8c1e-0000f8774f55"))
+IListDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall AddString (
+        BSTR Choice ) = 0;
+    virtual HRESULT __stdcall get_Choice (
+        long * Index ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        BSTR Title,
+        long initialChoice,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * pOK ) = 0;
+};
+
+struct __declspec(uuid("c98e418d-78e7-11d2-87d4-0000f8751720"))
+IStyleSelector : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall AddStyle (
+        IUnknown * Style,
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall GetStyle (
+        long Index,
+        IUnknown * * Style ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        OLE_HANDLE parentHWnd,
+        VARIANT_BOOL * ok ) = 0;
+};
+
+struct __declspec(uuid("063304c3-7b90-48e9-b2d3-e795a8ba926b"))
+IComEmbeddedPropertyPage : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall CreateCompatibleObject (
+        VARIANT kind,
+        VARIANT * pNewObject ) = 0;
+    virtual HRESULT __stdcall QueryObject (
+        VARIANT theObject ) = 0;
+};
+
+struct __declspec(uuid("76951cc8-dbb1-11d2-b868-00600802e603"))
+IComPropertyPageObjectFactory : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall CreateCompatibleObject (
+        IUnknown * objTemplate,
+        IUnknown * * ppObject ) = 0;
+    virtual HRESULT __stdcall QueryObject (
+        IUnknown * * ppObject ) = 0;
+};
+
+struct __declspec(uuid("76951cc7-dbb1-11d2-b868-00600802e603"))
+IComPropertySheet : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Title (
+        BSTR Title ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * Title ) = 0;
+    virtual HRESULT __stdcall put_ActivePage (
+        short Index ) = 0;
+    virtual HRESULT __stdcall get_ActivePage (
+        short * Index ) = 0;
+    virtual HRESULT __stdcall put_DisableCancelButton (
+        VARIANT_BOOL disableButton ) = 0;
+    virtual HRESULT __stdcall get_DisableCancelButton (
+        VARIANT_BOOL * disableButton ) = 0;
+    virtual HRESULT __stdcall put_HideApplyButton (
+        VARIANT_BOOL HideApplyButton ) = 0;
+    virtual HRESULT __stdcall get_HideApplyButton (
+        VARIANT_BOOL * HideApplyButton ) = 0;
+    virtual HRESULT __stdcall put_HideHelpButton (
+        VARIANT_BOOL HideHelpButton ) = 0;
+    virtual HRESULT __stdcall get_HideHelpButton (
+        VARIANT_BOOL * HideHelpButton ) = 0;
+    virtual HRESULT __stdcall AddCategoryID (
+        struct IUID * Category ) = 0;
+    virtual HRESULT __stdcall ClearCategoryIDs ( ) = 0;
+    virtual HRESULT __stdcall AddPage (
+        VARIANT Page ) = 0;
+    virtual HRESULT __stdcall CanEdit (
+        struct ISet * objects,
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall EditProperties (
+        struct ISet * objects,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * ok ) = 0;
+};
+
+struct __declspec(uuid("2645f960-b557-4b7b-b017-10f10159b78b"))
+IPropertyPageSiteConfig : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_hWnd (
+        long hWnd ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        long * hWnd ) = 0;
+    virtual HRESULT __stdcall putref_Page (
+        struct IPropertyPage * Page ) = 0;
+    virtual HRESULT __stdcall get_Page (
+        struct IPropertyPage * * Page ) = 0;
+};
+
+struct __declspec(uuid("88002c09-939a-11d2-ae73-080009ec732a"))
+INumberFormatDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_NumberFormat (
+        struct INumberFormat * * format ) = 0;
+    virtual HRESULT __stdcall put_NumberFormat (
+        struct INumberFormat * format ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * okPressed ) = 0;
+};
+
+struct __declspec(uuid("5c8df895-d553-41f2-b5d3-2703efe0b07a"))
+ISymbolPickerDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_SelectedFontName (
+        BSTR * FontFaceName ) = 0;
+    virtual HRESULT __stdcall put_SelectedFontName (
+        BSTR FontFaceName ) = 0;
+    virtual HRESULT __stdcall get_SelectedChar (
+        long * iCharUnicode ) = 0;
+    virtual HRESULT __stdcall put_SelectedChar (
+        long iCharUnicode ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        OLE_HANDLE hWndParent,
+        VARIANT_BOOL * pOK ) = 0;
+};
+
+struct __declspec(uuid("9f79baae-e23a-4e3e-83f9-6d85b3d1094f"))
+ModelessFrame;
+    // [ default ] interface IUnknown
+    // interface IModelessFrame
+    // interface IWindowPosition
+
+struct __declspec(uuid("14b6e652-3962-4a79-a8b2-f7d7f8b00b59"))
+SymbolPickerDialog;
+    // [ default ] interface IUnknown
+    // interface ISymbolPickerDialog
+
+struct __declspec(uuid("01964af3-7f1a-11d2-a2de-080009b6f22b"))
+ComPropertySheet;
+    // [ default ] interface IUnknown
+    // interface IComPropertySheet
+    // interface IConnectionPointContainer
+    // interface IComPropertyPageSite
+    // interface IPropertyPageSite
+    // [ default, source ] interface IComPropertySheetEvents
+
+struct __declspec(uuid("de803db1-bc9a-44b2-b735-3c0912239587"))
+ComPropertyPageSite;
+    // [ default ] interface IUnknown
+    // interface IPropertyPageSite
+    // interface IPropertyPageSiteConfig
+    // interface IComPropertyPageSite
+
+struct __declspec(uuid("759f7b99-e07d-11d1-aa87-00c04fa374bd"))
+NumberDialog;
+    // [ default ] interface IUnknown
+    // interface INumberDialog
+
+struct __declspec(uuid("48f2c007-25c4-11d3-9fba-00c04f6bc8dd"))
+MessageDialog;
+    // [ default ] interface IUnknown
+    // interface IMessageDialog
+
+struct __declspec(uuid("759f7b9c-e07d-11d1-aa87-00c04fa374bd"))
+CoordinateDialog;
+    // [ default ] interface IUnknown
+    // interface ICoordinateDialog
+
+struct __declspec(uuid("31a6aeb2-f644-11d1-a248-080009b6f22b"))
+ProgressDialogFactory;
+    // [ default ] interface IUnknown
+    // interface IProgressDialogFactory
+
+struct __declspec(uuid("5f399a17-0b7d-11d2-8c1e-0000f8774f55"))
+ListDialog;
+    // [ default ] interface IUnknown
+    // interface IListDialog
+
+struct __declspec(uuid("88002c0a-939a-11d2-ae73-080009ec732a"))
+NumberFormatDialog;
+    // [ default ] interface IUnknown
+    // interface INumberFormatDialog
+
+struct __declspec(uuid("9388d95b-9460-11d2-ae74-080009ec732a"))
+NumericPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("6f560571-960f-11d2-ae77-080009ec732a"))
+CurrencyPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fecb8199-c694-11d2-9f34-00c04f6bc78e"))
+ScientificPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fecb819a-c694-11d2-9f34-00c04f6bc78e"))
+AnglePropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fcf40d6d-c91f-11d2-aaf8-000000000000"))
+PercentagePropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fcf40d6e-c91f-11d2-aaf8-000000000000"))
+CustomPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fcf40d6f-c91f-11d2-aaf8-000000000000"))
+RatePropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("fcf40d70-c91f-11d2-aaf8-000000000000"))
+FractionPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("a7b8ec90-ac12-11d2-ab27-00c04fa334b3"))
+GetStringDialog;
+    // [ default ] interface IUnknown
+    // interface IGetStringDialog
+
+struct __declspec(uuid("f4deb91a-378f-4aca-9971-12c494d94e58"))
+GetUserAndPasswordDialog;
+    // [ default ] interface IUnknown
+    // interface IGetUserAndPasswordDialog
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriFramework =
+    {0x866ae5d3,0x530c,0x11d2,{0xa2,0xbd,0x00,0x00,0xf8,0x77,0x4f,0xb5}};
+extern "C" const GUID __declspec(selectany) IID_IApplication =
+    {0x8e52b9a5,0x307b,0x11d2,{0x94,0xc9,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IDocument =
+    {0x3e927177,0x307a,0x11d2,{0x94,0xc9,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_ICommandBars =
+    {0x289fc451,0xd249,0x11d1,{0x91,0xad,0x00,0x80,0xc7,0x18,0xdf,0x97}};
+extern "C" const GUID __declspec(selectany) IID_ICommandBar =
+    {0x32e9d003,0xb867,0x11d1,{0x94,0x7b,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_ICommandItem =
+    {0x423b7723,0xb858,0x11d1,{0x94,0x7b,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IAcceleratorTable =
+    {0x08300de2,0x27fd,0x11d2,{0xaa,0x2f,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) IID_IAccelerator =
+    {0x08300de1,0x27fd,0x11d2,{0xaa,0x2f,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) IID_ICustomizationFilter =
+    {0x792d7e87,0x7993,0x11d2,{0xa2,0xd1,0x00,0x00,0xf8,0x77,0x4f,0xb5}};
+extern "C" const GUID __declspec(selectany) IID_ITemplates =
+    {0xce7c5749,0x3921,0x11d2,{0x94,0xcf,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IShortcutMenu =
+    {0x68e13af7,0xf1bf,0x11d1,{0x94,0x9f,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IAcceleratorHook =
+    {0xd4511a0e,0x1d47,0x461e,{0xbc,0x44,0x24,0x75,0x54,0x5e,0xe2,0xd9}};
+extern "C" const GUID __declspec(selectany) IID_IRootLevelMenu =
+    {0x66767665,0xd576,0x11d2,{0x9f,0x57,0x00,0xc0,0x4f,0x6b,0xc6,0x1a}};
+extern "C" const GUID __declspec(selectany) IID_IPaletteEvents =
+    {0xceb59b81,0xd86d,0x11d1,{0xa2,0x1c,0x08,0x00,0x09,0xb6,0xf2,0x2b}};
+extern "C" const GUID __declspec(selectany) IID_ISelectionPalette =
+    {0x5fdd7101,0x8e9f,0x11d1,{0xa1,0xb2,0x08,0x00,0x09,0xb6,0xf2,0x2b}};
+extern "C" const GUID __declspec(selectany) IID_IWindowPosition =
+    {0x88c995ae,0x64a7,0x43f5,{0xbf,0x12,0x88,0xac,0x17,0x9b,0x25,0xa6}};
+extern "C" const GUID __declspec(selectany) IID_IMouseCursor =
+    {0xf91752ef,0x3339,0x482f,{0xad,0x92,0x4b,0x75,0x2c,0x98,0xe7,0x44}};
+extern "C" const GUID __declspec(selectany) IID_IObjectFactory =
+    {0x60a1409b,0x9b67,0x431b,{0xb4,0x28,0xe2,0xc1,0x7b,0xe3,0x6e,0x9a}};
+extern "C" const GUID __declspec(selectany) IID_IVbaApplication =
+    {0xd7ee3483,0x004d,0x11d4,{0x9f,0xe7,0x00,0xc0,0x4f,0x6b,0xc7,0x8e}};
+extern "C" const GUID __declspec(selectany) IID_IDockableWindow =
+    {0x3ee6d0c3,0xe3f2,0x11d3,{0xa6,0x79,0x00,0x08,0xc7,0xdf,0x97,0xb9}};
+extern "C" const GUID __declspec(selectany) IID_IDockableWindowDef =
+    {0x3d1fa10a,0xf154,0x11d3,{0xa6,0x7e,0x00,0x08,0xc7,0xdf,0x97,0xb9}};
+extern "C" const GUID __declspec(selectany) IID_IDockableWindowManager =
+    {0x3ee6d0c2,0xe3f2,0x11d3,{0xa6,0x79,0x00,0x08,0xc7,0xdf,0x97,0xb9}};
+extern "C" const GUID __declspec(selectany) IID_IDllThreadManager =
+    {0x52bcff1b,0x6a36,0x49df,{0xb1,0x4f,0xbe,0x22,0x7d,0x85,0x43,0xef}};
+extern "C" const GUID __declspec(selectany) IID_IMultiThreadedApplication =
+    {0x34709a45,0x8e39,0x4397,{0xa0,0xcf,0x63,0x96,0x3e,0x5f,0x52,0xe4}};
+extern "C" const GUID __declspec(selectany) IID_IDocumentDirty =
+    {0xb26de0cf,0x5c0a,0x433d,{0x90,0x82,0x09,0x70,0x04,0xe1,0x3a,0x0a}};
+extern "C" const GUID __declspec(selectany) IID_IDocumentDirty2 =
+    {0xa684089c,0xcde0,0x407c,{0x92,0xd8,0x81,0x1a,0x3f,0x8e,0x85,0x0c}};
+extern "C" const GUID __declspec(selectany) IID_IDDECommandHandler =
+    {0xb8352370,0x23e6,0x42fc,{0x9b,0x43,0x5e,0x75,0x36,0xc1,0x3a,0xf9}};
+extern "C" const GUID __declspec(selectany) IID_IAppROT =
+    {0xfabc30f9,0xd273,0x11d2,{0x9f,0x36,0x00,0xc0,0x4f,0x6b,0xc6,0x1a}};
+extern "C" const GUID __declspec(selectany) IID_IAppROTEvents =
+    {0xfabc30fa,0xd273,0x11d2,{0x9f,0x36,0x00,0xc0,0x4f,0x6b,0xc6,0x1a}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyPageContext =
+    {0xf87fa8a3,0xe51a,0x11d1,{0x87,0x7c,0x00,0x00,0xf8,0x75,0x17,0x20}};
+extern "C" const GUID __declspec(selectany) IID_IColorPalette =
+    {0x14746473,0x1534,0x11d3,{0x9f,0x49,0x00,0xc0,0x4f,0x6b,0xc7,0x09}};
+extern "C" const GUID __declspec(selectany) IID_IArcToolboxTool =
+    {0x0acdfe44,0xf5e2,0x11d3,{0xa6,0x23,0x00,0x08,0xc7,0x11,0xc8,0xc1}};
+extern "C" const GUID __declspec(selectany) CLSID_MouseCursor =
+    {0xdcab4344,0x69d0,0x492a,{0x94,0x68,0x9a,0x89,0xa8,0xe9,0xb5,0x71}};
+extern "C" const GUID __declspec(selectany) IID_IFileOpenHandler =
+    {0x316f1e91,0x30b6,0x43fe,{0x9f,0xd8,0x9c,0x08,0xc5,0x39,0x4e,0xb8}};
+extern "C" const GUID __declspec(selectany) IID_IAtbApplication =
+    {0xea936dfe,0x2aa1,0x11d4,{0xa6,0x32,0x00,0x08,0xc7,0x11,0xc8,0xc1}};
+extern "C" const GUID __declspec(selectany) IID_IArcToolboxFind =
+    {0xca787e4d,0x17a0,0x11d4,{0xa6,0x29,0x00,0x08,0xc7,0x11,0xc8,0xc1}};
+extern "C" const GUID __declspec(selectany) IID_IMenuItem =
+    {0x2b718169,0x1b85,0x11d2,{0x94,0xb6,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) CLSID_AppRef =
+    {0xe1740ec5,0x9513,0x11d2,{0xa2,0xdf,0x00,0x00,0xf8,0x77,0x4f,0xb5}};
+extern "C" const GUID __declspec(selectany) CLSID_AppROT =
+    {0xfabc30fb,0xd273,0x11d2,{0x9f,0x36,0x00,0xc0,0x4f,0x6b,0xc6,0x1a}};
+extern "C" const GUID __declspec(selectany) CLSID_Accelerator =
+    {0x8a85d730,0x2949,0x49da,{0x89,0x95,0xce,0xc7,0x7f,0x68,0xbd,0xfa}};
+extern "C" const GUID __declspec(selectany) CLSID_Templates =
+    {0xc32ff69d,0xcf6a,0x4fe5,{0xb6,0x2f,0xa3,0x8f,0xea,0xea,0xd0,0xd8}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandBars =
+    {0x5c396018,0x9b88,0x493c,{0xb4,0x7d,0x8c,0x63,0x32,0xae,0xdb,0xdd}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandBar =
+    {0xa37ef60a,0x59b9,0x4599,{0x86,0x21,0xac,0x81,0x11,0x2d,0xf9,0x47}};
+extern "C" const GUID __declspec(selectany) CLSID_AcceleratorTable =
+    {0xce259b71,0x280c,0x11d2,{0xaa,0x2f,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandItem =
+    {0xfa73ef95,0xb87c,0x11d1,{0x94,0x7b,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) CLSID_DockableWindow =
+    {0xd91ed352,0xe414,0x11d3,{0xa6,0x79,0x00,0x08,0xc7,0xdf,0x97,0xb9}};
+extern "C" const GUID __declspec(selectany) CLSID_DllThreadManager =
+    {0x057c74e0,0xfaf0,0x45cb,{0x89,0xe3,0xaf,0x13,0x2b,0xe1,0xa2,0xa7}};
+extern "C" const GUID __declspec(selectany) CLSID_Button =
+    {0xd13cbe84,0x71b0,0x4eef,{0x8b,0xd6,0x60,0xd3,0x58,0xb4,0x31,0xf6}};
+extern "C" const GUID __declspec(selectany) CLSID_Tool =
+    {0xda53dc37,0xe97c,0x4997,{0xbb,0xde,0x93,0xf2,0xbe,0x06,0x1e,0xc0}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolControl =
+    {0xb6bff46f,0x6dcf,0x4db7,{0x99,0x85,0x5f,0x41,0xa4,0x1f,0x17,0xfc}};
+extern "C" const GUID __declspec(selectany) CLSID_MultiItem =
+    {0xbf3dd473,0xa408,0x4014,{0xb9,0x13,0x69,0xa3,0x1a,0xf6,0x11,0x5d}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertySheet2 =
+    {0xc7fb79b7,0x41a6,0x4f58,{0xb5,0x8b,0xc3,0x9f,0xb8,0x3a,0xaa,0x0a}};
+extern "C" const GUID __declspec(selectany) IID_IApplicationIdentifyDialog =
+    {0xb6165ddf,0x808e,0x11d4,{0x80,0xf3,0x00,0xc0,0x4f,0xa0,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) CLSID_StyleGalleryItem =
+    {0xac0e9829,0x91cb,0x11d1,{0x88,0x13,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_EnumStyleGalleryItem =
+    {0xac0e982a,0x91cb,0x11d1,{0x88,0x13,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_StyleGallery =
+    {0xac0e9827,0x91cb,0x11d1,{0x88,0x13,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) IID_IColorBrowser =
+    {0xe82a1a9b,0x7b12,0x11d1,{0x94,0x6c,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IColorSelector =
+    {0x569c3921,0x01ba,0x11d3,{0x9f,0x38,0x00,0xc0,0x4f,0x6b,0xc7,0x09}};
+extern "C" const GUID __declspec(selectany) IID_ICustomColorPalette =
+    {0x7f579088,0x5407,0x42f1,{0xbd,0x80,0x54,0x8e,0x7f,0x3c,0x1e,0x6e}};
+extern "C" const GUID __declspec(selectany) CLSID_ColorSelector =
+    {0x93051635,0xf841,0x11d2,{0x9f,0x36,0x00,0xc0,0x4f,0x6b,0xc7,0x09}};
+extern "C" const GUID __declspec(selectany) CLSID_ColorPalette =
+    {0x14746474,0x1534,0x11d3,{0x9f,0x49,0x00,0xc0,0x4f,0x6b,0xc7,0x09}};
+extern "C" const GUID __declspec(selectany) CLSID_ColorBrowser =
+    {0x20cd4001,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) CLSID_ColorPageSite =
+    {0x20cd4002,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertyPageSite =
+    {0x3b81f6f1,0x54a0,0x11d3,{0xb8,0xc3,0x00,0x60,0x08,0x02,0xe6,0x03}};
+extern "C" const GUID __declspec(selectany) CLSID_RgbPropertyPage =
+    {0x20cd4003,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertyPage =
+    {0x76951cc6,0xdbb1,0x11d2,{0xb8,0x68,0x00,0x60,0x08,0x02,0xe6,0x03}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertyPage2 =
+    {0x97afb06f,0x5c30,0x4eb3,{0xa4,0xc9,0x03,0x27,0xa6,0x42,0x46,0xc0}};
+extern "C" const GUID __declspec(selectany) CLSID_CmykPropertyPage =
+    {0x20cd4004,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) CLSID_HsvPropertyPage =
+    {0x20cd4005,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) CLSID_GrayPropertyPage =
+    {0x20cd4006,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) CLSID_ColorNamePropertyPage =
+    {0x20cd4007,0x8f3d,0x11d0,{0x85,0x90,0x08,0x00,0x09,0x1a,0x2a,0x72}};
+extern "C" const GUID __declspec(selectany) IID_IModelessFrame =
+    {0x06861e43,0x9020,0x49eb,{0xb9,0x49,0x82,0x45,0x52,0xee,0x2d,0xe0}};
+extern "C" const GUID __declspec(selectany) IID_IGetStringDialog =
+    {0xa7b8ec8f,0xac12,0x11d2,{0xab,0x27,0x00,0xc0,0x4f,0xa3,0x34,0xb3}};
+extern "C" const GUID __declspec(selectany) IID_IGetUserAndPasswordDialog =
+    {0xb7f5ddff,0x1301,0x47a2,{0x90,0x1a,0xd3,0x8f,0x36,0x45,0x44,0xd2}};
+extern "C" const GUID __declspec(selectany) IID_INumberDialog =
+    {0x759f7b98,0xe07d,0x11d1,{0xaa,0x87,0x00,0xc0,0x4f,0xa3,0x74,0xbd}};
+extern "C" const GUID __declspec(selectany) IID_IMessageDialog =
+    {0x48f2c005,0x25c4,0x11d3,{0x9f,0xba,0x00,0xc0,0x4f,0x6b,0xc8,0xdd}};
+extern "C" const GUID __declspec(selectany) IID_ICoordinateDialog =
+    {0x759f7b9b,0xe07d,0x11d1,{0xaa,0x87,0x00,0xc0,0x4f,0xa3,0x74,0xbd}};
+extern "C" const GUID __declspec(selectany) IID_IProgressDialog2 =
+    {0x0e21fd01,0x1dc9,0x4230,{0x95,0xcd,0x64,0xee,0x2c,0x42,0x66,0xa1}};
+extern "C" const GUID __declspec(selectany) IID_IProgressDialogFactory =
+    {0x31a6aeb1,0xf644,0x11d1,{0xa2,0x48,0x08,0x00,0x09,0xb6,0xf2,0x2b}};
+extern "C" const GUID __declspec(selectany) IID_IListDialog =
+    {0x5f399a16,0x0b7d,0x11d2,{0x8c,0x1e,0x00,0x00,0xf8,0x77,0x4f,0x55}};
+extern "C" const GUID __declspec(selectany) IID_IStyleSelector =
+    {0xc98e418d,0x78e7,0x11d2,{0x87,0xd4,0x00,0x00,0xf8,0x75,0x17,0x20}};
+extern "C" const GUID __declspec(selectany) IID_IComEmbeddedPropertyPage =
+    {0x063304c3,0x7b90,0x48e9,{0xb2,0xd3,0xe7,0x95,0xa8,0xba,0x92,0x6b}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertyPageObjectFactory =
+    {0x76951cc8,0xdbb1,0x11d2,{0xb8,0x68,0x00,0x60,0x08,0x02,0xe6,0x03}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertySheet =
+    {0x76951cc7,0xdbb1,0x11d2,{0xb8,0x68,0x00,0x60,0x08,0x02,0xe6,0x03}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyPageSiteConfig =
+    {0x2645f960,0xb557,0x4b7b,{0xb0,0x17,0x10,0xf1,0x01,0x59,0xb7,0x8b}};
+extern "C" const GUID __declspec(selectany) IID_INumberFormatDialog =
+    {0x88002c09,0x939a,0x11d2,{0xae,0x73,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) IID_ISymbolPickerDialog =
+    {0x5c8df895,0xd553,0x41f2,{0xb5,0xd3,0x27,0x03,0xef,0xe0,0xb0,0x7a}};
+extern "C" const GUID __declspec(selectany) CLSID_ModelessFrame =
+    {0x9f79baae,0xe23a,0x4e3e,{0x83,0xf9,0x6d,0x85,0xb3,0xd1,0x09,0x4f}};
+extern "C" const GUID __declspec(selectany) CLSID_SymbolPickerDialog =
+    {0x14b6e652,0x3962,0x4a79,{0xa8,0xb2,0xf7,0xd7,0xf8,0xb0,0x0b,0x59}};
+extern "C" const GUID __declspec(selectany) CLSID_ComPropertySheet =
+    {0x01964af3,0x7f1a,0x11d2,{0xa2,0xde,0x08,0x00,0x09,0xb6,0xf2,0x2b}};
+extern "C" const GUID __declspec(selectany) CLSID_ComPropertyPageSite =
+    {0xde803db1,0xbc9a,0x44b2,{0xb7,0x35,0x3c,0x09,0x12,0x23,0x95,0x87}};
+extern "C" const GUID __declspec(selectany) CLSID_NumberDialog =
+    {0x759f7b99,0xe07d,0x11d1,{0xaa,0x87,0x00,0xc0,0x4f,0xa3,0x74,0xbd}};
+extern "C" const GUID __declspec(selectany) CLSID_MessageDialog =
+    {0x48f2c007,0x25c4,0x11d3,{0x9f,0xba,0x00,0xc0,0x4f,0x6b,0xc8,0xdd}};
+extern "C" const GUID __declspec(selectany) CLSID_CoordinateDialog =
+    {0x759f7b9c,0xe07d,0x11d1,{0xaa,0x87,0x00,0xc0,0x4f,0xa3,0x74,0xbd}};
+extern "C" const GUID __declspec(selectany) CLSID_ProgressDialogFactory =
+    {0x31a6aeb2,0xf644,0x11d1,{0xa2,0x48,0x08,0x00,0x09,0xb6,0xf2,0x2b}};
+extern "C" const GUID __declspec(selectany) CLSID_ListDialog =
+    {0x5f399a17,0x0b7d,0x11d2,{0x8c,0x1e,0x00,0x00,0xf8,0x77,0x4f,0x55}};
+extern "C" const GUID __declspec(selectany) CLSID_NumberFormatDialog =
+    {0x88002c0a,0x939a,0x11d2,{0xae,0x73,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_NumericPropertyPage =
+    {0x9388d95b,0x9460,0x11d2,{0xae,0x74,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_CurrencyPropertyPage =
+    {0x6f560571,0x960f,0x11d2,{0xae,0x77,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_ScientificPropertyPage =
+    {0xfecb8199,0xc694,0x11d2,{0x9f,0x34,0x00,0xc0,0x4f,0x6b,0xc7,0x8e}};
+extern "C" const GUID __declspec(selectany) CLSID_AnglePropertyPage =
+    {0xfecb819a,0xc694,0x11d2,{0x9f,0x34,0x00,0xc0,0x4f,0x6b,0xc7,0x8e}};
+extern "C" const GUID __declspec(selectany) CLSID_PercentagePropertyPage =
+    {0xfcf40d6d,0xc91f,0x11d2,{0xaa,0xf8,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_CustomPropertyPage =
+    {0xfcf40d6e,0xc91f,0x11d2,{0xaa,0xf8,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_RatePropertyPage =
+    {0xfcf40d6f,0xc91f,0x11d2,{0xaa,0xf8,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_FractionPropertyPage =
+    {0xfcf40d70,0xc91f,0x11d2,{0xaa,0xf8,0x00,0x00,0x00,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_GetStringDialog =
+    {0xa7b8ec90,0xac12,0x11d2,{0xab,0x27,0x00,0xc0,0x4f,0xa3,0x34,0xb3}};
+extern "C" const GUID __declspec(selectany) CLSID_GetUserAndPasswordDialog =
+    {0xf4deb91a,0x378f,0x4aca,{0x99,0x71,0x12,0xc4,0x94,0xd9,0x4e,0x58}};
+
+#pragma pack(pop)

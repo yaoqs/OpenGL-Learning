@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Memory error analysis: started</message>
+ <nop/>
+ <message severity="info">Result file: [C:\Users\Admin\Desktop\OpenGL编程精粹67541967\OpenGL实例编程精粹\第4章\3DGraphics\My Inspector XE Results - 3DGraphics\r000mi1\r000mi1.inspxe] </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\users\admin\desktop\opengl编程精粹67541967\opengl实例编程精粹\第4章\3dgraphics\debug\3DGraphics.exe (pid = 2356) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\admin\desktop\opengl编程精粹67541967\opengl实例编程精粹\第4章\3dgraphics\debug\3DGraphics.exe, address range [0x00400000-0x004f1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\OPENGL32.dll, address range [0x6b130000-0x6b1f7fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\AppPatch\AcLayers.DLL, address range [0x719f0000-0x71a7cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\MPR.dll, address range [0x73180000-0x73191fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\USERENV.dll, address range [0x732c0000-0x732d6fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\profapi.dll, address range [0x734e0000-0x734eafff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\WINSPOOL.DRV, address range [0x73600000-0x73650fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\GLU32.dll, address range [0x73810000-0x73831fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\apphelp.dll, address range [0x738f0000-0x7393bfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\DDRAW.dll, address range [0x745d0000-0x746b6fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\DCIMAN32.dll, address range [0x74910000-0x74915fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\dwmapi.dll, address range [0x74920000-0x74932fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\CRYPTBASE.dll, address range [0x74b80000-0x74b8bfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\SspiCli.dll, address range [0x74b90000-0x74beffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\SHLWAPI.dll, address range [0x74c40000-0x74c96fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\CFGMGR32.dll, address range [0x74d50000-0x74d76fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\kernel32.dll, address range [0x74d80000-0x74e8ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\SHELL32.dll, address range [0x74e90000-0x75ad9fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\USP10.dll, address range [0x75ae0000-0x75b7cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\LPK.dll, address range [0x75b80000-0x75b89fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\USER32.dll, address range [0x75ca0000-0x75d9ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\GDI32.dll, address range [0x75da0000-0x75e2ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\MSCTF.dll, address range [0x75fe0000-0x760abfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\msvcrt.dll, address range [0x760b0000-0x7615bfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\RPCRT4.dll, address range [0x76280000-0x7636ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\OLEAUT32.dll, address range [0x76370000-0x763fefff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\SETUPAPI.dll, address range [0x76450000-0x765ecfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\KERNELBASE.dll, address range [0x76710000-0x76755fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\IMM32.DLL, address range [0x76760000-0x767bffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\ADVAPI32.dll, address range [0x767c0000-0x7685ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SysWOW64\sechost.dll, address range [0x76860000-0x76878fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\DEVOBJ.dll, address range [0x76a70000-0x76a81fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\ole32.dll, address range [0x76a90000-0x76bebfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\PSAPI.DLL, address range [0x77480000-0x77484fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SysWOW64\ntdll.dll, address range [0x774b0000-0x7762ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\uxtheme.dll, address range [0x746c0000-0x7473ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\ole32.dll, address range [0x075a0000-0x076fbfff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\system32\ole32.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\system32\nvoglv32.DLL, address range [0x69500000-0x6a377fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\WINTRUST.dll, address range [0x74ca0000-0x74cccfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\CRYPT32.dll, address range [0x765f0000-0x7670cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\syswow64\MSASN1.dll, address range [0x75c80000-0x75c8bfff] </message>
+ <nop/>
+ <message severity="info">Application exit code: [0] </message>
+ <nop/>
+ <message severity="info">Result file: [C:\Users\Admin\Desktop\OpenGL编程精粹67541967\OpenGL实例编程精粹\第4章\3DGraphics\My Inspector XE Results - 3DGraphics\r000mi1\r000mi1.inspxe] </message>
+ <nop/>
+ <message severity="info">Memory error analysis: completed</message>
+ <nop/>
+</feedback>

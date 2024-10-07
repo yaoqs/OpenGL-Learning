@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a57c0446-69ea-4c24-8a88-ec68103adb63}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9090334a-8429-4989-85b7-fbe17520b38b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{279897f1-09c7-46af-9efe-208b34dbbe06}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{62fb25dc-8335-4570-8e2c-1cd1e496c3a6}</UniqueIdentifier>
+      <Extensions>&lt;templates&gt;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL多文档.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL多文档Aw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\ChildFrm.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\Doc.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\GLEnabledView.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\MainFrm.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\root.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\StdAfx.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\View.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL多文档.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Template\root.rc">
+      <Filter>Template Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL多文档.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL多文档Aw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\ChildFrm.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\Doc.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\GLEnabledView.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\MainFrm.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\Resource.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\root.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\StdAfx.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\View.h">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OpenGL多文档.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Template\res\Doc.ico">
+      <Filter>Template Files</Filter>
+    </Image>
+    <Image Include="Template\res\root.ico">
+      <Filter>Template Files</Filter>
+    </Image>
+    <Image Include="Template\res\Toolbar.bmp">
+      <Filter>Template Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Template\ReadMe.txt">
+      <Filter>Template Files</Filter>
+    </Text>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Template\confirm.inf">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Template\newproj.inf">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Template\root.clw">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Template\res\root.rc2">
+      <Filter>Template Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,652 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (d1b83a1a).
+//
+// esriSystemUI.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/com/esriSystemUI.olb
+// compiler-generated file created 01/08/07 at 20:58:34 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriSystem.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("36b06538-4437-11d1-b970-080009ee4e51"))
+/* interface */ ICommand;
+struct __declspec(uuid("12f412e9-2cbc-11d2-94c8-080009eebecb"))
+/* interface */ ICompletionNotify;
+struct __declspec(uuid("e2287753-940f-11d0-835b-080009b996cc"))
+/* interface */ IToolControl;
+struct __declspec(uuid("2a6b0172-4ed2-11d0-98be-00805f7ced21"))
+/* interface */ ITool;
+struct __declspec(uuid("857336bf-e12b-11d1-9495-080009eebecb"))
+/* interface */ IItemDef;
+struct __declspec(uuid("5a141a5b-d096-11d1-b9a9-080009ee4e51"))
+/* interface */ ICommandSubType;
+struct __declspec(uuid("61b318f0-cda0-11d1-b9a8-080009ee4e51"))
+/* interface */ IToolBarDef;
+struct __declspec(uuid("58e2c6a1-cd8d-11d1-91a7-0080c718df97"))
+/* interface */ IMenuDef;
+struct __declspec(uuid("af948931-11d1-11d2-94b4-080009eebecb"))
+/* interface */ IMultiItem;
+struct __declspec(uuid("1e29f387-f77a-42cc-ad58-5fb1f5f8e11d"))
+/* interface */ IMultiItemEx;
+struct __declspec(uuid("6b7b57f8-5765-11d0-92d9-00805f7c28b0"))
+/* interface */ IComPropertySheetEvents;
+struct __declspec(uuid("80a807ab-7bb9-11d0-87ec-080009ec732a"))
+/* interface */ IOperation;
+struct __declspec(uuid("303ee675-3087-11d2-94c9-080009eebecb"))
+/* interface */ IOperationStack;
+struct __declspec(uuid("fc6732db-6295-4b39-b257-8c799ae20567"))
+/* interface */ IToolSelectedLayer;
+struct __declspec(uuid("623bf41c-3e34-4586-a729-c2e34cbe8fa9"))
+/* interface */ ISystemMouseCursor;
+struct __declspec(uuid("e0ccbcb0-cd47-11d5-a9e6-00104bb6fc1c"))
+/* interface */ IDataObjectHelper;
+struct /* coclass */ DataObjectHelper;
+struct __declspec(uuid("14cb3146-6fdd-4b45-8759-0a297a4dad10"))
+/* interface */ ICommandHost;
+struct /* coclass */ ControlsOperationStack;
+struct /* coclass */ CommandHost;
+struct /* coclass */ ToolHost;
+struct /* coclass */ ComPropertySheetEventsProxyHelper;
+struct /* coclass */ SystemFont;
+struct /* coclass */ SystemMouseCursor;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICommand, __uuidof(ICommand));
+_COM_SMARTPTR_TYPEDEF(ICompletionNotify, __uuidof(ICompletionNotify));
+_COM_SMARTPTR_TYPEDEF(IToolControl, __uuidof(IToolControl));
+_COM_SMARTPTR_TYPEDEF(ITool, __uuidof(ITool));
+_COM_SMARTPTR_TYPEDEF(IItemDef, __uuidof(IItemDef));
+_COM_SMARTPTR_TYPEDEF(ICommandSubType, __uuidof(ICommandSubType));
+_COM_SMARTPTR_TYPEDEF(IToolBarDef, __uuidof(IToolBarDef));
+_COM_SMARTPTR_TYPEDEF(IMenuDef, __uuidof(IMenuDef));
+_COM_SMARTPTR_TYPEDEF(IMultiItem, __uuidof(IMultiItem));
+_COM_SMARTPTR_TYPEDEF(IMultiItemEx, __uuidof(IMultiItemEx));
+_COM_SMARTPTR_TYPEDEF(IComPropertySheetEvents, __uuidof(IComPropertySheetEvents));
+_COM_SMARTPTR_TYPEDEF(IOperation, __uuidof(IOperation));
+_COM_SMARTPTR_TYPEDEF(IOperationStack, __uuidof(IOperationStack));
+_COM_SMARTPTR_TYPEDEF(IToolSelectedLayer, __uuidof(IToolSelectedLayer));
+_COM_SMARTPTR_TYPEDEF(ISystemMouseCursor, __uuidof(ISystemMouseCursor));
+_COM_SMARTPTR_TYPEDEF(IDataObjectHelper, __uuidof(IDataObjectHelper));
+_COM_SMARTPTR_TYPEDEF(ICommandHost, __uuidof(ICommandHost));
+
+//
+// Type library items
+//
+
+enum esriCommandStyles
+{
+    esriCommandStyleTextOnly = 0,
+    esriCommandStyleIconOnly = 1,
+    esriCommandStyleIconAndText = 2,
+    esriCommandStyleMenuBar = 4
+};
+
+enum esriCmdBarType
+{
+    esriCmdBarTypeToolbar = 0,
+    esriCmdBarTypeMenu = 1,
+    esriCmdBarTypeShortcutMenu = 2
+};
+
+enum esriSystemMouseCursor
+{
+    esriSystemMouseCursorDefault = 0,
+    esriSystemMouseCursorArrow = 1,
+    esriSystemMouseCursorCrosshair = 2,
+    esriSystemMouseCursorIBeam = 3,
+    esriSystemMouseCursorIcon = 4,
+    esriSystemMouseCursorSize = 5,
+    esriSystemMouseCursorSizeNESW = 6,
+    esriSystemMouseCursorSizeNS = 7,
+    esriSystemMouseCursorSizeNWSE = 8,
+    esriSystemMouseCursorSizeWE = 9,
+    esriSystemMouseCursorUpArrow = 10,
+    esriSystemMouseCursorHourglass = 11,
+    esriSystemMouseCursorNoDrop = 12,
+    esriSystemMouseCursorArrowHourglass = 13,
+    esriSystemMouseCursorArrowQuestion = 14,
+    esriSystemMouseCursorSizeAll = 15,
+    esriSystemMouseCursorZoom = 50,
+    esriSystemMouseCursorZoomIn = 51,
+    esriSystemMouseCursorZoomOut = 52,
+    esriSystemMouseCursorPan = 53,
+    esriSystemMouseCursorPanning = 54,
+    esriSystemMouseCursorIdentify = 55,
+    esriSystemMouseCursorLabel = 56,
+    esriSystemMouseCursorHotLink = 57,
+    esriSystemMouseCursorPencil = 58,
+    esriSystemMouseCursorHand = 59,
+    esriSystemMouseCursorPageZoomIn = 60,
+    esriSystemMouseCursorPageZoomOut = 61,
+    esriSystemMouseCursorPagePan = 62,
+    esriSystemMouseCursorPagePanning = 63
+};
+
+struct __declspec(uuid("36b06538-4437-11d1-b970-080009ee4e51"))
+ICommand : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * Enabled ) = 0;
+    virtual HRESULT __stdcall get_Checked (
+        VARIANT_BOOL * Checked ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Caption ) = 0;
+    virtual HRESULT __stdcall get_Tooltip (
+        BSTR * Tooltip ) = 0;
+    virtual HRESULT __stdcall get_Message (
+        BSTR * Message ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long * helpID ) = 0;
+    virtual HRESULT __stdcall get_Bitmap (
+        OLE_HANDLE * Bitmap ) = 0;
+    virtual HRESULT __stdcall get_Category (
+        BSTR * categoryName ) = 0;
+    virtual HRESULT __stdcall OnCreate (
+        IDispatch * hook ) = 0;
+    virtual HRESULT __stdcall OnClick ( ) = 0;
+};
+
+struct __declspec(uuid("12f412e9-2cbc-11d2-94c8-080009eebecb"))
+ICompletionNotify : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetComplete ( ) = 0;
+};
+
+struct __declspec(uuid("e2287753-940f-11d0-835b-080009b996cc"))
+IToolControl : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_hWnd (
+        OLE_HANDLE * hWnd ) = 0;
+    virtual HRESULT __stdcall OnFocus (
+        struct ICompletionNotify * complete ) = 0;
+    virtual HRESULT __stdcall OnDrop (
+        enum esriCmdBarType barType,
+        VARIANT_BOOL * bValid ) = 0;
+};
+
+struct __declspec(uuid("2a6b0172-4ed2-11d0-98be-00805f7ced21"))
+ITool : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Cursor (
+        OLE_HANDLE * Cursor ) = 0;
+    virtual HRESULT __stdcall OnMouseDown (
+        long button,
+        long shift,
+        long x,
+        long y ) = 0;
+    virtual HRESULT __stdcall OnMouseMove (
+        long button,
+        long shift,
+        long x,
+        long y ) = 0;
+    virtual HRESULT __stdcall OnMouseUp (
+        long button,
+        long shift,
+        long x,
+        long y ) = 0;
+    virtual HRESULT __stdcall OnDblClick ( ) = 0;
+    virtual HRESULT __stdcall OnKeyDown (
+        long keyCode,
+        long shift ) = 0;
+    virtual HRESULT __stdcall OnKeyUp (
+        long keyCode,
+        long shift ) = 0;
+    virtual HRESULT __stdcall OnContextMenu (
+        long x,
+        long y,
+        VARIANT_BOOL * handled ) = 0;
+    virtual HRESULT __stdcall Refresh (
+        OLE_HANDLE hdc ) = 0;
+    virtual HRESULT __stdcall Deactivate (
+        VARIANT_BOOL * complete ) = 0;
+};
+
+struct __declspec(uuid("857336bf-e12b-11d1-9495-080009eebecb"))
+IItemDef : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_ID (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall put_Group (
+        VARIANT_BOOL _arg1 ) = 0;
+    virtual HRESULT __stdcall put_SubType (
+        long _arg1 ) = 0;
+};
+
+struct __declspec(uuid("5a141a5b-d096-11d1-b9a9-080009ee4e51"))
+ICommandSubType : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetSubType (
+        long SubType ) = 0;
+    virtual HRESULT __stdcall GetCount (
+        long * Count ) = 0;
+};
+
+struct __declspec(uuid("61b318f0-cda0-11d1-b9a8-080009ee4e51"))
+IToolBarDef : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ItemCount (
+        long * numItems ) = 0;
+    virtual HRESULT __stdcall GetItemInfo (
+        long pos,
+        struct IItemDef * itemDef ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Name ) = 0;
+};
+
+struct __declspec(uuid("58e2c6a1-cd8d-11d1-91a7-0080c718df97"))
+IMenuDef : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ItemCount (
+        long * numItems ) = 0;
+    virtual HRESULT __stdcall GetItemInfo (
+        long pos,
+        struct IItemDef * itemDef ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Name ) = 0;
+};
+
+struct __declspec(uuid("af948931-11d1-11d2-94b4-080009eebecb"))
+IMultiItem : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_Message (
+        BSTR * Message ) = 0;
+    virtual HRESULT __stdcall get_HelpFile (
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_HelpContextID (
+        long * ID ) = 0;
+    virtual HRESULT __stdcall OnPopup (
+        IDispatch * hook,
+        long * ItemCount ) = 0;
+    virtual HRESULT __stdcall get_ItemCaption (
+        long index,
+        BSTR * itemName ) = 0;
+    virtual HRESULT __stdcall get_ItemBitmap (
+        long index,
+        OLE_HANDLE * Bitmap ) = 0;
+    virtual HRESULT __stdcall OnItemClick (
+        long index ) = 0;
+    virtual HRESULT __stdcall get_ItemChecked (
+        long index,
+        VARIANT_BOOL * bChecked ) = 0;
+    virtual HRESULT __stdcall get_ItemEnabled (
+        long index,
+        VARIANT_BOOL * bEnabled ) = 0;
+};
+
+struct __declspec(uuid("1e29f387-f77a-42cc-ad58-5fb1f5f8e11d"))
+IMultiItemEx : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ItemMessage (
+        long index,
+        BSTR * Message ) = 0;
+    virtual HRESULT __stdcall get_ItemHelpFile (
+        long index,
+        BSTR * HelpFile ) = 0;
+    virtual HRESULT __stdcall get_ItemHelpContextID (
+        long index,
+        long * ID ) = 0;
+};
+
+struct __declspec(uuid("6b7b57f8-5765-11d0-92d9-00805f7c28b0"))
+IComPropertySheetEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnApply ( ) = 0;
+};
+
+struct __declspec(uuid("80a807ab-7bb9-11d0-87ec-080009ec732a"))
+IOperation : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_MenuString (
+        BSTR * text ) = 0;
+    virtual HRESULT __stdcall get_CanUndo (
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall get_CanRedo (
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall Do ( ) = 0;
+    virtual HRESULT __stdcall Undo ( ) = 0;
+    virtual HRESULT __stdcall Redo ( ) = 0;
+};
+
+struct __declspec(uuid("303ee675-3087-11d2-94c9-080009eebecb"))
+IOperationStack : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        long index,
+        struct IOperation * * operation ) = 0;
+    virtual HRESULT __stdcall Reset ( ) = 0;
+    virtual HRESULT __stdcall Do (
+        struct IOperation * operation ) = 0;
+    virtual HRESULT __stdcall Undo ( ) = 0;
+    virtual HRESULT __stdcall Redo ( ) = 0;
+    virtual HRESULT __stdcall get_UndoOperation (
+        struct IOperation * * operation ) = 0;
+    virtual HRESULT __stdcall get_RedoOperation (
+        struct IOperation * * operation ) = 0;
+    virtual HRESULT __stdcall Remove (
+        long index ) = 0;
+};
+
+struct __declspec(uuid("fc6732db-6295-4b39-b257-8c799ae20567"))
+IToolSelectedLayer : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_LayerIndex (
+        long LayerIndex ) = 0;
+    virtual HRESULT __stdcall get_LayerIndex (
+        long * LayerIndex ) = 0;
+};
+
+struct __declspec(uuid("623bf41c-3e34-4586-a729-c2e34cbe8fa9"))
+ISystemMouseCursor : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Load (
+        enum esriSystemMouseCursor mouseCursorType ) = 0;
+    virtual HRESULT __stdcall LoadFromFile (
+        BSTR fileName ) = 0;
+    virtual HRESULT __stdcall get_Cursor (
+        OLE_HANDLE * mouseCursor ) = 0;
+    virtual HRESULT __stdcall put_Cursor (
+        OLE_HANDLE mouseCursor ) = 0;
+};
+
+enum esriControlsAppearance
+{
+    esriFlat = 0,
+    esri3D = 1
+};
+
+enum esriControlsBorderStyle
+{
+    esriNoBorder = 0,
+    esriBorder = 1
+};
+
+enum esriControlsMousePointer
+{
+    esriPointerDefault = 0,
+    esriPointerArrow = 1,
+    esriPointerCrosshair = 2,
+    esriPointerIBeam = 3,
+    esriPointerIcon = 4,
+    esriPointerSize = 5,
+    esriPointerSizeNESW = 6,
+    esriPointerSizeNS = 7,
+    esriPointerSizeNWSE = 8,
+    esriPointerSizeWE = 9,
+    esriPointerUpArrow = 10,
+    esriPointerHourglass = 11,
+    esriPointerNoDrop = 12,
+    esriPointerArrowHourglass = 13,
+    esriPointerArrowQuestion = 14,
+    esriPointerSizeAll = 15,
+    esriPointerZoom = 50,
+    esriPointerZoomIn = 51,
+    esriPointerZoomOut = 52,
+    esriPointerPan = 53,
+    esriPointerPanning = 54,
+    esriPointerIdentify = 55,
+    esriPointerLabel = 56,
+    esriPointerHotLink = 57,
+    esriPointerPencil = 58,
+    esriPointerHand = 59,
+    esriPointerPageZoomIn = 60,
+    esriPointerPageZoomOut = 61,
+    esriPointerPagePan = 62,
+    esriPointerPagePanning = 63,
+    esriPointerCustom = 99
+};
+
+enum esriTipStyle
+{
+    esriTipStyleSolid = 0,
+    esriTipStyleTransparent = 1
+};
+
+enum esriControlsDragDropEffect
+{
+    esriDragDropNone = 0,
+    esriDragDropCopy = 1,
+    esriDragDropMove = 2,
+    esriDragDropLink = 4
+};
+
+enum esriControlsDropAction
+{
+    esriDropEnter = 0,
+    esriDropOver = 1,
+    esriDropLeave = 2,
+    esriDropped = 3
+};
+
+struct __declspec(uuid("e0ccbcb0-cd47-11d5-a9e6-00104bb6fc1c"))
+IDataObjectHelper : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall putref_InternalObject (
+        IUnknown * ppObject ) = 0;
+    virtual HRESULT __stdcall get_InternalObject (
+        IUnknown * * ppObject ) = 0;
+    virtual HRESULT __stdcall GetData (
+        long format,
+        VARIANT * pvData ) = 0;
+    virtual HRESULT __stdcall GetFormat (
+        long format,
+        VARIANT_BOOL * pbFormatSupported ) = 0;
+    virtual HRESULT __stdcall CanGetFiles (
+        VARIANT_BOOL * CanGetFiles ) = 0;
+    virtual HRESULT __stdcall GetFiles (
+        VARIANT * pvData ) = 0;
+    virtual HRESULT __stdcall CanGetNames (
+        VARIANT_BOOL * CanGetNames ) = 0;
+    virtual HRESULT __stdcall GetNames (
+        struct IEnumName * * ppNames ) = 0;
+};
+
+struct __declspec(uuid("e0ccbcb1-cd47-11d5-a9e6-00104bb6fc1c"))
+DataObjectHelper;
+    // [ default ] interface IUnknown
+    // interface IDataObjectHelper
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("14cb3146-6fdd-4b45-8759-0a297a4dad10"))
+ICommandHost : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetCommand (
+        VARIANT * commandInstance ) = 0;
+};
+
+struct __declspec(uuid("05e57adb-7785-4d48-b982-8255730a41e3"))
+ControlsOperationStack;
+    // [ default ] interface IUnknown
+    // interface IOperationStack
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("a318a696-3ed1-4775-a922-147e8c36d79d"))
+CommandHost;
+    // [ default ] interface IUnknown
+    // interface ICommandHost
+    // interface ICommand
+
+struct __declspec(uuid("60598c68-56ca-4a38-a2d4-328cb74dc665"))
+ToolHost;
+    // [ default ] interface IUnknown
+    // interface ICommandHost
+    // interface ICommand
+    // interface ITool
+
+struct __declspec(uuid("ef32cd1c-e37d-4524-b8d5-6d89d1e85bed"))
+ComPropertySheetEventsProxyHelper;
+    // [ default ] interface IUnknown
+    // [ default, source ] interface IComPropertySheetEvents
+
+enum esriKeyIntercept
+{
+    esriKeyInterceptNone = 0,
+    esriKeyInterceptArrowKeys = 1,
+    esriKeyInterceptAlt = 2,
+    esriKeyInterceptTab = 4,
+    esriKeyInterceptEnter = 8
+};
+
+struct __declspec(uuid("f130210c-5478-43de-8012-1c02ddd97ba1"))
+SystemFont;
+    // [ default ] interface IUnknown
+    // dispinterface Font
+    // interface IFont
+
+struct __declspec(uuid("cf0c4485-2091-4e5a-a64c-69e4b802f444"))
+SystemMouseCursor;
+    // [ default ] interface IUnknown
+    // interface ISystemMouseCursor
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriSystemUI =
+    {0x4ecca6e2,0xb16b,0x4aca,{0xbd,0x17,0xe7,0x4c,0xae,0x4c,0x15,0x0a}};
+extern "C" const GUID __declspec(selectany) IID_ICommand =
+    {0x36b06538,0x4437,0x11d1,{0xb9,0x70,0x08,0x00,0x09,0xee,0x4e,0x51}};
+extern "C" const GUID __declspec(selectany) IID_ICompletionNotify =
+    {0x12f412e9,0x2cbc,0x11d2,{0x94,0xc8,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IToolControl =
+    {0xe2287753,0x940f,0x11d0,{0x83,0x5b,0x08,0x00,0x09,0xb9,0x96,0xcc}};
+extern "C" const GUID __declspec(selectany) IID_ITool =
+    {0x2a6b0172,0x4ed2,0x11d0,{0x98,0xbe,0x00,0x80,0x5f,0x7c,0xed,0x21}};
+extern "C" const GUID __declspec(selectany) IID_IItemDef =
+    {0x857336bf,0xe12b,0x11d1,{0x94,0x95,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_ICommandSubType =
+    {0x5a141a5b,0xd096,0x11d1,{0xb9,0xa9,0x08,0x00,0x09,0xee,0x4e,0x51}};
+extern "C" const GUID __declspec(selectany) IID_IToolBarDef =
+    {0x61b318f0,0xcda0,0x11d1,{0xb9,0xa8,0x08,0x00,0x09,0xee,0x4e,0x51}};
+extern "C" const GUID __declspec(selectany) IID_IMenuDef =
+    {0x58e2c6a1,0xcd8d,0x11d1,{0x91,0xa7,0x00,0x80,0xc7,0x18,0xdf,0x97}};
+extern "C" const GUID __declspec(selectany) IID_IMultiItem =
+    {0xaf948931,0x11d1,0x11d2,{0x94,0xb4,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IMultiItemEx =
+    {0x1e29f387,0xf77a,0x42cc,{0xad,0x58,0x5f,0xb1,0xf5,0xf8,0xe1,0x1d}};
+extern "C" const GUID __declspec(selectany) IID_IComPropertySheetEvents =
+    {0x6b7b57f8,0x5765,0x11d0,{0x92,0xd9,0x00,0x80,0x5f,0x7c,0x28,0xb0}};
+extern "C" const GUID __declspec(selectany) IID_IOperation =
+    {0x80a807ab,0x7bb9,0x11d0,{0x87,0xec,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) IID_IOperationStack =
+    {0x303ee675,0x3087,0x11d2,{0x94,0xc9,0x08,0x00,0x09,0xee,0xbe,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IToolSelectedLayer =
+    {0xfc6732db,0x6295,0x4b39,{0xb2,0x57,0x8c,0x79,0x9a,0xe2,0x05,0x67}};
+extern "C" const GUID __declspec(selectany) IID_ISystemMouseCursor =
+    {0x623bf41c,0x3e34,0x4586,{0xa7,0x29,0xc2,0xe3,0x4c,0xbe,0x8f,0xa9}};
+extern "C" const GUID __declspec(selectany) IID_IDataObjectHelper =
+    {0xe0ccbcb0,0xcd47,0x11d5,{0xa9,0xe6,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) CLSID_DataObjectHelper =
+    {0xe0ccbcb1,0xcd47,0x11d5,{0xa9,0xe6,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) IID_ICommandHost =
+    {0x14cb3146,0x6fdd,0x4b45,{0x87,0x59,0x0a,0x29,0x7a,0x4d,0xad,0x10}};
+extern "C" const GUID __declspec(selectany) CLSID_ControlsOperationStack =
+    {0x05e57adb,0x7785,0x4d48,{0xb9,0x82,0x82,0x55,0x73,0x0a,0x41,0xe3}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandHost =
+    {0xa318a696,0x3ed1,0x4775,{0xa9,0x22,0x14,0x7e,0x8c,0x36,0xd7,0x9d}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolHost =
+    {0x60598c68,0x56ca,0x4a38,{0xa2,0xd4,0x32,0x8c,0xb7,0x4d,0xc6,0x65}};
+extern "C" const GUID __declspec(selectany) CLSID_ComPropertySheetEventsProxyHelper =
+    {0xef32cd1c,0xe37d,0x4524,{0xb8,0xd5,0x6d,0x89,0xd1,0xe8,0x5b,0xed}};
+extern "C" const GUID __declspec(selectany) CLSID_SystemFont =
+    {0xf130210c,0x5478,0x43de,{0x80,0x12,0x1c,0x02,0xdd,0xd9,0x7b,0xa1}};
+extern "C" const GUID __declspec(selectany) CLSID_SystemMouseCursor =
+    {0xcf0c4485,0x2091,0x4e5a,{0xa6,0x4c,0x69,0xe4,0xb8,0x02,0xf4,0x44}};
+
+#pragma pack(pop)

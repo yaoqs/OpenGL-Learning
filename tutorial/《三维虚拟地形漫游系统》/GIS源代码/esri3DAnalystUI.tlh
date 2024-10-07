@@ -1,0 +1,268 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (9313a756).
+//
+// esri3DAnalystUI.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/com/esri3DAnalystUI.olb
+// compiler-generated file created 01/08/07 at 20:58:35 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriCarto.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriDisplay.olb"
+//  #import "D:\Program Files\ArcGIS\com\esri3DAnalyst.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriFramework.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriOutput.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriGeometry.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("3e545022-abf3-11d2-b230-00c04f8edeff"))
+/* interface */ IGxWorldView;
+struct __declspec(uuid("94305473-592e-11d4-80ee-00c04fa0adf8"))
+/* interface */ IDddEnvironment;
+struct __declspec(uuid("6662a464-6a59-11d4-80f2-00c04fa0adf8"))
+/* interface */ IGxSceneFilter;
+struct __declspec(uuid("2d73b142-8f1c-11d4-a10f-00508bd60cb9"))
+/* interface */ IDDDToolbarEnvironment;
+struct /* coclass */ DddEnvironment;
+struct /* coclass */ DDDToolbarEnvironment;
+struct /* coclass */ GxFilterSurfaceDatasets;
+struct /* coclass */ GxFilterSceneDatasets;
+struct __declspec(uuid("eb993564-335c-11d4-9b87-00c04fa33299"))
+/* interface */ ISceneExport2dDialog;
+struct __declspec(uuid("f0240595-3459-43ba-8eba-44d133c094c6"))
+/* interface */ ISceneExportFile2dDialog;
+struct /* coclass */ SceneExport2dDialog;
+struct /* coclass */ SceneExportFile2dDialog;
+struct __declspec(uuid("500c8bec-37e5-11d4-a167-444553547777"))
+/* interface */ ISceneExport3dDialog;
+struct /* coclass */ SceneExport3dDialog;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IGxWorldView, __uuidof(IGxWorldView));
+_COM_SMARTPTR_TYPEDEF(IDddEnvironment, __uuidof(IDddEnvironment));
+_COM_SMARTPTR_TYPEDEF(IGxSceneFilter, __uuidof(IGxSceneFilter));
+_COM_SMARTPTR_TYPEDEF(IDDDToolbarEnvironment, __uuidof(IDDDToolbarEnvironment));
+_COM_SMARTPTR_TYPEDEF(ISceneExport2dDialog, __uuidof(ISceneExport2dDialog));
+_COM_SMARTPTR_TYPEDEF(ISceneExportFile2dDialog, __uuidof(ISceneExportFile2dDialog));
+_COM_SMARTPTR_TYPEDEF(ISceneExport3dDialog, __uuidof(ISceneExport3dDialog));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("3e545022-abf3-11d2-b230-00c04f8edeff"))
+IGxWorldView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_IsDisplayingScene (
+        VARIANT_BOOL * pbIsScene ) = 0;
+    virtual HRESULT __stdcall get_DisplayedLayer (
+        struct ILayer * * layer ) = 0;
+    virtual HRESULT __stdcall get_MapDisplay (
+        struct IScreenDisplay * * screenDisplay ) = 0;
+    virtual HRESULT __stdcall GetScreenShot (
+        long * * pBitmap,
+        long * * pInfo ) = 0;
+    virtual HRESULT __stdcall GetCamera (
+        struct ICamera * * pCamera ) = 0;
+    virtual HRESULT __stdcall GetSceneGraph (
+        struct ISceneGraph * * ppSceneGraph ) = 0;
+    virtual HRESULT __stdcall GetSceneViewer (
+        struct ISceneViewer * * ppSceneViewer ) = 0;
+};
+
+struct __declspec(uuid("94305473-592e-11d4-80ee-00c04fa0adf8"))
+IDddEnvironment : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Parent (
+        struct IApplication * * application ) = 0;
+    virtual HRESULT __stdcall putref_Display3D (
+        struct IDisplay3D * display ) = 0;
+    virtual HRESULT __stdcall get_Display3D (
+        struct IDisplay3D * * display ) = 0;
+    virtual HRESULT __stdcall GetRasterSettings (
+        IUnknown * * ppRasterSettings ) = 0;
+};
+
+struct __declspec(uuid("6662a464-6a59-11d4-80f2-00c04fa0adf8"))
+IGxSceneFilter : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Scene (
+        struct IScene * _arg1 ) = 0;
+};
+
+struct __declspec(uuid("2d73b142-8f1c-11d4-a10f-00508bd60cb9"))
+IDDDToolbarEnvironment : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_CurrentSelectedLayer (
+        struct ILayer * * ppLayer ) = 0;
+    virtual HRESULT __stdcall putref_CurrentSelectedLayer (
+        struct ILayer * ppLayer ) = 0;
+};
+
+struct __declspec(uuid("94305472-592e-11d4-80ee-00c04fa0adf8"))
+DddEnvironment;
+    // [ default ] interface IUnknown
+    // interface IDddEnvironment
+    // interface IExtension
+    // interface IExtensionConfig
+    // interface IExtensionManager
+    // interface IPersistStream
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("2d73b143-8f1c-11d4-a10f-00508bd60cb9"))
+DDDToolbarEnvironment;
+    // [ default ] interface IUnknown
+    // interface IDDDToolbarEnvironment
+
+struct __declspec(uuid("8ece5105-407d-11d4-a385-00c04f6bc619"))
+GxFilterSurfaceDatasets;
+    // [ default ] interface IUnknown
+    // interface IGxObjectFilter
+
+struct __declspec(uuid("6662a463-6a59-11d4-80f2-00c04fa0adf8"))
+GxFilterSceneDatasets;
+    // [ default ] interface IUnknown
+    // interface IGxObjectFilter
+    // interface IGxSceneFilter
+
+struct __declspec(uuid("eb993564-335c-11d4-9b87-00c04fa33299"))
+ISceneExport2dDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Exporter (
+        struct IExporter * * ppExporter ) = 0;
+    virtual HRESULT __stdcall get_SceneSize (
+        double * pSceneSize ) = 0;
+    virtual HRESULT __stdcall put_DocumentName (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        struct IEnvelope * pPixelBounds,
+        short res,
+        VARIANT_BOOL * ok ) = 0;
+    virtual HRESULT __stdcall get_MapExtent (
+        struct IEnvelope * * MapExtent ) = 0;
+    virtual HRESULT __stdcall put_MapExtent (
+        struct IEnvelope * MapExtent ) = 0;
+};
+
+struct __declspec(uuid("f0240595-3459-43ba-8eba-44d133c094c6"))
+ISceneExportFile2dDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Export (
+        struct IExport * * ppExport ) = 0;
+    virtual HRESULT __stdcall get_SceneSize (
+        double * pSceneSize ) = 0;
+    virtual HRESULT __stdcall put_DocumentName (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        struct IEnvelope * pPixelBounds,
+        double res,
+        VARIANT_BOOL * ok ) = 0;
+    virtual HRESULT __stdcall get_MapExtent (
+        struct IEnvelope * * MapExtent ) = 0;
+    virtual HRESULT __stdcall put_MapExtent (
+        struct IEnvelope * MapExtent ) = 0;
+};
+
+struct __declspec(uuid("eb993569-335c-11d4-9b87-00c04fa33299"))
+SceneExport2dDialog;
+    // [ default ] interface IUnknown
+    // interface ISceneExport2dDialog
+
+struct __declspec(uuid("04516169-87e8-49cd-b75f-9daba16bc2af"))
+SceneExportFile2dDialog;
+    // [ default ] interface IUnknown
+    // interface ISceneExportFile2dDialog
+
+struct __declspec(uuid("500c8bec-37e5-11d4-a167-444553547777"))
+ISceneExport3dDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_SceneExporter3d (
+        struct ISceneExporter3d * * ppSceneExporter3d ) = 0;
+    virtual HRESULT __stdcall put_DocumentName (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall DoModal (
+        VARIANT_BOOL * ok ) = 0;
+};
+
+struct __declspec(uuid("500c8bee-37e5-11d4-a167-444553547777"))
+SceneExport3dDialog;
+    // [ default ] interface IUnknown
+    // interface ISceneExport3dDialog
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esri3DAnalystUI =
+    {0x6f3ebef8,0xd39d,0x11d2,{0xb1,0xf5,0x00,0xc0,0x4f,0xa3,0x3d,0x14}};
+extern "C" const GUID __declspec(selectany) IID_IGxWorldView =
+    {0x3e545022,0xabf3,0x11d2,{0xb2,0x30,0x00,0xc0,0x4f,0x8e,0xde,0xff}};
+extern "C" const GUID __declspec(selectany) IID_IDddEnvironment =
+    {0x94305473,0x592e,0x11d4,{0x80,0xee,0x00,0xc0,0x4f,0xa0,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_IGxSceneFilter =
+    {0x6662a464,0x6a59,0x11d4,{0x80,0xf2,0x00,0xc0,0x4f,0xa0,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_IDDDToolbarEnvironment =
+    {0x2d73b142,0x8f1c,0x11d4,{0xa1,0x0f,0x00,0x50,0x8b,0xd6,0x0c,0xb9}};
+extern "C" const GUID __declspec(selectany) CLSID_DddEnvironment =
+    {0x94305472,0x592e,0x11d4,{0x80,0xee,0x00,0xc0,0x4f,0xa0,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) CLSID_DDDToolbarEnvironment =
+    {0x2d73b143,0x8f1c,0x11d4,{0xa1,0x0f,0x00,0x50,0x8b,0xd6,0x0c,0xb9}};
+extern "C" const GUID __declspec(selectany) CLSID_GxFilterSurfaceDatasets =
+    {0x8ece5105,0x407d,0x11d4,{0xa3,0x85,0x00,0xc0,0x4f,0x6b,0xc6,0x19}};
+extern "C" const GUID __declspec(selectany) CLSID_GxFilterSceneDatasets =
+    {0x6662a463,0x6a59,0x11d4,{0x80,0xf2,0x00,0xc0,0x4f,0xa0,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_ISceneExport2dDialog =
+    {0xeb993564,0x335c,0x11d4,{0x9b,0x87,0x00,0xc0,0x4f,0xa3,0x32,0x99}};
+extern "C" const GUID __declspec(selectany) IID_ISceneExportFile2dDialog =
+    {0xf0240595,0x3459,0x43ba,{0x8e,0xba,0x44,0xd1,0x33,0xc0,0x94,0xc6}};
+extern "C" const GUID __declspec(selectany) CLSID_SceneExport2dDialog =
+    {0xeb993569,0x335c,0x11d4,{0x9b,0x87,0x00,0xc0,0x4f,0xa3,0x32,0x99}};
+extern "C" const GUID __declspec(selectany) CLSID_SceneExportFile2dDialog =
+    {0x04516169,0x87e8,0x49cd,{0xb7,0x5f,0x9d,0xab,0xa1,0x6b,0xc2,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_ISceneExport3dDialog =
+    {0x500c8bec,0x37e5,0x11d4,{0xa1,0x67,0x44,0x45,0x53,0x54,0x77,0x77}};
+extern "C" const GUID __declspec(selectany) CLSID_SceneExport3dDialog =
+    {0x500c8bee,0x37e5,0x11d4,{0xa1,0x67,0x44,0x45,0x53,0x54,0x77,0x77}};
+
+#pragma pack(pop)

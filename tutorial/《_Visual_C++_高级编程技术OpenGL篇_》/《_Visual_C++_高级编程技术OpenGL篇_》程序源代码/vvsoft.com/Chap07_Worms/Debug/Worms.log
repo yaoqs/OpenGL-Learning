@@ -1,0 +1,22 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  worms.c
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(86,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(87,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(88,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(110,52): warning C4305: “函数”: 从“double”到“float”截断
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(119,3): warning C4002: 类函数宏的调用“srand48”参数过多
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(119,3): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(127,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(134,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(135,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(140,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(203,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(206,19): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(208,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(209,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(214,25): warning C4305: “=”: 从“double”到“float”截断
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(216,25): warning C4305: “=”: 从“double”到“float”截断
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(218,24): warning C4305: “=”: 从“double”到“float”截断
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(241,58): warning C4305: “函数”: 从“double”到“float”截断
+G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\worms.c(249,9): warning C4305: “函数”: 从“double”到“float”截断
+  Worms.vcxproj -> G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap07_Worms\Debug\Worms.exe

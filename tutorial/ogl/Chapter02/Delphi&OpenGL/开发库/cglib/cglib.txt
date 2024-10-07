@@ -1,0 +1,83 @@
+  CgLib v1.20
+*************** (c) 1998-2000 Tom Nuydens
+                mail : delphi3d@gamedeveloper.org
+                URL  : www.gamedeveloper.org/delphi3d
+
+CgLib, short for Computer Graphics LIBrary, is a set of data
+structures and utility routines to facilitate the development
+of OpenGL applications.
+Features include window management, geometry routines, 3D object
+and scene data structures with full file support, a custom
+bitmap format for images and textures...
+
+Version History:
+-1.20: Finally got around to fixing the lighting/normals problem
+       in CgObject.
+-1.10: Fixed a bug that caused textures to be downsampled to
+       16 bpp by the GL. Added TCGTextureObject class for fast
+       texture mapping.
+-1.00: Added cgChangeRes() to switch display resolution. Renamed
+       cgDisplayMode to cgBufferConfig for clarity's sake. Sorry
+       about this! Updated documentation.
+-0.97: Added some routines to CgGeometry.pas.
+-0.96: Added some useful procedures: TCGImage.LoadJPEG()and some
+       more timing routines to CgUtils. Also updated the docs.
+-0.95: Removed all dependencies on Math.pas.
+-0.94: TCGObject now stores precalculated face normals. Another
+       desparate attempt to fix the bugs in the lighting, but to
+       no avail. I'm still leaving it in because it could be
+       handy.
+-0.93: Made everything Delphi 4 compatible.
+-0.92: Added camera and viewing volume/perspective options to
+       TCGScene. Updated file support to reflect the changes.
+-0.91: Fixed some minor problems that popped up while I was
+       working on the documentation.
+-0.90: Finished TCGScene file support.
+-0.88: I added the first signs of file support to TCGScene. Not
+       exactly what I'd call finished, but it's a start. At
+       least the file format is now definite.
+-0.86: A few more minor bug fixes. TCGTextures now correctly
+       sets its properties when switching from another texture.
+       cgTimeElapsed returns a Single instead of a Cardinal, for
+       precision. TCGScene now has a Render method (I forgot
+       about that in version 0.85).
+-0.85: Started the implementation of a 3D scene object, which
+       currently encapsulates fog, lights, lighting model and an
+       object array. No file support yet.
+-0.80: Added material and texture libraries. Texture libraries
+       haven't been tested yet, though. I also got started on
+       some utilities (not included) to aid in the creation of
+       the various file formats.
+-0.76: Started file support for TCGObject. Found some more bugs
+       related to the introduction of TDArray. I'll have to
+       redo some code here and there. I also did some cleaning
+       up here and there. The code is getting messy in some
+       places. I also debugged most of the geometry routines and
+       even added one or two. I got started on primitive
+       creation functions, but my first attempt (cones) seems to
+       need a little work.
+-0.75: Version 0.70 introduced some problems in classes that
+       used to be based on TBaseArray. I think I fixed most of
+       them. Started display mode support for TCGForm and
+       TCGDeviceContext.
+-0.70: Removed all references to TBaseArray to enlarge my target
+       audience. I now have a DArrays unit which also implements
+       a dynamically resizable array. Also added a unit with
+       debugging/performance utilities. Most importantly, I got
+       started on the 3D object structures.
+-0.60: Added lighting class, more geometry, and some classes for
+       scene global settings. Also implemented a device context
+       front-end class (untested!). Ditched the idea of plugin
+       renderers. OpenGL rules.
+-0.50: First public release. Windowing, images and textures, a
+       bit of geometry. Mostly untested.
+
+Disclaimer:
+You are free to distribute this package, as long as all files
+are included and unmodified. More importantly, I am not
+responsible for what this library can and will do to your
+system. Use it at your own risk.
+If you use CgLib in your own applications, let me know. Please
+give me credit if you distribute any programs using CgLib.
+
+  Tom Nuydens (delphi3d@gamedeveloper.org)

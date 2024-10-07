@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ASELoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ASELoader.res" /d "_DEBUG" /d "_AFXDLL" "D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\ASELoader.rc"" 
+Creating temporary file "C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP26.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ASELoader.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\ASELoader.cpp"
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\ASELoaderDoc.cpp"
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\ASELoaderView.cpp"
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\AseReader.cpp"
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP26.tmp" 
+Creating temporary file "C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ASELoader.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\学习\源代码\OpenGL学习\ogl\Chapter03\OtherLoader\ASELoader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ASELoader.pdb" /debug /machine:I386 /out:"Debug/ASELoader.exe" /pdbtype:sept 
+".\Debug\ASELoader.obj"
+".\Debug\ASELoaderDoc.obj"
+".\Debug\ASELoaderView.obj"
+".\Debug\AseReader.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ASELoader.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP28.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ASELoader.cpp
+ASELoaderDoc.cpp
+ASELoaderView.cpp
+AseReader.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ASELoader.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

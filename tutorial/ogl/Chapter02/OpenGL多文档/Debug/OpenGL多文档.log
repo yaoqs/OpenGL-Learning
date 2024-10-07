@@ -1,0 +1,35 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  OpenGL多文档Aw.cpp
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(14): error C2504: “CCustomAppWiz”: 未定义基类
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2433: “COpenGLAppWiz::CAppWizStepDlg”: 不允许在数据声明中使用“virtual”
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2238: 意外的标记位于“;”之前
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(20): error C2061: 语法错误: 标识符“IBuildProject”
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(18): error C3861: “SetNumberOfSteps”: 找不到标识符
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(21): error C2065: “m_Dictionary”: 未声明的标识符
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(33): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(33): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(33): error C2039: “Next”: 不是“COpenGLAppWiz”的成员
+  g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(13): note: 参见“COpenGLAppWiz”的声明
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(33): error C2065: “pDlg”: 未声明的标识符
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(34): error C2448: “Next”: 函数样式初始值设定项类似函数定义
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(65): error C2065: “IBuildProject”: 未声明的标识符
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(65): error C2065: “pProject”: 未声明的标识符
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(65): error C2761: “void COpenGLAppWiz::CustomizeProject(void)”: 不允许重新声明成员
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.cpp(66): error C2448: “COpenGLAppWiz::CustomizeProject”: 函数样式初始值设定项类似函数定义
+  OpenGL多文档.cpp
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(14): error C2504: “CCustomAppWiz”: 未定义基类
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2433: “COpenGLAppWiz::CAppWizStepDlg”: 不允许在数据声明中使用“virtual”
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(16): error C2238: 意外的标记位于“;”之前
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档aw.h(20): error C2061: 语法错误: 标识符“IBuildProject”
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\opengl多文档.cpp(30): error C3861: “SetCustomAppWizClass”: 找不到标识符
+  Debug.cpp
+g:\opengl学习源代码\ogl\chapter02\opengl多文档\debug.cpp(66): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1465): note: 参见“vsprintf”的声明
+  正在生成代码...

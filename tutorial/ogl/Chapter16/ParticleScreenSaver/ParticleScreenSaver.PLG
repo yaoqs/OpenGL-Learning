@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ParticleScreenSaver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ParticleScreenSaver.pdb" /debug /machine:I386 /out:"Debug/ParticleScreenSaver.exe" /pdbtype:sept 
+".\Debug\ParticleScreenSaver.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\GHL\LOCALS~1\Temp\RSP36.tmp"
+<h3>Output Window</h3>
+Linking...
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glVertex3d@24
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2d@16
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glDepthMask@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glBlendFunc@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol _gluBuild2DMipmaps@28
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glTexParameteri@12
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glGenTextures@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol _gluPerspective@32
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glViewport@16
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glFlush@0
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol _gluLookAt@72
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__wglDeleteContext@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glHint@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glDepthFunc@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glClearDepth@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__wglMakeCurrent@8
+ParticleScreenSaver.obj : error LNK2001: unresolved external symbol __imp__wglCreateContext@4
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/ParticleScreenSaver.exe : fatal error LNK1120: 35 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+ParticleScreenSaver.exe - 36 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

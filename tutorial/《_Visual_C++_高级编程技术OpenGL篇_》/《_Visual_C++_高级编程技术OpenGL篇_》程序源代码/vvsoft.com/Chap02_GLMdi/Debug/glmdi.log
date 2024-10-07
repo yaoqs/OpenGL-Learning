@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  glmdiView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_glmdi\glmdiview.cpp(894): warning C4700: 使用了未初始化的局部变量“temp”
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_glmdi\glmdiview.cpp(910): warning C4700: 使用了未初始化的局部变量“temp”
+ChildFrm.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  glmdi.vcxproj -> G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap02_GLMdi\.\Debug\glmdi.exe

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyCollision2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyCollision2.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\MyCollision2.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyCollision2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\MainFrm.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\MyCollision2.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\MyCollision2Doc.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\MyCollision2View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyCollision2.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter09\MyCollision2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFE.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyCollision2.pdb" /debug /machine:I386 /out:"Debug/MyCollision2.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\MyCollision2.obj"
+".\Debug\MyCollision2Doc.obj"
+".\Debug\MyCollision2View.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyCollision2.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyCollision2.cpp
+MyCollision2Doc.cpp
+MyCollision2View.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyCollision2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyPick1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyPick1.pdb" /machine:I386 /out:"Release/MyPick1.exe" 
+".\Release\LoadOBJ.obj"
+".\Release\MainFrm.obj"
+".\Release\MyPick1.obj"
+".\Release\MyPick1Doc.obj"
+".\Release\MyPick1View.obj"
+".\Release\MyTexture.obj"
+".\Release\StdAfx.obj"
+".\Release\MyPick1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBE.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+MyPick1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

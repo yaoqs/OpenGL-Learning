@@ -1,0 +1,119 @@
+﻿  glm.cpp
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(174): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(220): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(247): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(130): note: 参见“strcpy”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(248): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(91): note: 参见“strcat”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(261): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(270): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(301): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(305): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(313): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(315): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(318): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(326): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(332): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(338): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(377): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(408): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(409): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(428): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(433): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(434): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(437): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(441): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(443): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(444): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(447): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(451): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(457): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(463): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(464): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(467): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(527): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(536): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(543): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(550): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(559): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(575): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(579): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(582): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(585): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(590): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(605): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(609): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(615): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(628): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(632): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(635): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(640): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(652): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(2240): note: 参见“sscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(654): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(656): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(660): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1199): note: 参见“fscanf”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(1224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap06_terrain\glm.cpp(1233): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(532): note: 参见“strdup”的声明
+DlgAbout.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Tool.vcxproj -> G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap06_Terrain\.\Debug\Tool.exe

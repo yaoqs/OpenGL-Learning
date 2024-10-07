@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyBomb - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyBomb.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\MyBomb.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyBomb.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\MainFrm.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\MyBomb.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\MyBombDoc.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\MyBombView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyBomb.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyBomb\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E4.tmp" with contents
+[
+glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyBomb.pdb" /debug /machine:I386 /out:"Debug/MyBomb.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\MyBomb.obj"
+".\Debug\MyBombDoc.obj"
+".\Debug\MyBombView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyBomb.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyBomb.cpp
+MyBombDoc.cpp
+MyBombView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyBomb.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

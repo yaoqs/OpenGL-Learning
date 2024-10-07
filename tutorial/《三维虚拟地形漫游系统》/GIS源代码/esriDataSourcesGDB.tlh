@@ -1,0 +1,111 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (fa09a8eb).
+//
+// esriDataSourcesGDB.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGIS/com/esriDataSourcesGDB.olb
+// compiler-generated file created 01/08/07 at 20:58:35 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ AccessWorkspaceFactory;
+struct /* coclass */ ScratchWorkspaceFactory;
+struct /* coclass */ SdeWorkspaceFactory;
+struct /* coclass */ Sde4Workspace;
+struct /* coclass */ Sde3Workspace;
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("dd48c96a-d92a-11d1-aa81-00c04fa33a15"))
+AccessWorkspaceFactory;
+    // [ default ] interface IUnknown
+    // interface IWorkspaceFactory
+    // interface IWorkspaceFactory2
+    // interface ILocalDatabaseCompact
+
+struct __declspec(uuid("06dc8e4c-951c-11d2-ae75-080009ec732a"))
+ScratchWorkspaceFactory;
+    // [ default ] interface IUnknown
+    // interface IScratchWorkspaceFactory
+    // interface IScratchWorkspaceFactory2
+
+struct __declspec(uuid("d9b4fa40-d6d9-11d1-aa81-00c04fa33a15"))
+SdeWorkspaceFactory;
+    // [ default ] interface IUnknown
+    // interface IWorkspaceFactory
+    // interface IRemoteDatabaseWorkspaceFactory
+    // interface ISetDefaultConnectionInfo
+    // interface IWorkspaceFactory2
+    // interface ISupportErrorInfo
+    // interface ISetDefaultConnectionInfo2
+    // interface IWorkspaceFactorySchemaCache
+    // interface IWorkspaceFactoryStatus
+
+struct __declspec(uuid("977c9b25-9b31-11d0-9ce2-0080c79f698f"))
+Sde4Workspace;
+    // [ default ] interface IUnknown
+    // interface IWorkspace
+    // interface IWorkspace2
+    // interface IRemoteDatabaseWorkspace
+    // interface IFeatureWorkspace
+    // interface IDatabaseConnectionInfo
+    // interface IDataset
+    // interface IDatasetContainer
+    // interface IFeatureWorkspaceAnno
+    // interface IFeatureWorkspaceManage
+    // interface IFeatureWorkspaceManage2
+    // interface IFeatureWorkspaceSchemaEdit
+    // interface IGeodatabaseRelease
+    // interface INetworkWorkspace
+    // interface INetworkWorkspace2
+    // interface ITopologyWorkspace
+    // interface ISQLSyntax
+    // interface ISupportErrorInfo
+    // interface ITransactions
+    // interface ITransactionsOptions
+    // interface IVersionedWorkspace
+    // interface IWorkspaceConfiguration
+    // interface IWorkspaceDomains
+    // interface IWorkspaceDomains2
+    // interface IWorkspaceSpatialReferenceInfo
+    // interface IRasterWorkspaceEx
+
+struct __declspec(uuid("156ebb05-1488-11d3-9f40-00c04f6bddd9"))
+Sde3Workspace;
+    // [ default ] interface IUnknown
+    // interface IWorkspace
+    // interface IRemoteDatabaseWorkspace
+    // interface IFeatureWorkspace
+    // interface IDataset
+    // interface ISQLSyntax
+    // interface ISupportErrorInfo
+    // interface ITransactions
+    // interface ITransactionsOptions
+    // interface IWorkspaceProperties
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriDataSourcesGDB =
+    {0x4a037613,0x879a,0x484d,{0xaf,0x82,0x08,0x02,0x94,0x7c,0x62,0x7b}};
+extern "C" const GUID __declspec(selectany) CLSID_AccessWorkspaceFactory =
+    {0xdd48c96a,0xd92a,0x11d1,{0xaa,0x81,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_ScratchWorkspaceFactory =
+    {0x06dc8e4c,0x951c,0x11d2,{0xae,0x75,0x08,0x00,0x09,0xec,0x73,0x2a}};
+extern "C" const GUID __declspec(selectany) CLSID_SdeWorkspaceFactory =
+    {0xd9b4fa40,0xd6d9,0x11d1,{0xaa,0x81,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_Sde4Workspace =
+    {0x977c9b25,0x9b31,0x11d0,{0x9c,0xe2,0x00,0x80,0xc7,0x9f,0x69,0x8f}};
+extern "C" const GUID __declspec(selectany) CLSID_Sde3Workspace =
+    {0x156ebb05,0x1488,0x11d3,{0x9f,0x40,0x00,0xc0,0x4f,0x6b,0xdd,0xd9}};
+
+#pragma pack(pop)

@@ -1,0 +1,17 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Views.c
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(35): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(229): warning C4101: “tmp”: 未引用的局部变量
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(228): warning C4101: “j”: 未引用的局部变量
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(228): warning C4101: “i”: 未引用的局部变量
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(227): warning C4101: “fp”: 未引用的局部变量
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(262): warning C4305: “函数”: 从“double”到“GLclampf”截断
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(268): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(296): warning C4305: “函数”: 从“double”到“GLclampf”截断
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(301): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(329): warning C4305: “函数”: 从“double”到“GLclampf”截断
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(334): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(401): warning C4244: “函数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\程序\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap02_multiview\views.c(416): warning C4244: “函数”: 从“double”转换到“GLfloat”，可能丢失数据
+Views.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  MultiView.vcxproj -> F:\程序\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap02_MultiView\.\Debug\MultiView.exe

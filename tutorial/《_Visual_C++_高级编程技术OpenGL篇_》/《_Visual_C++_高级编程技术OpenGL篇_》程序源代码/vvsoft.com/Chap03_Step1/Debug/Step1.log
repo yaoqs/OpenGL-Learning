@@ -1,0 +1,13 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Step1View.cpp
+  Step1Doc.cpp
+  Step1.cpp
+g:\opengl学习源代码\ogldl\《_visual_c++_高级编程技术opengl篇_》\《_visual_c++_高级编程技术opengl篇_》程序源代码\vvsoft.com\chap03_step1\step1.cpp(60): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(5229): note: 参见“CWinApp::Enable3dControls”的声明
+  MainFrm.cpp
+  正在生成代码...
+MainFrm.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Step1.vcxproj -> G:\OpenGL学习源代码\OGLDL\《_Visual_C++_高级编程技术OpenGL篇_》\《_Visual_C++_高级编程技术OpenGL篇_》程序源代码\vvsoft.com\Chap03_Step1\.\Debug\Step1.exe

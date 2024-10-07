@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Tool.res" /d "NDEBUG" "D:\Important\OGLForQiao\Program\Terrain\Tool.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB061.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fo"Release/" "StdAfx.h" /c 
+"D:\Important\OGLForQiao\Program\Terrain\DlgAbout.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\FormCommandView.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\glm.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\MainFrm.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\RenderView.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\Tool.cpp"
+"D:\Important\OGLForQiao\Program\Terrain\ToolDoc.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB061.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB062.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Tool.pch" /Yc"stdafx.h" /Fo"Release/" "StdAfx.h" /c 
+"D:\Important\OGLForQiao\Program\Terrain\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB062.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB063.TMP" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Tool.pdb" /machine:I386 /out:"Release/Tool.exe" 
+.\Release\DlgAbout.obj
+.\Release\FormCommandView.obj
+.\Release\glm.obj
+.\Release\MainFrm.obj
+.\Release\RenderView.obj
+.\Release\StdAfx.obj
+.\Release\Tool.obj
+.\Release\ToolDoc.obj
+.\Release\Tool.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB063.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Command line warning D4024 : unrecognized source file type 'StdAfx.h', object file assumed
+Command line warning D4027 : source file 'StdAfx.h' ignored
+StdAfx.cpp
+Compiling...
+Command line warning D4024 : unrecognized source file type 'StdAfx.h', object file assumed
+Command line warning D4027 : source file 'StdAfx.h' ignored
+DlgAbout.cpp
+FormCommandView.cpp
+glm.cpp
+MainFrm.cpp
+RenderView.cpp
+Tool.cpp
+ToolDoc.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Tool.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

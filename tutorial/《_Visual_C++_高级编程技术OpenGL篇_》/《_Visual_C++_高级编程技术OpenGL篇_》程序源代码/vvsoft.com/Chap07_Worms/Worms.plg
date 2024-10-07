@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Worms - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP1190.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Worms.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1190.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1191.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glaux.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Worms.pdb" /machine:I386 /out:"Release/Worms.exe" 
+.\Release\worms.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1191.TMP"
+<h3>Output Window</h3>
+Compiling...
+worms.c
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(86) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(87) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(88) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(110) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(119) : warning C4002: too many actual parameters for macro 'srand48'
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(127) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(134) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(135) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(140) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(203) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(206) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(208) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(209) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(214) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(216) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(218) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(241) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\Chap07_Worms\worms.c(249) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+Linking...
+
+
+
+<h3>Results</h3>
+Worms.exe - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MultiView - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPC392.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/MultiView.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Important\OGLForQiao\Program\MultiView\Views.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC392.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC393.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/MultiView.pdb" /machine:I386 /out:"Release/MultiView.exe" 
+.\Release\Views.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC393.TMP"
+<h3>Output Window</h3>
+Compiling...
+Views.c
+D:\Important\OGLForQiao\Program\MultiView\Views.c(30) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(30) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(224) : warning C4101: 'tmp' : unreferenced local variable
+D:\Important\OGLForQiao\Program\MultiView\Views.c(223) : warning C4101: 'i' : unreferenced local variable
+D:\Important\OGLForQiao\Program\MultiView\Views.c(223) : warning C4101: 'j' : unreferenced local variable
+D:\Important\OGLForQiao\Program\MultiView\Views.c(222) : warning C4101: 'fp' : unreferenced local variable
+D:\Important\OGLForQiao\Program\MultiView\Views.c(251) : warning C4028: formal parameter 1 different from declaration
+D:\Important\OGLForQiao\Program\MultiView\Views.c(257) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(257) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(257) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(263) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\MultiView\Views.c(291) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(291) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(291) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(296) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\MultiView\Views.c(324) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(324) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+D:\Important\OGLForQiao\Program\MultiView\Views.c(329) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\MultiView\Views.c(396) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+D:\Important\OGLForQiao\Program\MultiView\Views.c(411) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+MultiView.exe - 0 error(s), 20 warning(s)
+</pre>
+</body>
+</html>

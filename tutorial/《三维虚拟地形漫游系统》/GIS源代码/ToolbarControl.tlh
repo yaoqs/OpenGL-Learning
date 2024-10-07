@@ -1,0 +1,521 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (58d66de6).
+//
+// ToolbarControl.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/bin/ToolbarControl.ocx
+// compiler-generated file created 01/08/07 at 20:58:34 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriSystemUI.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriSystem.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("85490941-3a6a-47c4-8e42-7f6997534ddf"))
+/* interface */ ICommandPool;
+struct __declspec(uuid("d92bcf03-4308-11d6-aa0e-00104bb6fc1c"))
+/* interface */ IToolbarItem;
+struct __declspec(uuid("e8f2ab83-e93b-4529-82f6-34b8e4544b9e"))
+/* interface */ IToolbarMenu;
+struct __declspec(uuid("cbb44409-c9b4-400b-be35-446516674392"))
+/* interface */ ICommandPoolEdit;
+struct __declspec(uuid("b7d4358d-3cbc-11d6-aa09-00104bb6fc1c"))
+/* dual interface */ IToolbarControl;
+struct __declspec(uuid("d959783f-b033-4a0c-966b-db90fe45bee5"))
+/* dispinterface */ IToolbarControlDefault;
+struct __declspec(uuid("b7d4358f-3cbc-11d6-aa09-00104bb6fc1c"))
+/* dispinterface */ IToolbarControlEvents;
+struct __declspec(uuid("cb254751-2ffb-4a2e-9dd5-ffbb58505224"))
+/* interface */ IMissingCommand;
+struct __declspec(uuid("16f2d139-2810-4241-b495-b7d1539cec64"))
+/* interface */ ICustomizeDialog;
+struct __declspec(uuid("6f4ba70a-55c1-4061-a29a-f2bd9c6a0b61"))
+/* interface */ ICustomizeDialogEvents;
+struct __declspec(uuid("d00f1736-7a95-4f5e-b54f-e2863c425dc3"))
+/* interface */ IToolbarBuddy;
+struct /* coclass */ ToolbarControl;
+struct /* coclass */ ToolbarItem;
+struct /* coclass */ ToolbarMenu;
+struct /* coclass */ CommandPool;
+struct /* coclass */ MissingCommand;
+struct /* coclass */ CustomizeDialog;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICommandPool, __uuidof(ICommandPool));
+_COM_SMARTPTR_TYPEDEF(IToolbarItem, __uuidof(IToolbarItem));
+_COM_SMARTPTR_TYPEDEF(IToolbarMenu, __uuidof(IToolbarMenu));
+_COM_SMARTPTR_TYPEDEF(ICommandPoolEdit, __uuidof(ICommandPoolEdit));
+_COM_SMARTPTR_TYPEDEF(IToolbarControl, __uuidof(IToolbarControl));
+_COM_SMARTPTR_TYPEDEF(IToolbarControlDefault, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(IToolbarControlEvents, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(IMissingCommand, __uuidof(IMissingCommand));
+_COM_SMARTPTR_TYPEDEF(ICustomizeDialog, __uuidof(ICustomizeDialog));
+_COM_SMARTPTR_TYPEDEF(ICustomizeDialogEvents, __uuidof(ICustomizeDialogEvents));
+_COM_SMARTPTR_TYPEDEF(IToolbarBuddy, __uuidof(IToolbarBuddy));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("85490941-3a6a-47c4-8e42-7f6997534ddf"))
+ICommandPool : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Count (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall get_UsageCount (
+        struct ICommand * Command,
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall Exists (
+        struct ICommand * Command,
+        VARIANT_BOOL * res ) = 0;
+    virtual HRESULT __stdcall FindByUID (
+        struct IUID * UID,
+        struct ICommand * * pCommand ) = 0;
+    virtual HRESULT __stdcall get_UID (
+        struct ICommand * Command,
+        struct IUID * * pVal ) = 0;
+    virtual HRESULT __stdcall get_Command (
+        long index,
+        struct ICommand * * pVal ) = 0;
+    virtual HRESULT __stdcall Created (
+        struct ICommand * Command,
+        VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("d92bcf03-4308-11d6-aa0e-00104bb6fc1c"))
+IToolbarItem : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Command (
+        struct ICommand * * ppCommand ) = 0;
+    virtual HRESULT __stdcall get_UID (
+        struct IUID * * ppUID ) = 0;
+    virtual HRESULT __stdcall get_Group (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Group (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_GroupSpacing (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_GroupSpacing (
+        long pVal ) = 0;
+    virtual HRESULT __stdcall get_Style (
+        enum esriCommandStyles * pVal ) = 0;
+    virtual HRESULT __stdcall put_Style (
+        enum esriCommandStyles pVal ) = 0;
+    virtual HRESULT __stdcall get_CustomProperty (
+        VARIANT * pVal ) = 0;
+    virtual HRESULT __stdcall put_CustomProperty (
+        VARIANT pVal ) = 0;
+    virtual HRESULT __stdcall get_Menu (
+        struct IToolbarMenu * * ppToolbarMenu ) = 0;
+};
+
+struct __declspec(uuid("e8f2ab83-e93b-4529-82f6-34b8e4544b9e"))
+IToolbarMenu : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall PopupMenu (
+        int x,
+        int y,
+        long hWndParent ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR pCaption ) = 0;
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * pCaption ) = 0;
+    virtual HRESULT __stdcall putref_CommandPool (
+        struct ICommandPool * ppCommandPool ) = 0;
+    virtual HRESULT __stdcall get_CommandPool (
+        struct ICommandPool * * ppCommandPool ) = 0;
+    virtual HRESULT __stdcall SetHook (
+        IDispatch * pHook ) = 0;
+    virtual HRESULT __stdcall get_Hook (
+        IDispatch * * ppHook ) = 0;
+    virtual HRESULT __stdcall get_Bitmap (
+        OLE_HANDLE * pVal ) = 0;
+    virtual HRESULT __stdcall put_Bitmap (
+        OLE_HANDLE pVal ) = 0;
+    virtual HRESULT __stdcall GetMenuDef (
+        struct IMenuDef * * ppMenuDef ) = 0;
+    virtual HRESULT __stdcall AddItem (
+        VARIANT CommandOrMenu,
+        long subtype,
+        long index,
+        VARIANT_BOOL beginGroup,
+        enum esriCommandStyles Style,
+        long * itemIndex ) = 0;
+    virtual HRESULT __stdcall AddSubMenu (
+        VARIANT Menu,
+        long index,
+        VARIANT_BOOL beginGroup,
+        long * itemIndex ) = 0;
+    virtual HRESULT __stdcall Remove (
+        long index ) = 0;
+    virtual HRESULT __stdcall RemoveAll ( ) = 0;
+    virtual HRESULT __stdcall GetItem (
+        long index,
+        struct IToolbarItem * * item ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall Find (
+        VARIANT item,
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall MoveItem (
+        long startIndex,
+        long finalIndex ) = 0;
+};
+
+enum esriToolbarTextAlignment
+{
+    esriTextAlongSide = 0,
+    esriTextBelow = 1
+};
+
+struct __declspec(uuid("cbb44409-c9b4-400b-be35-446516674392"))
+ICommandPoolEdit : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall AddCommand (
+        struct ICommand * Command,
+        struct IUID * pUID ) = 0;
+    virtual HRESULT __stdcall AddUID (
+        struct IUID * UID,
+        struct IArray * * pArray ) = 0;
+    virtual HRESULT __stdcall Remove (
+        struct ICommand * Command ) = 0;
+    virtual HRESULT __stdcall RemoveAll ( ) = 0;
+    virtual HRESULT __stdcall CallOnCreate (
+        struct ICommand * pCommand ) = 0;
+    virtual HRESULT __stdcall SetHook (
+        IDispatch * pHook ) = 0;
+    virtual HRESULT __stdcall get_Hook (
+        IDispatch * * newVal ) = 0;
+};
+
+struct __declspec(uuid("b7d4358d-3cbc-11d6-aa09-00104bb6fc1c"))
+IToolbarControl : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_BorderStyle (
+        enum esriControlsBorderStyle pstyle ) = 0;
+    virtual HRESULT __stdcall get_BorderStyle (
+        enum esriControlsBorderStyle * pstyle ) = 0;
+    virtual HRESULT __stdcall put_Enabled (
+        VARIANT_BOOL pbool ) = 0;
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * pbool ) = 0;
+    virtual HRESULT __stdcall put_Appearance (
+        enum esriControlsAppearance pappearance ) = 0;
+    virtual HRESULT __stdcall get_Appearance (
+        enum esriControlsAppearance * pappearance ) = 0;
+    virtual HRESULT __stdcall put_MousePointer (
+        enum esriControlsMousePointer ppointer ) = 0;
+    virtual HRESULT __stdcall get_MousePointer (
+        enum esriControlsMousePointer * ppointer ) = 0;
+    virtual HRESULT __stdcall putref_MouseIcon (
+        IPictureDisp * ppMouseIcon ) = 0;
+    virtual HRESULT __stdcall get_MouseIcon (
+        IPictureDisp * * ppMouseIcon ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        long * hWnd ) = 0;
+    virtual HRESULT __stdcall AboutBox ( ) = 0;
+    virtual HRESULT __stdcall AddItem (
+        VARIANT CommandOrMenu,
+        long subtype,
+        long index,
+        VARIANT_BOOL beginGroup,
+        long GroupSpacing,
+        enum esriCommandStyles Style,
+        long * itemIndex ) = 0;
+    virtual HRESULT __stdcall Remove (
+        long index ) = 0;
+    virtual HRESULT __stdcall RemoveAll ( ) = 0;
+    virtual HRESULT __stdcall GetItem (
+        long index,
+        struct IToolbarItem * * item ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall Update (
+        long index,
+        VARIANT_BOOL fullUpdate ) = 0;
+    virtual HRESULT __stdcall get_Buddy (
+        IDispatch * * pVal ) = 0;
+    virtual HRESULT __stdcall get_CurrentTool (
+        struct ITool * * pVal ) = 0;
+    virtual HRESULT __stdcall putref_CurrentTool (
+        struct ITool * pVal ) = 0;
+    virtual HRESULT __stdcall get_ToolTips (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_ToolTips (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_ItemAppearance (
+        enum esriControlsAppearance * pappearance ) = 0;
+    virtual HRESULT __stdcall put_ItemAppearance (
+        enum esriControlsAppearance pappearance ) = 0;
+    virtual HRESULT __stdcall get_UpdateInterval (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_UpdateInterval (
+        long pVal ) = 0;
+    virtual HRESULT __stdcall Find (
+        VARIANT CommandOrMenu,
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall get_CommandPool (
+        struct ICommandPool * * pVal ) = 0;
+    virtual HRESULT __stdcall putref_CommandPool (
+        struct ICommandPool * pVal ) = 0;
+    virtual HRESULT __stdcall AddToolbarDef (
+        VARIANT ToolbarDef,
+        long startIndex,
+        VARIANT_BOOL Group,
+        long GroupSpacing,
+        enum esriCommandStyles Style,
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_TextAlignment (
+        enum esriToolbarTextAlignment * pVal ) = 0;
+    virtual HRESULT __stdcall put_TextAlignment (
+        enum esriToolbarTextAlignment pVal ) = 0;
+    virtual HRESULT __stdcall get_LargeIcons (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_LargeIcons (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_Customize (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Customize (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall MoveItem (
+        long startIndex,
+        long finalIndex ) = 0;
+    virtual HRESULT __stdcall HitTest (
+        long x,
+        long y,
+        VARIANT_BOOL nearest,
+        long * index ) = 0;
+    virtual HRESULT __stdcall GetItemRect (
+        long index,
+        long * Top,
+        long * Left,
+        long * Bottom,
+        long * Right ) = 0;
+    virtual HRESULT __stdcall get_OperationStack (
+        struct IOperationStack * * OperationStack ) = 0;
+    virtual HRESULT __stdcall putref_OperationStack (
+        struct IOperationStack * OperationStack ) = 0;
+    virtual HRESULT __stdcall get_CustomProperty (
+        VARIANT * pVal ) = 0;
+    virtual HRESULT __stdcall put_CustomProperty (
+        VARIANT pVal ) = 0;
+    virtual HRESULT __stdcall SetBuddyControl (
+        IDispatch * pToolbarBuddy ) = 0;
+    virtual HRESULT __stdcall get_MenuTracking (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_MenuTracking (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall AddMenuItem (
+        VARIANT Menu,
+        long index,
+        VARIANT_BOOL beginGroup,
+        long GroupSpacing,
+        long * itemIndex ) = 0;
+    virtual HRESULT __stdcall get_Object (
+        IDispatch * * ppDispatch ) = 0;
+    virtual HRESULT __stdcall get_KeyIntercept (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_KeyIntercept (
+        long pVal ) = 0;
+};
+
+struct __declspec(uuid("d959783f-b033-4a0c-966b-db90fe45bee5"))
+IToolbarControlDefault : IDispatch
+{};
+
+struct __declspec(uuid("b7d4358f-3cbc-11d6-aa09-00104bb6fc1c"))
+IToolbarControlEvents : IDispatch
+{};
+
+struct __declspec(uuid("cb254751-2ffb-4a2e-9dd5-ffbb58505224"))
+IMissingCommand : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall SetErrorMessage (
+        BSTR clickMessage,
+        BSTR tooltipMessage ) = 0;
+};
+
+struct __declspec(uuid("16f2d139-2810-4241-b495-b7d1539cec64"))
+ICustomizeDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall StartDialog (
+        long hWndParent ) = 0;
+    virtual HRESULT __stdcall get_CommandsCategory (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_CommandsCategory (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_ToolbarsCategory (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_ToolbarsCategory (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall CloseDialog ( ) = 0;
+    virtual HRESULT __stdcall get_IsDialogActive (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall get_DialogTitle (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_DialogTitle (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_DoubleClickDestination (
+        IUnknown * * pVal ) = 0;
+    virtual HRESULT __stdcall SetDoubleClickDestination (
+        IUnknown * pToolbarControl ) = 0;
+    virtual HRESULT __stdcall get_ShowAddFromFile (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_ShowAddFromFile (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_MenusCategory (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_MenusCategory (
+        BSTR pVal ) = 0;
+};
+
+struct __declspec(uuid("6f4ba70a-55c1-4061-a29a-f2bd9c6a0b61"))
+ICustomizeDialogEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnStartDialog ( ) = 0;
+    virtual HRESULT __stdcall OnCloseDialog ( ) = 0;
+};
+
+struct __declspec(uuid("d00f1736-7a95-4f5e-b54f-e2863c425dc3"))
+IToolbarBuddy : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_CurrentTool (
+        struct ITool * * pTool ) = 0;
+    virtual HRESULT __stdcall putref_CurrentTool (
+        struct ITool * pTool ) = 0;
+};
+
+struct __declspec(uuid("b7d4358e-3cbc-11d6-aa09-00104bb6fc1c"))
+ToolbarControl;
+    // [ default ] dispinterface IToolbarControlDefault
+    // [ default, source ] dispinterface IToolbarControlEvents
+    // interface IToolbarControl
+    // interface IConnectionPointContainer
+    // interface IPersistStreamInit
+    // interface IPersist
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("55ad5857-c8f2-4432-a8aa-6d03a085a599"))
+ToolbarItem;
+    // [ default ] interface IUnknown
+    // interface IToolbarItem
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("ef2dda18-06b9-4ef8-9808-2a4723b4b532"))
+ToolbarMenu;
+    // [ default ] interface IUnknown
+    // interface IToolbarMenu
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("3ab8adf3-5023-4a51-b916-895f0a9c0ef4"))
+CommandPool;
+    // [ default ] interface IUnknown
+    // interface ICommandPool
+    // interface ICommandPoolEdit
+    // interface ISupportErrorInfo
+
+struct __declspec(uuid("77007cb1-0f8a-49ef-91e5-54f640cee7c2"))
+MissingCommand;
+    // [ default ] interface IUnknown
+    // interface IMissingCommand
+    // interface ICommand
+
+struct __declspec(uuid("a96a3c9b-0c95-4651-b121-fede95dce3e5"))
+CustomizeDialog;
+    // [ default ] interface IUnknown
+    // [ default, source ] interface ICustomizeDialogEvents
+    // interface ICustomizeDialog
+    // interface ISupportErrorInfo
+    // interface IConnectionPointContainer
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriToolbarControl =
+    {0xb7d43581,0x3cbc,0x11d6,{0xaa,0x09,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) IID_ICommandPool =
+    {0x85490941,0x3a6a,0x47c4,{0x8e,0x42,0x7f,0x69,0x97,0x53,0x4d,0xdf}};
+extern "C" const GUID __declspec(selectany) IID_IToolbarItem =
+    {0xd92bcf03,0x4308,0x11d6,{0xaa,0x0e,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) IID_IToolbarMenu =
+    {0xe8f2ab83,0xe93b,0x4529,{0x82,0xf6,0x34,0xb8,0xe4,0x54,0x4b,0x9e}};
+extern "C" const GUID __declspec(selectany) IID_ICommandPoolEdit =
+    {0xcbb44409,0xc9b4,0x400b,{0xbe,0x35,0x44,0x65,0x16,0x67,0x43,0x92}};
+extern "C" const GUID __declspec(selectany) IID_IToolbarControl =
+    {0xb7d4358d,0x3cbc,0x11d6,{0xaa,0x09,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) DIID_IToolbarControlDefault =
+    {0xd959783f,0xb033,0x4a0c,{0x96,0x6b,0xdb,0x90,0xfe,0x45,0xbe,0xe5}};
+extern "C" const GUID __declspec(selectany) DIID_IToolbarControlEvents =
+    {0xb7d4358f,0x3cbc,0x11d6,{0xaa,0x09,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) IID_IMissingCommand =
+    {0xcb254751,0x2ffb,0x4a2e,{0x9d,0xd5,0xff,0xbb,0x58,0x50,0x52,0x24}};
+extern "C" const GUID __declspec(selectany) IID_ICustomizeDialog =
+    {0x16f2d139,0x2810,0x4241,{0xb4,0x95,0xb7,0xd1,0x53,0x9c,0xec,0x64}};
+extern "C" const GUID __declspec(selectany) IID_ICustomizeDialogEvents =
+    {0x6f4ba70a,0x55c1,0x4061,{0xa2,0x9a,0xf2,0xbd,0x9c,0x6a,0x0b,0x61}};
+extern "C" const GUID __declspec(selectany) IID_IToolbarBuddy =
+    {0xd00f1736,0x7a95,0x4f5e,{0xb5,0x4f,0xe2,0x86,0x3c,0x42,0x5d,0xc3}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolbarControl =
+    {0xb7d4358e,0x3cbc,0x11d6,{0xaa,0x09,0x00,0x10,0x4b,0xb6,0xfc,0x1c}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolbarItem =
+    {0x55ad5857,0xc8f2,0x4432,{0xa8,0xaa,0x6d,0x03,0xa0,0x85,0xa5,0x99}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolbarMenu =
+    {0xef2dda18,0x06b9,0x4ef8,{0x98,0x08,0x2a,0x47,0x23,0xb4,0xb5,0x32}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandPool =
+    {0x3ab8adf3,0x5023,0x4a51,{0xb9,0x16,0x89,0x5f,0x0a,0x9c,0x0e,0xf4}};
+extern "C" const GUID __declspec(selectany) CLSID_MissingCommand =
+    {0x77007cb1,0x0f8a,0x49ef,{0x91,0xe5,0x54,0xf6,0x40,0xce,0xe7,0xc2}};
+extern "C" const GUID __declspec(selectany) CLSID_CustomizeDialog =
+    {0xa96a3c9b,0x0c95,0x4651,{0xb1,0x21,0xfe,0xde,0x95,0xdc,0xe3,0xe5}};
+
+#pragma pack(pop)

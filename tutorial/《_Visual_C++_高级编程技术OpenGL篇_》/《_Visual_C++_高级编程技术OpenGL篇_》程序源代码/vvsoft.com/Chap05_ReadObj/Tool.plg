@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/Tool.res" /d "NDEBUG" "D:\Work\OGLForQiao\Program\ReadObj\Tool.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5331.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fo"Release/" /Fd"Release/" /FD "stdafx.h" /c 
+"D:\Work\OGLForQiao\Program\ReadObj\DlgAbout.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\FormCommandView.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\glm.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\MainFrm.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\RenderView.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\Tool.cpp"
+"D:\Work\OGLForQiao\Program\ReadObj\ToolDoc.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5331.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5332.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Tool.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD "stdafx.h" /c 
+"D:\Work\OGLForQiao\Program\ReadObj\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5332.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5333.TMP" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Tool.pdb" /machine:I386 /out:"Release/Tool.exe" 
+.\Release\DlgAbout.obj
+.\Release\FormCommandView.obj
+.\Release\glm.obj
+.\Release\MainFrm.obj
+.\Release\RenderView.obj
+.\Release\StdAfx.obj
+.\Release\Tool.obj
+.\Release\ToolDoc.obj
+.\Release\Tool.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP5333.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Command line warning D4024 : unrecognized source file type 'stdafx.h', object file assumed
+Command line warning D4027 : source file 'stdafx.h' ignored
+StdAfx.cpp
+Compiling...
+Command line warning D4024 : unrecognized source file type 'stdafx.h', object file assumed
+Command line warning D4027 : source file 'stdafx.h' ignored
+DlgAbout.cpp
+FormCommandView.cpp
+glm.cpp
+MainFrm.cpp
+RenderView.cpp
+Tool.cpp
+ToolDoc.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Tool.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

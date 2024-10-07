@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyFountain - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyFountain.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MyFountain.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyFountain.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MainFrm.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MyFountain.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MyFountainDoc.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MyFountainView.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\MyTexture.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyFountain.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter08\MyFountain\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyFountain.pdb" /debug /machine:I386 /out:"Debug/MyFountain.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\MyFountain.obj"
+".\Debug\MyFountainDoc.obj"
+".\Debug\MyFountainView.obj"
+".\Debug\MyTexture.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyFountain.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyFountain.cpp
+MyFountainDoc.cpp
+MyFountainView.cpp
+MyTexture.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyFountain.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

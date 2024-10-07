@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3D0214 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP123.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/3D0214.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\丢丢大论文\源代码\3D0214\3D0214\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP123.tmp" 
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+E:\丢丢大论文\源代码\3D0214\3D0214\MainFrm.cpp(170) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+MainFrm.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

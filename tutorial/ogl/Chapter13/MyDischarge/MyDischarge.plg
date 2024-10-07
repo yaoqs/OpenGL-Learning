@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyDischarge - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyDischarge.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MyDischarge.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyDischarge.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MainFrm.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MyDischarge.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MyDischargeDoc.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MyDischargeView.cpp"
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\MyTexture.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyDischarge.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++study\OpenGLѧϰ\ogl\Chapter13\MyDischarge\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyDischarge.pdb" /debug /machine:I386 /out:"Debug/MyDischarge.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\MyDischarge.obj"
+".\Debug\MyDischargeDoc.obj"
+".\Debug\MyDischargeView.obj"
+".\Debug\MyTexture.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyDischarge.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+MyDischarge.cpp
+MyDischargeDoc.cpp
+MyDischargeView.cpp
+MyTexture.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyDischarge.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

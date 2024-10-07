@@ -1,0 +1,1054 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  sizecbar.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(55): error C2440: “static_cast”: 无法从“UINT (__thiscall CSizingControlBar::* )(CPoint)”转换为“LRESULT (__thiscall CWnd::* )(CPoint)”
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(55): note: 从基类型到派生类型的强制转换需要 dynamic_cast 或 static_cast
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(967): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(969): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(987): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\sizecbar.cpp(988): error C2065: “i”: 未声明的标识符
+  scbarg.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\scbarg.cpp(51): error C2440: “static_cast”: 无法从“UINT (__thiscall CCoolBar::* )(CPoint)”转换为“LRESULT (__thiscall CWnd::* )(CPoint)”
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\scbarg.cpp(51): note: 从基类型到派生类型的强制转换需要 dynamic_cast 或 static_cast
+  CoolTabCtrl.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\cooltabctrl.cpp(497): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\cooltabctrl.cpp(594): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(130): note: 参见“strcpy”的声明
+  ColorPicker.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(378): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(380): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(380): error C2660: “MoveToEx”: 函数不接受 3 个参数
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\wingdi.h(5099): note: 参见“MoveToEx”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(381): error C2065: “i”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(381): error C2660: “LineTo”: 函数不接受 2 个参数
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\wingdi.h(4498): note: 参见“LineTo”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h(130): note: 参见“strcpy”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(443): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1764): note: 参见“sprintf”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\src\colorpicker.cpp(521): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(1764): note: 参见“sprintf”的声明
+  DlgViewshed.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(57): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(57): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(57): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(58): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(58): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFiiter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(58): error C2065: “CLSID_GxFilterPointFeatureClasses”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(58): error C3861: “ipGxObjectFiiter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(61): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(61): error C2065: “ipGxObjectFiiter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(63): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(65): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(65): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(65): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(67): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(67): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(70): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(72): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(72): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(72): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(73): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(73): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(75): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(75): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(75): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(75): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(76): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(78): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(78): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(78): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(79): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(79): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(81): error C2065: “IFeatureClassPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(81): error C2146: 语法错误: 缺少“;”(在标识符“ipFeatureClass”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(81): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(81): error C3861: “ipFeatureClass”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(82): error C2065: “IFeatureLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(82): error C2146: 语法错误: 缺少“;”(在标识符“ipFeatureLayer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(82): error C2065: “CLSID_FeatureLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(82): error C3861: “ipFeatureLayer”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(83): error C2065: “ipFeatureLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(83): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(85): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(85): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(87): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(100): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(100): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(100): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(100): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(101): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(101): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(101): error C2065: “CLSID_GxFilterRasterDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(101): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(102): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(102): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(104): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(108): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(111): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(111): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(111): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(112): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(112): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(114): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(117): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(128): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(128): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(128): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(128): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(129): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(129): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(129): error C2065: “CLSID_GxFilterSurfaceDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(129): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(130): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(130): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(132): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(134): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(134): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(134): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(136): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(136): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(139): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(141): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(141): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(141): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(142): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(142): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(143): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(143): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(145): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(145): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(145): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(145): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(146): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(148): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(148): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(148): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(149): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.cpp(149): fatal error C1003: 错误计数超过 100；正在停止编译
+  DlgSlope.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(56): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(56): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(56): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(56): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(57): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(57): error C2065: “CLSID_GxFilterSurfaceDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(57): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(58): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(58): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(60): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(63): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(63): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(63): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(67): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(67): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(71): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(73): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(73): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(73): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(74): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(74): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(76): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(76): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(79): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(79): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(79): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(79): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(80): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(82): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(82): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(82): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(83): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(83): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(85): error C2065: “IRasterDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(85): error C2146: 语法错误: 缺少“;”(在标识符“ipRasterDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(85): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(85): error C3861: “ipRasterDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(86): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(88): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(88): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(90): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(93): error C2065: “IRasterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(93): error C2146: 语法错误: 缺少“;”(在标识符“ipRas”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(93): error C2065: “ipRas”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(96): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(96): error C2065: “ipRas”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(97): error C2065: “IRasterAnalysisPropsPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(97): error C2146: 语法错误: 缺少“;”(在标识符“ipRA”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(97): error C2065: “ipRas”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(97): error C3861: “ipRA”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(99): error C2065: “ipRA”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(104): error C2065: “ITinPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(104): error C2146: 语法错误: 缺少“;”(在标识符“ipTin”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(104): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(104): error C3861: “ipTin”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(106): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(109): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(109): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(111): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(114): error C2065: “IGeoDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(114): error C2146: 语法错误: 缺少“;”(在标识符“plnTin”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(114): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(114): error C3861: “plnTin”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(116): error C2065: “IEnvelopePtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(116): error C2146: 语法错误: 缺少“;”(在标识符“pExtent”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(116): error C2065: “pExtent”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(117): error C2065: “plnTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(117): error C2065: “pExtent”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(119): error C2065: “pExtent”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(120): error C2065: “pExtent”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(138): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(138): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(138): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(138): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(140): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(140): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(140): error C2065: “CLSID_GxFilterRasterDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(140): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(141): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(141): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(143): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(147): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(149): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(149): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(149): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(150): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(150): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(152): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(155): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(166): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(169): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(171): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(174): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(179): error C2065: “ITin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(179): error C2065: “ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.cpp(179): fatal error C1003: 错误计数超过 100；正在停止编译
+  DlgSetScene.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(67): error C2065: “IScenePtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(67): error C2146: 语法错误: 缺少“;”(在标识符“ipScene”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(67): error C2065: “ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(68): error C2065: “ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(73): error C2065: “ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(74): error C2065: “ISceneGraphPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(74): error C2146: 语法错误: 缺少“;”(在标识符“ipSceneGrp”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(74): error C2065: “ipSceneGrp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(75): error C2065: “ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(75): error C2065: “ipSceneGrp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgsetscene.cpp(76): error C2065: “ipSceneGrp”: 未声明的标识符
+  DlgCreateTINfromFeature.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(87): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(87): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(87): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(87): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(88): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(88): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(88): error C2065: “CLSID_GxFilterFeatureClasses”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(88): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(89): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(89): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(91): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(93): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(93): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(93): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(95): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(95): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(98): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(100): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(100): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(100): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(101): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(101): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(103): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(103): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(103): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(103): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(104): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(106): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(106): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(106): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(107): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(107): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(109): error C2065: “IFeatureClassPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(109): error C2146: 语法错误: 缺少“;”(在标识符“ipFeatureClass”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(109): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(109): error C3861: “ipFeatureClass”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(110): error C2065: “IFeatureLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(110): error C2146: 语法错误: 缺少“;”(在标识符“ipFeatureLayer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(110): error C2065: “CLSID_FeatureLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(110): error C3861: “ipFeatureLayer”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(111): error C2065: “ipFeatureLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(111): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(113): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(113): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(115): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(122): error C2065: “IFieldsPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(122): error C2146: 语法错误: 缺少“;”(在标识符“pFClassPointFields”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(122): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(123): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(123): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(124): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(128): error C2065: “IFieldPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(128): error C2146: 语法错误: 缺少“;”(在标识符“pField”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(128): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(129): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(129): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(131): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(150): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(152): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(163): error C2065: “IFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(163): error C2065: “ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(163): error C2761: “void CDlgCreateTINfromFeature::CreateTINfromFeature(void)”: 不允许重新声明成员
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.cpp(164): error C2448: “CDlgCreateTINfromFeature::CreateTINfromFeature”: 函数样式初始值设定项类似函数定义
+  DlgCreateRasterIDW.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(102): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(102): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(102): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(102): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(104): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(104): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(104): error C2065: “CLSID_GxFilterPointFeatureClasses”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(104): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(107): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(107): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(113): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(116): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(116): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(116): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(118): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(118): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(121): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(123): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(123): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(123): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(125): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(125): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(127): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(127): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(127): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(127): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(128): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(130): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(130): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(130): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(131): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(131): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(133): error C2065: “IFeatureClassPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(133): error C2146: 语法错误: 缺少“;”(在标识符“ipFeatureClass”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(133): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(133): error C3861: “ipFeatureClass”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(134): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(134): error C2065: “ipFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(136): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(144): error C2065: “IFieldsPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(144): error C2146: 语法错误: 缺少“;”(在标识符“pFClassPointFields”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(144): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(145): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(145): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(146): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(150): error C2065: “IFieldPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(150): error C2146: 语法错误: 缺少“;”(在标识符“pField”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(150): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(151): error C2065: “pFClassPointFields”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(151): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(153): error C2065: “pField”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(170): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(172): error C2065: “m_ipfeat”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(180): error C2065: “IFeatureClass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(180): error C2065: “ipfeatureclass”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(180): error C2761: “void CDlgCreateRasterIDW::IDWOp(void)”: 不允许重新声明成员
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.cpp(181): error C2448: “CDlgCreateRasterIDW::IDWOp”: 函数样式初始值设定项类似函数定义
+  DlgCreateContour.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(65): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(65): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(65): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(65): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(67): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(67): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(67): error C2065: “CLSID_GxFilterFeatureClasses”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(67): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(68): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(68): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(70): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(73): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(73): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(73): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(75): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(75): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(78): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(78): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(78): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(79): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(79): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(81): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(84): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(95): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(95): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(95): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(95): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(96): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(96): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(96): error C2065: “CLSID_GxFilterSurfaceDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(96): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(97): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(97): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(99): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(101): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(101): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(101): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(103): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(103): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(106): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(108): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(108): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(108): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(109): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(109): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(111): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(113): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(113): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(115): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(115): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(115): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(115): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(116): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(118): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(118): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(118): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(119): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(119): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(121): error C2065: “IRasterDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(121): error C2146: 语法错误: 缺少“;”(在标识符“ipRasterDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(121): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(121): error C3861: “ipRasterDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(122): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(124): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(124): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(126): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(130): error C2065: “ITinPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(130): error C2146: 语法错误: 缺少“;”(在标识符“ipTin”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(130): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(130): error C3861: “ipTin”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(131): error C2065: “ITinSurfacePtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(131): error C2146: 语法错误: 缺少“;”(在标识符“ipTS”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(131): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(131): error C3861: “ipTS”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(133): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(136): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(136): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(137): error C2065: “m_ipTS”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(137): error C2065: “ipTS”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(139): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(144): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(146): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(149): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(151): error C2065: “ipTin”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(161): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(163): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(166): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(181): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(181): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(204): error C2065: “m_ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(204): error C2065: “m_ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(217): error C2065: “IRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(217): error C2065: “pRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.cpp(217): fatal error C1003: 错误计数超过 100；正在停止编译
+  DlgClassBreakRenderer.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(62): error C2065: “m_EnumColors”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(70): error C2065: “IColorPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(70): error C2146: 语法错误: 缺少“;”(在标识符“pColor”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(70): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(71): error C2065: “IUnknownPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(71): error C2146: 语法错误: 缺少“;”(在标识符“pUnk”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(71): error C2065: “pUnk”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(72): error C2065: “pUnk”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(72): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(73): error C2065: “m_ipArray”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(73): error C2065: “pUnk”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(74): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(74): error C2065: “pUnk”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(75): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(107): error C2065: “m_ipArray”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(107): error C2065: “CLSID_Array”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(111): error C2065: “IAlgorithmicColorRampPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(111): error C2146: 语法错误: 缺少“;”(在标识符“pAlgoRamp”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(111): error C2065: “CLSID_AlgorithmicColorRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(111): error C3861: “pAlgoRamp”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(112): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(116): error C2065: “IRgbColorPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(116): error C2146: 语法错误: 缺少“;”(在标识符“pColor”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(116): error C2065: “CLSID_RgbColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(116): error C3861: “pColor”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(118): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(119): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(119): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(121): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(122): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(122): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(123): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(123): error C2065: “esriHSVAlgorithm”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(125): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(127): error C2065: “pAlgoRamp”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(127): error C2065: “m_EnumColors”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(128): error C2065: “m_EnumColors”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(133): error C2065: “IColorPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(133): error C2146: 语法错误: 缺少“;”(在标识符“pColor”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(133): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(134): error C2065: “m_EnumColors”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(134): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(135): error C2065: “m_ipArray”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(135): error C2065: “pColor”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(141): error C2065: “ILayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(141): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(141): error C2761: “BOOL CDlgClassBreakRenderer::GetLayerFromCurrentScene(void)”: 不允许重新声明成员
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(142): error C2448: “CDlgClassBreakRenderer::GetLayerFromCurrentScene”: 函数样式初始值设定项类似函数定义
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(158): error C2065: “m_ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(159): error C2065: “IRasterLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(159): error C2146: 语法错误: 缺少“;”(在标识符“ipRasLyr”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(159): error C2065: “m_ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(159): error C3861: “ipRasLyr”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(160): error C2065: “IRasterClassifyColorRampRendererPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(160): error C2146: 语法错误: 缺少“;”(在标识符“pClassRen”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(160): error C2065: “CLSID_RasterClassifyColorRampRenderer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(160): error C3861: “pClassRen”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(161): error C2065: “IRasterRendererPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(161): error C2146: 语法错误: 缺少“;”(在标识符“pRasRen”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(161): error C2065: “pClassRen”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(161): error C3861: “pRasRen”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(162): error C2065: “IRasterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(162): error C2146: 语法错误: 缺少“;”(在标识符“pRaster”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(162): error C2065: “pRaster”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(163): error C2065: “ipRasLyr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(163): error C2065: “pRaster”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.cpp(163): fatal error C1003: 错误计数超过 100；正在停止编译
+  DlgBaseHeight.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(58): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(69): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(71): error C2065: “ILayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(71): error C2146: 语法错误: 缺少“;”(在标识符“ipLayer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(71): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(79): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(79): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(81): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(85): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(88): error C2065: “ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(103): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(112): error C2065: “ILayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(112): error C2146: 语法错误: 缺少“;”(在标识符“pCurrentLyer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(112): error C2065: “pCurrentLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(112): error C2065: “ILayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(112): error C2059: 语法错误:“)”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(115): error C2065: “ILayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(115): error C2146: 语法错误: 缺少“;”(在标识符“ppbasehLyer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(115): error C2065: “ppbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(115): error C2065: “ILayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(115): error C2059: 语法错误:“)”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(118): error C2065: “IRasterSurfacePtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(118): error C2146: 语法错误: 缺少“;”(在标识符“pRSurface”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(118): error C2065: “CLSID_RasterSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(118): error C3861: “pRSurface”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(119): error C2065: “IRasterLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(119): error C2146: 语法错误: 缺少“;”(在标识符“prbasehLyer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(119): error C2065: “ppbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(119): error C3861: “prbasehLyer”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(120): error C2065: “ISurfacePtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(120): error C2146: 语法错误: 缺少“;”(在标识符“pSurface”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(120): error C2065: “pSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(121): error C2065: “prbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(124): error C2065: “IRasterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(124): error C2146: 语法错误: 缺少“;”(在标识符“ipR”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(124): error C2065: “ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(125): error C2065: “prbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(125): error C2065: “ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(126): error C2065: “IRasterBandCollectionPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(126): error C2146: 语法错误: 缺少“;”(在标识符“pRasterBands”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(126): error C2065: “ipR”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(126): error C3861: “pRasterBands”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(127): error C2065: “IRasterBandPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(127): error C2146: 语法错误: 缺少“;”(在标识符“pRasterBand”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(127): error C2065: “pRasterBand”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(128): error C2065: “pRasterBands”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(128): error C2065: “pRasterBand”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(129): error C2065: “pRSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(129): error C2065: “pRasterBand”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(130): error C2065: “pSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(130): error C2065: “pRSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(133): error C2065: “ITinLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(133): error C2146: 语法错误: 缺少“;”(在标识符“pTbasehLyer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(133): error C2065: “ppbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(133): error C3861: “pTbasehLyer”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(134): error C2065: “ITinPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(134): error C2146: 语法错误: 缺少“;”(在标识符“ipT”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(134): error C2065: “ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(135): error C2065: “pTbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(137): error C2065: “pTbasehLyer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(137): error C2065: “ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(138): error C2065: “pSurface”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(138): error C2065: “ipT”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(140): error C2065: “I3DPropertiesPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(140): error C2146: 语法错误: 缺少“;”(在标识符“pDDD”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(140): error C2065: “pDDD”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.cpp(140): fatal error C1003: 错误计数超过 100；正在停止编译
+  3D0214View.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(98): error C2065: “IID_ISceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(98): error C2065: “m_ipSceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(99): error C2065: “m_ipSceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(99): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(100): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(100): error C2065: “m_ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(196): error C2065: “esriCommandStyleIconOnly”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(200): error C2065: “esriCommandStyleIconOnly”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(263): error C2065: “m_ipSceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(266): error C2065: “m_ipSceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(267): error C2065: “m_ipSceneControl”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(267): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(268): error C2065: “m_ipScene”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(268): error C2065: “m_ipLayer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(296): error C2065: “ISceneGraphPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(296): error C2146: 语法错误: 缺少“;”(在标识符“ipSceneGrap”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(296): error C3861: “ipSceneGrap”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(297): error C2065: “ISceneViewerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(297): error C2146: 语法错误: 缺少“;”(在标识符“ipViewer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(297): error C2065: “ipViewer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(298): error C2065: “ipSceneGrap”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(298): error C2065: “ipViewer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(299): error C2065: “ipViewer”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(299): error C2065: “JPEG”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(305): error C2065: “IGxDialogPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(305): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDialog”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(305): error C2065: “CLSID_GxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(305): error C3861: “ipGxDialog”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(307): error C2065: “IGxObjectFilterPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(307): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObjectFilter”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(307): error C2065: “CLSID_GxFilterSurfaceDatasets”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(307): error C3861: “ipGxObjectFilter”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(308): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(308): error C2065: “ipGxObjectFilter”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(310): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(312): error C2065: “IEnumGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(312): error C2146: 语法错误: 缺少“;”(在标识符“ipEnumGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(312): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(314): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(314): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(317): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(319): error C2065: “IGxObjectPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(319): error C2146: 语法错误: 缺少“;”(在标识符“ipGxObject”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(319): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(320): error C2065: “ipGxDialog”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(320): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(321): error C2065: “ipEnumGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(321): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(324): error C2065: “IGxDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(324): error C2146: 语法错误: 缺少“;”(在标识符“ipGxDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(324): error C2065: “ipGxObject”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(324): error C3861: “ipGxDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(325): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(328): error C2065: “IDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(328): error C2146: 语法错误: 缺少“;”(在标识符“ipDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(328): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(329): error C2065: “ipGxDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(329): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(331): error C2065: “IRasterDatasetPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(331): error C2146: 语法错误: 缺少“;”(在标识符“ipRasterDataset”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(331): error C2065: “ipDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(331): error C3861: “ipRasterDataset”: 找不到标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(332): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(335): error C2065: “ipRasterDataset”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(338): error C2065: “IRasterLayerPtr”: 未声明的标识符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(338): error C2146: 语法错误: 缺少“;”(在标识符“pRLayer”的前面)
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.cpp(338): fatal error C1003: 错误计数超过 100；正在停止编译
+  3D0214.cpp
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(18): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreaterasteridw.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(21): error C2061: 语法错误: 标识符“IFeatureClass”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatetinfromfeature.h(56): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgbaseheight.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(24): error C2061: 语法错误: 标识符“ILayer”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C3646: “m_EnumColors”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C3646: “m_ipArray”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgclassbreakrenderer.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(23): error C2535: “void CDlgSlope::CreateSlope(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgslope.h(22): note: 参见“CDlgSlope::CreateSlope”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C3646: “m_ipfeat”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgviewshed.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C3646: “m_ipR”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C3646: “m_ipT”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C3646: “m_ipTS”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): error C2061: 语法错误: 标识符“ITin”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(27): error C2535: “void CDlgCreateContour::ComputerHeightRange(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(26): note: 参见“CDlgCreateContour::ComputerHeightRange”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2061: 语法错误: 标识符“IRasterDataset”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(29): error C2535: “void CDlgCreateContour::CreateContour(void)”: 已经定义或声明成员函数
+  g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\dlgcreatecontour.h(28): note: 参见“CDlgCreateContour::CreateContour”的声明
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C3646: “m_ipSceneControl”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C3646: “m_ipScene”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C3646: “m_ipSceneGrap”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C3646: “m_ipViewer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C3646: “m_ipLayer”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(57): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C3646: “m_pScenePoints”: 未知重写说明符
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214view.h(71): error C2061: 语法错误: 标识符“IScene”
+g:\opengl学习源代码\ogldl\《三维虚拟地形漫游系统》,三维图形全部基于opengl_编程模式为visual c++mfc,面向对象编程,采用用模块化设\gis源代码\3d0214.cpp(66): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(5229): note: 参见“CWinApp::Enable3dControls”的声明
+  正在生成代码...

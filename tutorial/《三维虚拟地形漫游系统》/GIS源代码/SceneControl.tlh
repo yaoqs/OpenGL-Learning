@@ -1,0 +1,171 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (fa3eccef).
+//
+// SceneControl.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/bin/SceneControl.ocx
+// compiler-generated file created 01/08/07 at 20:58:34 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriSystemUI.olb"
+//  #import "D:\Program Files\ArcGIS\com\esri3DAnalyst.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("886f5a43-99a7-477d-affb-8b374f30da45"))
+/* dual interface */ ISceneControl;
+struct __declspec(uuid("6f7c3afd-ee18-4633-8611-a2aa3cfb869b"))
+/* dispinterface */ ISceneControlDefault;
+struct __declspec(uuid("1883bf0e-6928-41c1-8ee3-9b88151b7154"))
+/* dispinterface */ ISceneControlEvents;
+struct /* coclass */ SceneControl;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ISceneControl, __uuidof(ISceneControl));
+_COM_SMARTPTR_TYPEDEF(ISceneControlDefault, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(ISceneControlEvents, __uuidof(IDispatch));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("886f5a43-99a7-477d-affb-8b374f30da45"))
+ISceneControl : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_BackColor (
+        OLE_COLOR pclr ) = 0;
+    virtual HRESULT __stdcall get_BackColor (
+        OLE_COLOR * pclr ) = 0;
+    virtual HRESULT __stdcall put_BorderStyle (
+        enum esriControlsBorderStyle pstyle ) = 0;
+    virtual HRESULT __stdcall get_BorderStyle (
+        enum esriControlsBorderStyle * pstyle ) = 0;
+    virtual HRESULT __stdcall put_Enabled (
+        VARIANT_BOOL pbool ) = 0;
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * pbool ) = 0;
+    virtual HRESULT __stdcall put_Appearance (
+        enum esriControlsAppearance pappearance ) = 0;
+    virtual HRESULT __stdcall get_Appearance (
+        enum esriControlsAppearance * pappearance ) = 0;
+    virtual HRESULT __stdcall put_MousePointer (
+        enum esriControlsMousePointer ppointer ) = 0;
+    virtual HRESULT __stdcall get_MousePointer (
+        enum esriControlsMousePointer * ppointer ) = 0;
+    virtual HRESULT __stdcall putref_MouseIcon (
+        IPictureDisp * ppMouseIcon ) = 0;
+    virtual HRESULT __stdcall get_MouseIcon (
+        IPictureDisp * * ppMouseIcon ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        long * hWnd ) = 0;
+    virtual HRESULT __stdcall AboutBox ( ) = 0;
+    virtual HRESULT __stdcall LoadSxFile (
+        BSTR sxPath ) = 0;
+    virtual HRESULT __stdcall get_Scene (
+        struct IScene * * pVal ) = 0;
+    virtual HRESULT __stdcall get_SceneGraph (
+        struct ISceneGraph * * pVal ) = 0;
+    virtual HRESULT __stdcall putref_SceneGraph (
+        struct ISceneGraph * pVal ) = 0;
+    virtual HRESULT __stdcall get_SceneViewer (
+        struct ISceneViewer * * pVal ) = 0;
+    virtual HRESULT __stdcall get_Camera (
+        struct ICamera * * pVal ) = 0;
+    virtual HRESULT __stdcall putref_Camera (
+        struct ICamera * pVal ) = 0;
+    virtual HRESULT __stdcall get_CurrentTool (
+        struct ITool * * pVal ) = 0;
+    virtual HRESULT __stdcall putref_CurrentTool (
+        struct ITool * pVal ) = 0;
+    virtual HRESULT __stdcall get_Navigate (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Navigate (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall CheckSxFile (
+        BSTR filename,
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall get_CustomProperty (
+        VARIANT * pVal ) = 0;
+    virtual HRESULT __stdcall put_CustomProperty (
+        VARIANT pVal ) = 0;
+    virtual HRESULT __stdcall put_DocumentFilename (
+        BSTR DocumentFilename ) = 0;
+    virtual HRESULT __stdcall get_DocumentFilename (
+        BSTR * DocumentFilename ) = 0;
+    virtual HRESULT __stdcall get_Object (
+        IDispatch * * ppDispatch ) = 0;
+    virtual HRESULT __stdcall put_OverrideBackColor (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_OverrideBackColor (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_ShowSceneTips (
+        VARIANT_BOOL show ) = 0;
+    virtual HRESULT __stdcall get_ShowSceneTips (
+        VARIANT_BOOL * show ) = 0;
+    virtual HRESULT __stdcall put_TipStyle (
+        enum esriTipStyle style ) = 0;
+    virtual HRESULT __stdcall get_TipStyle (
+        enum esriTipStyle * style ) = 0;
+    virtual HRESULT __stdcall put_TipDelay (
+        int delay ) = 0;
+    virtual HRESULT __stdcall get_TipDelay (
+        int * delay ) = 0;
+    virtual HRESULT __stdcall get_KeyIntercept (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_KeyIntercept (
+        long pVal ) = 0;
+};
+
+struct __declspec(uuid("6f7c3afd-ee18-4633-8611-a2aa3cfb869b"))
+ISceneControlDefault : IDispatch
+{};
+
+struct __declspec(uuid("1883bf0e-6928-41c1-8ee3-9b88151b7154"))
+ISceneControlEvents : IDispatch
+{};
+
+struct __declspec(uuid("dd4b8602-61f1-4528-82df-8b5acc862f84"))
+SceneControl;
+    // [ default ] dispinterface ISceneControlDefault
+    // [ default, source ] dispinterface ISceneControlEvents
+    // [ source ] interface ITOCBuddyEvents
+    // interface ISceneControl
+    // interface ITOCBuddy
+    // interface IToolbarBuddy
+    // interface IConnectionPointContainer
+    // interface IPersistStreamInit
+    // interface IPersist
+    // interface ISupportErrorInfo
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriSceneControl =
+    {0xffd20e78,0x41f3,0x4f9f,{0x8f,0x4d,0xe7,0xfb,0xe4,0xa5,0x45,0x16}};
+extern "C" const GUID __declspec(selectany) IID_ISceneControl =
+    {0x886f5a43,0x99a7,0x477d,{0xaf,0xfb,0x8b,0x37,0x4f,0x30,0xda,0x45}};
+extern "C" const GUID __declspec(selectany) DIID_ISceneControlDefault =
+    {0x6f7c3afd,0xee18,0x4633,{0x86,0x11,0xa2,0xaa,0x3c,0xfb,0x86,0x9b}};
+extern "C" const GUID __declspec(selectany) DIID_ISceneControlEvents =
+    {0x1883bf0e,0x6928,0x41c1,{0x8e,0xe3,0x9b,0x88,0x15,0x1b,0x71,0x54}};
+extern "C" const GUID __declspec(selectany) CLSID_SceneControl =
+    {0xdd4b8602,0x61f1,0x4528,{0x82,0xdf,0x8b,0x5a,0xcc,0x86,0x2f,0x84}};
+
+#pragma pack(pop)

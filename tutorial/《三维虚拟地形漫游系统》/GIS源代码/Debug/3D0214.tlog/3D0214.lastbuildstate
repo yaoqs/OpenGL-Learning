@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.19041.0
+Debug|Win32|G:\OpenGL学习源代码\OGLDL\《三维虚拟地形漫游系统》,三维图形全部基于OpenGL_编程模式为Visual C++MFC,面向对象编程,采用用模块化设\GIS源代码\|

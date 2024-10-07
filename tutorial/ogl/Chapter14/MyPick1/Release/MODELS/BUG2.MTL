@@ -1,0 +1,67 @@
+# Max2Mtl Version 3.0, Jul 11th, 1999
+#
+newmtl Material__7
+Ka  0.7 0.5 0.2
+Kd  0.7 0.5 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__46 (2) to come 
+#
+newmtl Material__7
+Ka  0.7 0.5 0.2
+Kd  0.7 0.5 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__3
+Ka  0.1 0.1 0.2
+Kd  0.3 0.2 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__46 done 
+#
+# Multi/Sub Material__35 (2) to come 
+#
+newmtl Material__7
+Ka  0.7 0.5 0.2
+Kd  0.7 0.5 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__3
+Ka  0.1 0.1 0.2
+Kd  0.3 0.2 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__35 done 
+#
+newmtl Material__9
+Ka  0.2 0.2 0.1
+Kd  1.0 1.0 0.9
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__3
+Ka  0.1 0.1 0.2
+Kd  0.3 0.2 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# EOF

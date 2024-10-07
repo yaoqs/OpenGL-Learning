@@ -1,0 +1,196 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (ece1bd68).
+//
+// TOCControl.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/bin/TOCControl.ocx
+// compiler-generated file created 01/08/07 at 20:58:34 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriCarto.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriSystemUI.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("5eeb268c-9b77-406d-8fc5-489324d0758b"))
+/* interface */ ITOCBuddy;
+struct __declspec(uuid("b8c66131-218f-418b-a960-cc0b649487e8"))
+/* interface */ ITOCBuddyEvents;
+struct __declspec(uuid("3b13323e-8cfc-46dc-bef9-34a95fd484f1"))
+/* dual interface */ ITOCControl;
+struct __declspec(uuid("daa3aece-0c15-42ba-a34d-0dfe38c68586"))
+/* dispinterface */ ITOCControlDefault;
+struct __declspec(uuid("d6b75ceb-ee14-4c3c-83d9-1d1d8c7828c7"))
+/* dispinterface */ ITOCControlEvents;
+struct /* coclass */ TOCControl;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ITOCBuddy, __uuidof(ITOCBuddy));
+_COM_SMARTPTR_TYPEDEF(ITOCBuddyEvents, __uuidof(ITOCBuddyEvents));
+_COM_SMARTPTR_TYPEDEF(ITOCControl, __uuidof(ITOCControl));
+_COM_SMARTPTR_TYPEDEF(ITOCControlDefault, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(ITOCControlEvents, __uuidof(IDispatch));
+
+//
+// Type library items
+//
+
+enum esriTOCControlEdit
+{
+    esriTOCControlAutomatic = 0,
+    esriTOCControlManual = 1
+};
+
+enum esriTOCControlItem
+{
+    esriTOCControlItemNone = 0,
+    esriTOCControlItemMap = 1,
+    esriTOCControlItemLayer = 2,
+    esriTOCControlItemHeading = 3,
+    esriTOCControlItemLegendClass = 4
+};
+
+struct __declspec(uuid("5eeb268c-9b77-406d-8fc5-489324d0758b"))
+ITOCBuddy : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall GetActiveView (
+        struct IActiveView * * ppActiveView ) = 0;
+    virtual HRESULT __stdcall GetScale (
+        struct IBasicMap * pBasicMap,
+        double * dScale ) = 0;
+};
+
+struct __declspec(uuid("b8c66131-218f-418b-a960-cc0b649487e8"))
+ITOCBuddyEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall ActiveViewReplaced (
+        struct IActiveView * pNewActiveView ) = 0;
+    virtual HRESULT __stdcall ActiveViewChanged (
+        VARIANT_BOOL OnlyScaleChange ) = 0;
+};
+
+struct __declspec(uuid("3b13323e-8cfc-46dc-bef9-34a95fd484f1"))
+ITOCControl : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Enabled (
+        VARIANT_BOOL Enabled ) = 0;
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * Enabled ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        long * hWnd ) = 0;
+    virtual HRESULT __stdcall put_MousePointer (
+        enum esriControlsMousePointer MousePointer ) = 0;
+    virtual HRESULT __stdcall get_MousePointer (
+        enum esriControlsMousePointer * MousePointer ) = 0;
+    virtual HRESULT __stdcall putref_MouseIcon (
+        IPictureDisp * MouseIcon ) = 0;
+    virtual HRESULT __stdcall get_MouseIcon (
+        IPictureDisp * * MouseIcon ) = 0;
+    virtual HRESULT __stdcall get_Appearance (
+        enum esriControlsAppearance * Appearance ) = 0;
+    virtual HRESULT __stdcall put_Appearance (
+        enum esriControlsAppearance Appearance ) = 0;
+    virtual HRESULT __stdcall put_BorderStyle (
+        enum esriControlsBorderStyle BorderStyle ) = 0;
+    virtual HRESULT __stdcall get_BorderStyle (
+        enum esriControlsBorderStyle * BorderStyle ) = 0;
+    virtual HRESULT __stdcall AboutBox ( ) = 0;
+    virtual HRESULT __stdcall get_ActiveView (
+        struct IActiveView * * ActiveView ) = 0;
+    virtual HRESULT __stdcall get_Buddy (
+        IDispatch * * Buddy ) = 0;
+    virtual HRESULT __stdcall HitTest (
+        long x,
+        long y,
+        enum esriTOCControlItem * ItemType,
+        struct IBasicMap * * BasicMap,
+        struct ILayer * * Layer,
+        IUnknown * * Unk,
+        VARIANT * Data ) = 0;
+    virtual HRESULT __stdcall Update ( ) = 0;
+    virtual HRESULT __stdcall SetActiveView (
+        struct IActiveView * ActiveView ) = 0;
+    virtual HRESULT __stdcall get_LayerVisibilityEdit (
+        enum esriTOCControlEdit * LayerVisibilityEdit ) = 0;
+    virtual HRESULT __stdcall put_LayerVisibilityEdit (
+        enum esriTOCControlEdit LayerVisibilityEdit ) = 0;
+    virtual HRESULT __stdcall get_LabelEdit (
+        enum esriTOCControlEdit * LabelEdit ) = 0;
+    virtual HRESULT __stdcall put_LabelEdit (
+        enum esriTOCControlEdit LabelEdit ) = 0;
+    virtual HRESULT __stdcall get_CustomProperty (
+        VARIANT * pVal ) = 0;
+    virtual HRESULT __stdcall put_CustomProperty (
+        VARIANT pVal ) = 0;
+    virtual HRESULT __stdcall SetBuddyControl (
+        IDispatch * pTOCBuddy ) = 0;
+    virtual HRESULT __stdcall get_Object (
+        IDispatch * * ppDispatch ) = 0;
+    virtual HRESULT __stdcall get_KeyIntercept (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_KeyIntercept (
+        long pVal ) = 0;
+};
+
+struct __declspec(uuid("daa3aece-0c15-42ba-a34d-0dfe38c68586"))
+ITOCControlDefault : IDispatch
+{};
+
+struct __declspec(uuid("d6b75ceb-ee14-4c3c-83d9-1d1d8c7828c7"))
+ITOCControlEvents : IDispatch
+{};
+
+struct __declspec(uuid("a0f9a9a2-4a3f-4888-826f-ca2bfa23cf17"))
+TOCControl;
+    // [ default ] dispinterface ITOCControlDefault
+    // [ default, source ] dispinterface ITOCControlEvents
+    // interface ITOCControl
+    // interface IConnectionPointContainer
+    // interface IPersistStreamInit
+    // interface IPersist
+    // interface ISupportErrorInfo
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriTOCControl =
+    {0x370a8dda,0x7915,0x42dc,{0xb4,0xa1,0x77,0x66,0x2c,0x82,0xb0,0x46}};
+extern "C" const GUID __declspec(selectany) IID_ITOCBuddy =
+    {0x5eeb268c,0x9b77,0x406d,{0x8f,0xc5,0x48,0x93,0x24,0xd0,0x75,0x8b}};
+extern "C" const GUID __declspec(selectany) IID_ITOCBuddyEvents =
+    {0xb8c66131,0x218f,0x418b,{0xa9,0x60,0xcc,0x0b,0x64,0x94,0x87,0xe8}};
+extern "C" const GUID __declspec(selectany) IID_ITOCControl =
+    {0x3b13323e,0x8cfc,0x46dc,{0xbe,0xf9,0x34,0xa9,0x5f,0xd4,0x84,0xf1}};
+extern "C" const GUID __declspec(selectany) DIID_ITOCControlDefault =
+    {0xdaa3aece,0x0c15,0x42ba,{0xa3,0x4d,0x0d,0xfe,0x38,0xc6,0x85,0x86}};
+extern "C" const GUID __declspec(selectany) DIID_ITOCControlEvents =
+    {0xd6b75ceb,0xee14,0x4c3c,{0x83,0xd9,0x1d,0x1d,0x8c,0x78,0x28,0xc7}};
+extern "C" const GUID __declspec(selectany) CLSID_TOCControl =
+    {0xa0f9a9a2,0x4a3f,0x4888,{0x82,0x6f,0xca,0x2b,0xfa,0x23,0xcf,0x17}};
+
+#pragma pack(pop)

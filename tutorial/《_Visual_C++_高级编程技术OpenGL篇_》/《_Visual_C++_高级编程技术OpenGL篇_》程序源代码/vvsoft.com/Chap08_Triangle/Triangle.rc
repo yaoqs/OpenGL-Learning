@@ -1,0 +1,648 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+CG_IDD_SKELETENDIALOGBAR DIALOGEX 0, 0, 133, 288
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_BODYTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,7,118,180
+    LTEXT           "Body Type : Right Upper Arm",IDC_STATIC_BODYTYPE,7,193,
+                    109,16,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "Orientation X : 0.000000",IDC_STATIC_ORIENTATIONX,7,212,
+                    109,16,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "Orientation Y : 0.000000",IDC_STATIC_ORIENTATIONY,7,231,
+                    109,16,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "Height : 0.000000",IDC_STATIC_POSITIONY,7,250,109,16,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CONTROL         "Spin4",IDC_SPIN_ORIENTATIONX,"msctls_updown32",
+                    UDS_ARROWKEYS,116,212,9,16
+    CONTROL         "Spin4",IDC_SPIN_ORIENTATIONY,"msctls_updown32",
+                    UDS_ARROWKEYS,116,231,9,16
+    CONTROL         "Spin4",IDC_SPIN_POSITIONY,"msctls_updown32",
+                    UDS_ARROWKEYS,116,250,9,16
+    CONTROL         "Spin4",IDC_SPIN_BODYTYPE,"msctls_updown32",
+                    UDS_ARROWKEYS,116,193,9,16
+    PUSHBUTTON      "Edit",IDC_BUTTON_EDIT,7,267,118,16
+END
+
+CG_IDD_FRAMEDIALOGBAR DIALOGEX 0, 0, 464, 47
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Play",IDC_BUTTON_PLAY,7,7,50,14,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,7,26,50,14,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add Group",IDC_BUTTON_ADDGROUP,61,7,50,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Del Group",IDC_BUTTON_DELGROUP,61,26,50,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add Frame",IDC_BUTTON_ADDFRAME,115,7,50,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Del Frame",IDC_BUTTON_DELFRAME,115,26,50,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Next",IDC_BUTTON_NEXT,169,7,50,14,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Prev",IDC_BUTTON_PREV,169,26,50,14,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "First",IDC_BUTTON_FIRST,223,7,50,14,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Last",IDC_BUTTON_LAST,223,26,50,14,0,WS_EX_CLIENTEDGE
+    CTEXT           " Frame : 999/999",IDC_STATIC_FRAME,278,25,85,15,
+                    SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    CTEXT           "Play Speed : 30/30",IDC_STATIC_PLAYSPEED,278,7,77,15,
+                    SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    CONTROL         "Spin1",IDC_SPIN_SPEED,"msctls_updown32",UDS_ARROWKEYS,
+                    354,7,10,15
+    LISTBOX         IDC_LIST_ANIMGROUP,374,7,83,33,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    CG_IDD_SKELETENDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 125
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    CG_IDD_FRAMEDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 457
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_PLAY         BITMAP  DISCARDABLE     "res\\play.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 281, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Motion Edit"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            137,IDC_STATIC,11,17,21,23
+    LTEXT           "Body Motion Edit Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright New Cnetury 1998",IDC_STATIC,39,34,119,8
+    DEFPUSHBUTTON   "OK",IDOK,112,150,32,14,WS_GROUP
+    LTEXT           "Mutiple Group Motion Animation",IDC_STATIC,35,49,239,12,
+                    0,WS_EX_CLIENTEDGE
+    LTEXT           "Owner Mot Motion File Format",IDC_STATIC,35,67,239,12,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Simple Collision Detection Test",IDC_STATIC,35,83,239,
+                    12,0,WS_EX_CLIENTEDGE
+    LTEXT           "Ghost Mode Help You Easy Edit Motion",IDC_STATIC,35,100,
+                    239,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "Dynamic Light Test",IDC_STATIC,35,116,239,12,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Hier Tree for Human Model",IDC_STATIC,35,133,239,12,0,
+                    WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MANIPULATEBAR       BITMAP  DISCARDABLE     "res\\manipula.bmp"
+IDR_ATTRIBUTEBAR        BITMAP  DISCARDABLE     "res\\attribut.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Triangle.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\smallico.ico"
+IDR_TRIANGTYPE          ICON    DISCARDABLE     "res\\TriangleDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Manipulator Bar",            ID_TOGGLE_MANIPULATEBAR
+        MENUITEM "&Attribute Bar",              ID_TOGGLE_ATTRIBUTEBAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Body Tree",                  CG_ID_VIEW_SKELETENDIALOGBAR
+        MENUITEM "&Frame View",                 CG_ID_VIEW_FRAMEDIALOGBAR
+    END
+    POPUP "&Manipulate"
+    BEGIN
+        POPUP "&Motion File..."
+        BEGIN
+            MENUITEM "Motion File &Open",           ID_MOTIONFILEOPEN
+            MENUITEM "Motion File &Save",           ID_MOTIONFILESAVE
+        END
+        MENUITEM SEPARATOR
+        POPUP "M&anipulate Mode..."
+        BEGIN
+            MENUITEM "&Track Ball Mode",            ID_TRACKBALLMODE
+            MENUITEM "T&ranslate Mode",             ID_TRANSLATEMODE
+            MENUITEM "&Drive Mode",                 ID_DRIVEMODE
+            MENUITEM "&Select Body Mode",           ID_SELECTBODYMODE
+            MENUITEM "Tr&anslaet Body Mode",        ID_TRANSLATEBODYMODE
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Constrain Mode..."
+        BEGIN
+            MENUITEM "Constrain &X Axis",           ID_CONSTRAIN_XMODE
+            MENUITEM "Constrain &Y Axis",           ID_CONSTRAIN_YMODE
+            MENUITEM "Constrain &Z Axis",           ID_CONSTRAIN_ZMODE
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Reset..."
+        BEGIN
+            MENUITEM "Reset &System",               ID_RESETSYSTEM
+            MENUITEM "Reset Current &Frame",        ID_RESETCURRENTFRAME
+            MENUITEM "Reset Current Select &Body",  ID_RESETCURRENTSELECTBODY
+
+            MENUITEM "Reset &Camera",               ID_RESETCAMERA
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Edit..."
+        BEGIN
+            MENUITEM "&Copy Frame",                 ID_COPYFRAME
+            MENUITEM "&Paste Frame",                ID_PASTEDATA
+        END
+    END
+    POPUP "&Attribute"
+    BEGIN
+        POPUP "&View Mode..."
+        BEGIN
+            MENUITEM "View Mode &1",                ID_VIEWMODE1
+            MENUITEM "View Mode &2",                ID_VIEWMODE2
+            MENUITEM "View Mode &3",                ID_VIEWMODE3
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Boudning Box Mode..."
+        BEGIN
+            MENUITEM "&Solid Model",                ID_SOLIDMODE
+            MENUITEM "&Bounding Box",               ID_BOUNDINGBOXMODE
+            MENUITEM "Solid &Model && Bounding Box", 
+                                                    ID_BOUNDINGBOXANDSOLIDMODE
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Ghost Mode",                 ID_GHOSTMODE
+        MENUITEM SEPARATOR
+        MENUITEM "&Scene Model Mode",           ID_SCENEMODEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh Screen",             ID_REFRESHSCREEN
+    END
+    POPUP "&Frame"
+    BEGIN
+        MENUITEM "&Play",                       IDC_BUTTON_PLAY
+        MENUITEM "&Stop",                       IDC_BUTTON_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Group",                  IDC_BUTTON_ADDGROUP
+        MENUITEM "&Del Group",                  IDC_BUTTON_DELGROUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Frame",                  IDC_BUTTON_ADDFRAME
+        MENUITEM "&Del Frame",                  IDC_BUTTON_DELFRAME
+        MENUITEM SEPARATOR
+        MENUITEM "&Next",                       IDC_BUTTON_NEXT
+        MENUITEM "&Prev",                       IDC_BUTTON_PREV
+        MENUITEM SEPARATOR
+        MENUITEM "&First",                      IDC_BUTTON_FIRST
+        MENUITEM "&Last",                       IDC_BUTTON_LAST
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Triangle...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TRIANGLE MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TRIANGLE\0"
+            VALUE "LegalCopyright", "Copyright © 1996\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TRIANGLE.EXE\0"
+            VALUE "ProductName", "TRIANGLE Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MANIPULATEBAR TOOLBAR DISCARDABLE  24, 24
+BEGIN
+    BUTTON      ID_MOTIONFILEOPEN
+    BUTTON      ID_MOTIONFILESAVE
+    SEPARATOR
+    BUTTON      ID_TRACKBALLMODE
+    BUTTON      ID_TRANSLATEMODE
+    BUTTON      ID_DRIVEMODE
+    BUTTON      ID_SELECTBODYMODE
+    BUTTON      ID_TRANSLATEBODYMODE
+    SEPARATOR
+    BUTTON      ID_CONSTRAIN_XMODE
+    BUTTON      ID_CONSTRAIN_YMODE
+    BUTTON      ID_CONSTRAIN_ZMODE
+    SEPARATOR
+    BUTTON      ID_RESETSYSTEM
+    BUTTON      ID_RESETCURRENTFRAME
+    BUTTON      ID_RESETCURRENTSELECTBODY
+    BUTTON      ID_RESETCAMERA
+    SEPARATOR
+    BUTTON      ID_COPYFRAME
+    BUTTON      ID_PASTEDATA
+END
+
+IDR_ATTRIBUTEBAR TOOLBAR DISCARDABLE  40, 35
+BEGIN
+    BUTTON      ID_VIEWMODE1
+    BUTTON      ID_VIEWMODE2
+    BUTTON      ID_VIEWMODE3
+    SEPARATOR
+    BUTTON      ID_SOLIDMODE
+    BUTTON      ID_BOUNDINGBOXMODE
+    BUTTON      ID_BOUNDINGBOXANDSOLIDMODE
+    SEPARATOR
+    BUTTON      ID_GHOSTMODE
+    SEPARATOR
+    BUTTON      ID_SCENEMODEL
+    SEPARATOR
+    BUTTON      ID_REFRESHSCREEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Motion Edit\n\nMotion Edit\n\n\nMotion Edit.Document\nMotion Edit.Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Motion Edit"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_ID_VIEW_SKELETENDIALOGBAR "Skeleton Bar On/Off \nSkeleton Bar On/Off"
+    CG_ID_VIEW_SKELETENDIALOGBAR2 
+                            "Show or hide Skeleten Dialog Bar\nToggle Skeleten Dialog Bar"
+    CG_ID_VIEW_INFOBAR      "Show or hide InfoBar\nToggle InfoBar"
+    CG_ID_VIEW_FRAMEDIALOGBAR 
+                            "Show or hide Frame Dialog Bar\nToggle Frame Dialog Bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TRACKBALLMODE        "Trackball Mode\nTrackball Mode"
+    ID_TRANSLATE            "Translate Mode\nTranslate Mode"
+    ID_DRIVEMODE            "Drive Mode\nDrive Mode"
+    ID_TRANSLATEMODE        "Translate Mode\nTranslate Mode"
+    ID_SELECTBODYMODE       "Select Body Mode\nSelect Body Mode"
+    ID_TRANSLATEBODYMODE    "Translate Body Mode\nTranslate Body Mode"
+    ID_CONSTRAIN_XMODE      "Constrain X axis manipulator\n Constrain X axis"
+    ID_CONSTRAIN_YMODE      "Constrain Y axis manipulator\n Constrain Y axis"
+    ID_CONSTRAIN_ZMODE      "Constrain Z axis manipulator\n Constrain Z axis"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MOTIONFILEOPEN       "Open Motion File\nOpen Motion File"
+    ID_MOTIONFILESAVE       "Save Motion File\nSave Motion File"
+    ID_RESETSYSTEM          "Reset System\nReset System"
+    ID_RESETCURRENTFRAME    "Reset Current Frame\nReset Current Frame"
+    ID_RESETCURRENTSELECTBODY 
+                            "Reset Current Select Body\nReset Current Select Body"
+    ID_RESETCAMERA          "Reset Camera\nReset Camera"
+    ID_COPYFRAME            "Copy Frame Data\nCopy Frame Data"
+    ID_PASTEDATA            "Paste Frame Data\nPaste Frame Data"
+    ID_VIEWMODE1            "View Mode 1\nView Mode1"
+    ID_VIEWMODE2            "View Mode 2\nView Mode2"
+    ID_VIEWMODE3            "View Mode 3\nView Mode3"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GHOSTMODE            "Toggle Ghost Mode\nToggle Ghost Mode"
+    ID_REFRESHSCREEN        "Refresh Screen\nRefrsh Screem"
+    ID_BOUNDINGBOXMODE      "Toggle Bounding Box Mode\nToggle Bounding Box Mode"
+    ID_BOUNDINGBOXANDSOLIDMODE 
+                            "Toggle Bounding Box Mode and Solid Model Mode\nBoth Bounding Box and Solid"
+    ID_SOLIDMODE            "Toggle Solid Model Mode\nToggle Solid Model Mode"
+    ID_SCENEMODEL           "Toggle Test Scene Model\nToggle Test Scene Model"
+    ID_TOGGLE_MANIPULATEBAR "Toggle Manipulate Bar\\Toggle Manipulate Bar"
+    ID_TOGGLE_ATTRIBUTEBAR  "Toggle Attribute Bar\nToggle Attribute Bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_BUTTON_PLAY         "Play Motion File\nPlay Motion File"
+    IDC_BUTTON_STOP         "Stop Motion File\nStop Motion File"
+    IDC_BUTTON_ADDGROUP     "Add Group Animation\nAdd Group Animation"
+    IDC_BUTTON_DELGROUP     "Del Group Animation\nDel Group Animation"
+    IDC_BUTTON_ADDFRAME     "Add Frame\nAdd Frame"
+    IDC_BUTTON_DELFRAME     "Del Frame\nDel Frame"
+    IDC_BUTTON_NEXT         "Next Frame\nNext Frame"
+    IDC_BUTTON_PREV         "Previous Frame\nPrevious Frame"
+    IDC_BUTTON_FIRST        "First Frame\nFirst Frame"
+    IDC_BUTTON_LAST         "Last Frame\nLast Frame"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\Triangle.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

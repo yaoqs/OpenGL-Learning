@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CreateProjectFiles - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/CreateProjectFiles.res" /d "NDEBUG" /d "_AFXDLL" "D:\Important\OGLForQiao\Program\CreatePrj\CreateProjectFiles.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP42C2.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD "stdafx.h" /c 
+"D:\Important\OGLForQiao\Program\CreatePrj\CreateProjectFiles.cpp"
+"D:\Important\OGLForQiao\Program\CreatePrj\CreateProjectFilesDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP42C2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP42C3.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/CreateProjectFiles.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD "stdafx.h" /c 
+"D:\Important\OGLForQiao\Program\CreatePrj\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP42C3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP42C4.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/CreateProjectFiles.pdb" /machine:I386 /out:"Release/CreateProjectFiles.exe" 
+.\Release\CreateProjectFiles.obj
+.\Release\CreateProjectFilesDlg.obj
+.\Release\StdAfx.obj
+.\Release\CreateProjectFiles.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP42C4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Command line warning D4024 : unrecognized source file type 'stdafx.h', object file assumed
+Command line warning D4027 : source file 'stdafx.h' ignored
+StdAfx.cpp
+Compiling...
+Command line warning D4024 : unrecognized source file type 'stdafx.h', object file assumed
+Command line warning D4027 : source file 'stdafx.h' ignored
+CreateProjectFiles.cpp
+CreateProjectFilesDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CreateProjectFiles.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

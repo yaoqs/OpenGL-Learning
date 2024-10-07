@@ -1,0 +1,1634 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (e56e9457).
+//
+// esriCatalogUI.tlh
+//
+// C++ source equivalent of Win32 type library d:/Program Files/ArcGis/com/esriCatalogUI.olb
+// compiler-generated file created 01/08/07 at 20:58:35 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "D:\Program Files\ArcGIS\com\esriCatalog.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriSystem.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriGeometry.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriCarto.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriDisplay.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriGeoDatabase.olb"
+//  #import "D:\Program Files\ArcGIS\com\esriGISClient.olb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("d1bf6a01-7a1c-11d0-b77d-00805f7ced21"))
+/* interface */ IGxApplication;
+struct __declspec(uuid("b1de27ab-d892-11d1-aa81-064342000000"))
+/* interface */ IGxView;
+struct __declspec(uuid("2ef87699-ec64-11d1-aa96-00c04fa375e3"))
+/* interface */ IGxTreeView;
+struct __declspec(uuid("da1862ea-95f8-11d2-af67-080009ec734b"))
+/* interface */ IGxContentsView;
+struct __declspec(uuid("da1862ec-95f8-11d2-af67-080009ec734b"))
+/* interface */ IGxPreview;
+struct __declspec(uuid("19bd00a9-e455-11d1-aee4-080009ec734b"))
+/* interface */ IGxGeographicView;
+struct __declspec(uuid("20f44eeb-f618-11d3-a68b-0008c7d3ae8d"))
+/* interface */ IGxGeographicView2;
+struct __declspec(uuid("8ed63615-da21-4807-a4ce-97efcfb8fddb"))
+/* interface */ IGxTableView;
+struct __declspec(uuid("d342626c-f9da-11d3-a68d-0008c7d3ae8d"))
+/* interface */ IEnumGxView;
+struct __declspec(uuid("e7e3da73-f904-11d3-a68c-0008c7d3ae8d"))
+/* interface */ IGxViewContainer;
+struct __declspec(uuid("22e48ec9-f92d-11d3-a68d-0008c7d3ae8d"))
+/* interface */ IGxContentsViewColumn;
+struct __declspec(uuid("26212055-ef93-11d3-a685-0008c7d3ae8d"))
+/* interface */ IGxContentsViewColumns;
+struct __declspec(uuid("a6164232-9140-41ad-b3f3-1da263c80d56"))
+/* interface */ IGxViewPrint;
+struct /* coclass */ GxTreeView;
+struct /* coclass */ GxContentsView;
+struct /* coclass */ GxPreview;
+struct /* coclass */ GxGeographicView;
+struct /* coclass */ GxTableView;
+struct /* coclass */ GxContentsViewColumn;
+struct /* coclass */ GxContentsViewPage;
+struct /* coclass */ EnumGxView;
+struct __declspec(uuid("eab9ce29-e777-11d1-aee7-080009ec734b"))
+/* interface */ IGxDialog;
+struct /* coclass */ GxDialog;
+struct __declspec(uuid("16688540-54c4-11d2-aad3-00c04fa33a15"))
+/* interface */ ISpatialReferenceDialog;
+struct __declspec(uuid("b088f162-cdd1-11d3-a097-00c04f6bdf0e"))
+/* interface */ ISpatialReferenceDialog2;
+struct __declspec(uuid("a38cb580-95ce-11d2-ad2a-00c04fa33a15"))
+/* interface */ IGeographicCoordinateSystemDialog;
+struct __declspec(uuid("a38cb581-95ce-11d2-ad2a-00c04fa33a15"))
+/* interface */ IProjectedCoordinateSystemDialog;
+struct /* coclass */ SpatialReferenceDialog;
+struct /* coclass */ GeographicCoordinateSystemDialog;
+struct /* coclass */ ProjectedCoordinateSystemDialog;
+struct /* coclass */ GeographicCoordSysPropPage;
+struct /* coclass */ ProjectedCoordSysPropPage;
+struct __declspec(uuid("5dbede6b-4cde-11d2-aad2-00c04fa33a15"))
+/* interface */ ITableDefinitionDialog;
+struct __declspec(uuid("b8eb61d1-6223-11d3-9ff0-00c04f6bc626"))
+/* interface */ ITableDefFieldsPage;
+struct /* coclass */ TableDefinitionDialog;
+struct /* coclass */ DomainsPropertyPage;
+struct /* coclass */ TableDefNamePage;
+struct /* coclass */ TableDefFieldsPage;
+struct /* coclass */ SubtypesPropertyPage;
+struct /* coclass */ TableIndexPage;
+struct /* coclass */ TableDefRelationshipsPage;
+struct /* coclass */ TableDefWeightsPage;
+struct /* coclass */ GxMapPropPage;
+struct /* coclass */ GxPMFMapPropPage;
+struct /* coclass */ GxObjectVisibilityPage;
+struct /* coclass */ GxFileFilterDefinitionPage;
+struct __declspec(uuid("6edc31dd-e3ad-11d2-99c1-0000f80372b4"))
+/* interface */ IFeatureDatasetDialog;
+struct /* coclass */ FeatureDatasetDialog;
+struct /* coclass */ FeatDSSpaRefPage;
+struct __declspec(uuid("2a4e2f8c-daf1-11d2-9f52-00c04f6bc626"))
+/* interface */ IRelationshipClassDialog;
+struct /* coclass */ RelationshipClassDialog;
+struct /* coclass */ GeneralRelationshipClassPropertyPage;
+struct /* coclass */ RelationshipRulesPage;
+struct __declspec(uuid("d0579ffe-5918-4c35-9f03-d9833f728df1"))
+/* interface */ ICreateRasterCatalogWizard;
+struct __declspec(uuid("9c204f5e-59b2-475a-a52b-37b0f750f0f6"))
+/* interface */ IGxObjectEnumerator;
+struct /* coclass */ CreateRasterCatalogWizard;
+struct __declspec(uuid("979fea13-d5ae-11d2-9f28-00c04f6bc69e"))
+/* interface */ IGxApplicationEvents;
+struct /* coclass */ GxShapefileIndexPage;
+struct /* coclass */ Pre70CoveragePropertyPage;
+struct /* coclass */ GxDataGraphView;
+struct __declspec(uuid("da1862eb-95f8-11d2-af67-080009ec734b"))
+/* interface */ IGxDocumentationView;
+struct __declspec(uuid("7ad0da09-0d4a-11d3-a626-0008c7d3ae50"))
+/* interface */ IMetadataEditor;
+struct __declspec(uuid("055b2b9a-f2c9-11d2-9fc1-00c04f8ed211"))
+/* interface */ IMetadataHelper;
+struct __declspec(uuid("43390ccd-5906-4c57-81fd-7a2f95a7a84e"))
+/* interface */ IMetadataEvents;
+struct /* coclass */ GxDocumentationView;
+struct /* coclass */ MetadataExtension;
+struct __declspec(uuid("b1c0a748-d6c7-4477-9c84-e83da6f60617"))
+/* interface */ IXmlQuery;
+struct __declspec(uuid("4ea3e4ec-9dfa-11d3-a6cb-0008c7d3ae50"))
+/* interface */ IFileSystemQuery;
+struct __declspec(uuid("3155eef7-8734-43a5-87e7-62bd658363af"))
+/* interface */ IArcIMSQuery;
+struct __declspec(uuid("52e909ba-552e-4ae2-87e7-9ed84c703d1e"))
+/* interface */ IFindDialogSettings;
+struct __declspec(uuid("d18306a2-9d3c-11d3-a6cb-0008c7d3ae50"))
+/* interface */ ISearchEngine;
+struct __declspec(uuid("b46f085c-db78-4862-a391-fcfdc92c62cb"))
+/* interface */ ISearchEngineProperties;
+struct __declspec(uuid("d18306a3-9d3c-11d3-a6cb-0008c7d3ae50"))
+/* interface */ ISearchEngineEvents;
+struct __declspec(uuid("70e62545-d396-11d3-a6f3-0008c7d3ae50"))
+/* interface */ IFindDialog;
+struct /* coclass */ FileSystemQuery;
+struct /* coclass */ FileSystemXmlSearchEngine;
+struct /* coclass */ CatalogSearchEngine;
+struct /* coclass */ FindDialog;
+struct __declspec(uuid("cac7e0e9-bde5-4a18-a18f-92b6b0bf86f4"))
+/* interface */ IAGSObjectAdminDialog;
+struct __declspec(uuid("b2772436-4029-4b58-abd2-8e4ad62ea569"))
+/* interface */ IAGSConnectionAdminDialog;
+struct /* coclass */ AGSGeneralPage;
+struct /* coclass */ AGSMapParameterPage;
+struct /* coclass */ AGSGeocodeParameterPage;
+struct /* coclass */ AGSProcessPage;
+struct /* coclass */ AGSPoolingPage;
+struct /* coclass */ AGSServerHostsPage;
+struct /* coclass */ AGSServerDirsPage;
+struct /* coclass */ AGSServerGeneralPage;
+struct /* coclass */ AGSServerStatisticsPage;
+struct /* coclass */ AGSServerTypesPage;
+struct /* coclass */ ProxyServerPage;
+struct /* coclass */ MapServerObjectPropPage;
+struct /* coclass */ AGSObjectAdminDialog;
+struct /* coclass */ AGSConnectionAdminDialog;
+struct __declspec(uuid("40f59116-40c0-4cf1-830b-dca136cc1c8f"))
+/* interface */ ICreateRasterDatasetDlg;
+struct __declspec(uuid("0eda5f3d-fe01-40d1-9018-1b2e4a01fd2e"))
+/* interface */ IGxRasterCatalogSubView;
+struct /* coclass */ GxRasterCatalogContentView;
+struct /* coclass */ GxRasterCatalogSubPropertyView;
+struct /* coclass */ MetadataServiceEngine;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IGxApplication, __uuidof(IGxApplication));
+_COM_SMARTPTR_TYPEDEF(IGxView, __uuidof(IGxView));
+_COM_SMARTPTR_TYPEDEF(IGxTreeView, __uuidof(IGxTreeView));
+_COM_SMARTPTR_TYPEDEF(IGxContentsView, __uuidof(IGxContentsView));
+_COM_SMARTPTR_TYPEDEF(IGxPreview, __uuidof(IGxPreview));
+_COM_SMARTPTR_TYPEDEF(IGxGeographicView, __uuidof(IGxGeographicView));
+_COM_SMARTPTR_TYPEDEF(IGxGeographicView2, __uuidof(IGxGeographicView2));
+_COM_SMARTPTR_TYPEDEF(IGxTableView, __uuidof(IGxTableView));
+_COM_SMARTPTR_TYPEDEF(IEnumGxView, __uuidof(IEnumGxView));
+_COM_SMARTPTR_TYPEDEF(IGxViewContainer, __uuidof(IGxViewContainer));
+_COM_SMARTPTR_TYPEDEF(IGxContentsViewColumn, __uuidof(IGxContentsViewColumn));
+_COM_SMARTPTR_TYPEDEF(IGxContentsViewColumns, __uuidof(IGxContentsViewColumns));
+_COM_SMARTPTR_TYPEDEF(IGxViewPrint, __uuidof(IGxViewPrint));
+_COM_SMARTPTR_TYPEDEF(IGxDialog, __uuidof(IGxDialog));
+_COM_SMARTPTR_TYPEDEF(ISpatialReferenceDialog, __uuidof(ISpatialReferenceDialog));
+_COM_SMARTPTR_TYPEDEF(ISpatialReferenceDialog2, __uuidof(ISpatialReferenceDialog2));
+_COM_SMARTPTR_TYPEDEF(IGeographicCoordinateSystemDialog, __uuidof(IGeographicCoordinateSystemDialog));
+_COM_SMARTPTR_TYPEDEF(IProjectedCoordinateSystemDialog, __uuidof(IProjectedCoordinateSystemDialog));
+_COM_SMARTPTR_TYPEDEF(ITableDefinitionDialog, __uuidof(ITableDefinitionDialog));
+_COM_SMARTPTR_TYPEDEF(ITableDefFieldsPage, __uuidof(ITableDefFieldsPage));
+_COM_SMARTPTR_TYPEDEF(IFeatureDatasetDialog, __uuidof(IFeatureDatasetDialog));
+_COM_SMARTPTR_TYPEDEF(IRelationshipClassDialog, __uuidof(IRelationshipClassDialog));
+_COM_SMARTPTR_TYPEDEF(ICreateRasterCatalogWizard, __uuidof(ICreateRasterCatalogWizard));
+_COM_SMARTPTR_TYPEDEF(IGxObjectEnumerator, __uuidof(IGxObjectEnumerator));
+_COM_SMARTPTR_TYPEDEF(IGxApplicationEvents, __uuidof(IGxApplicationEvents));
+_COM_SMARTPTR_TYPEDEF(IGxDocumentationView, __uuidof(IGxDocumentationView));
+_COM_SMARTPTR_TYPEDEF(IMetadataEditor, __uuidof(IMetadataEditor));
+_COM_SMARTPTR_TYPEDEF(IMetadataHelper, __uuidof(IMetadataHelper));
+_COM_SMARTPTR_TYPEDEF(IMetadataEvents, __uuidof(IMetadataEvents));
+_COM_SMARTPTR_TYPEDEF(IXmlQuery, __uuidof(IXmlQuery));
+_COM_SMARTPTR_TYPEDEF(IFileSystemQuery, __uuidof(IFileSystemQuery));
+_COM_SMARTPTR_TYPEDEF(IArcIMSQuery, __uuidof(IArcIMSQuery));
+_COM_SMARTPTR_TYPEDEF(IFindDialogSettings, __uuidof(IFindDialogSettings));
+_COM_SMARTPTR_TYPEDEF(ISearchEngine, __uuidof(ISearchEngine));
+_COM_SMARTPTR_TYPEDEF(ISearchEngineProperties, __uuidof(ISearchEngineProperties));
+_COM_SMARTPTR_TYPEDEF(ISearchEngineEvents, __uuidof(ISearchEngineEvents));
+_COM_SMARTPTR_TYPEDEF(IFindDialog, __uuidof(IFindDialog));
+_COM_SMARTPTR_TYPEDEF(IAGSObjectAdminDialog, __uuidof(IAGSObjectAdminDialog));
+_COM_SMARTPTR_TYPEDEF(IAGSConnectionAdminDialog, __uuidof(IAGSConnectionAdminDialog));
+_COM_SMARTPTR_TYPEDEF(ICreateRasterDatasetDlg, __uuidof(ICreateRasterDatasetDlg));
+_COM_SMARTPTR_TYPEDEF(IGxRasterCatalogSubView, __uuidof(IGxRasterCatalogSubView));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("d1bf6a01-7a1c-11d0-b77d-00805f7ced21"))
+IGxApplication : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Catalog (
+        struct IGxCatalog * * Catalog ) = 0;
+    virtual HRESULT __stdcall get_View (
+        struct IGxView * * View ) = 0;
+    virtual HRESULT __stdcall get_ViewClassID (
+        struct IUID * * ViewClassID ) = 0;
+    virtual HRESULT __stdcall put_ViewClassID (
+        struct IUID * ViewClassID ) = 0;
+    virtual HRESULT __stdcall get_TreeView (
+        struct IGxTreeView * * TreeView ) = 0;
+    virtual HRESULT __stdcall get_Selection (
+        struct IGxSelection * * Selection ) = 0;
+    virtual HRESULT __stdcall get_SelectedObject (
+        struct IGxObject * * SelectedObject ) = 0;
+    virtual HRESULT __stdcall put_Location (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall Refresh (
+        BSTR startingPath ) = 0;
+    virtual HRESULT __stdcall ShowContextMenu (
+        long x,
+        long y ) = 0;
+    virtual HRESULT __stdcall ExpandSelection ( ) = 0;
+    virtual HRESULT __stdcall get_CanDeleteSelection (
+        VARIANT_BOOL * pEnabled ) = 0;
+    virtual HRESULT __stdcall DeleteSelection ( ) = 0;
+    virtual HRESULT __stdcall get_CanRenameSelection (
+        VARIANT_BOOL * pEnabled ) = 0;
+    virtual HRESULT __stdcall RenameSelection ( ) = 0;
+    virtual HRESULT __stdcall get_AreaOfInterest (
+        struct IEnvelope * * aoi ) = 0;
+    virtual HRESULT __stdcall put_AreaOfInterest (
+        struct IEnvelope * aoi ) = 0;
+};
+
+struct __declspec(uuid("b1de27ab-d892-11d1-aa81-064342000000"))
+IGxView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_ClassID (
+        struct IUID * * ClassID ) = 0;
+    virtual HRESULT __stdcall get_hWnd (
+        OLE_HANDLE * window ) = 0;
+    virtual HRESULT __stdcall get_DefaultToolbarCLSID (
+        struct IUID * * toolbarCLSID ) = 0;
+    virtual HRESULT __stdcall get_SupportsTools (
+        VARIANT_BOOL * SupportsTools ) = 0;
+    virtual HRESULT __stdcall Applies (
+        struct IGxObject * Selection,
+        VARIANT_BOOL * Applies ) = 0;
+    virtual HRESULT __stdcall Activate (
+        struct IGxApplication * application,
+        struct IGxCatalog * Catalog ) = 0;
+    virtual HRESULT __stdcall Deactivate ( ) = 0;
+    virtual HRESULT __stdcall Refresh ( ) = 0;
+    virtual HRESULT __stdcall SystemSettingChanged (
+        long flag,
+        BSTR section ) = 0;
+};
+
+struct __declspec(uuid("2ef87699-ec64-11d1-aa96-00c04fa375e3"))
+IGxTreeView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall ExpandSelection (
+        struct IGxSelection * Selection ) = 0;
+    virtual HRESULT __stdcall BeginRename ( ) = 0;
+    virtual HRESULT __stdcall EnsureVisible (
+        struct IGxObject * object ) = 0;
+};
+
+enum esriContentsViewStyle
+{
+    esriCVSLargeIcons = 0,
+    esriCVSList = 1,
+    esriCVSDetails = 2,
+    esriCVSThumbnails = 3
+};
+
+struct __declspec(uuid("da1862ea-95f8-11d2-af67-080009ec734b"))
+IGxContentsView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_DisplayStyle (
+        enum esriContentsViewStyle * contentsStyle ) = 0;
+    virtual HRESULT __stdcall put_DisplayStyle (
+        enum esriContentsViewStyle contentsStyle ) = 0;
+    virtual HRESULT __stdcall get_AllowMultiSelect (
+        VARIANT_BOOL * multiSelect ) = 0;
+    virtual HRESULT __stdcall put_AllowMultiSelect (
+        VARIANT_BOOL multiSelect ) = 0;
+    virtual HRESULT __stdcall putref_ObjectFilter (
+        struct IGxObjectFilter * _arg1 ) = 0;
+    virtual HRESULT __stdcall BeginRename ( ) = 0;
+};
+
+struct __declspec(uuid("da1862ec-95f8-11d2-af67-080009ec734b"))
+IGxPreview : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_View (
+        struct IGxView * * currentView ) = 0;
+    virtual HRESULT __stdcall get_ViewClassID (
+        struct IUID * * ViewClassID ) = 0;
+    virtual HRESULT __stdcall put_ViewClassID (
+        struct IUID * ViewClassID ) = 0;
+    virtual HRESULT __stdcall get_SupportedViewClassIDs (
+        struct ISet * * viewClassIDs ) = 0;
+};
+
+struct __declspec(uuid("19bd00a9-e455-11d1-aee4-080009ec734b"))
+IGxGeographicView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_DisplayedLayer (
+        struct ILayer * * layer ) = 0;
+    virtual HRESULT __stdcall get_MapDisplay (
+        struct IScreenDisplay * * screenDisplay ) = 0;
+    virtual HRESULT __stdcall get_Map (
+        struct IMap * * Map ) = 0;
+};
+
+struct __declspec(uuid("20f44eeb-f618-11d3-a68b-0008c7d3ae8d"))
+IGxGeographicView2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_DisplayedLayer (
+        struct ILayer * * layer ) = 0;
+    virtual HRESULT __stdcall get_MapDisplay (
+        struct IScreenDisplay * * screenDisplay ) = 0;
+    virtual HRESULT __stdcall get_Map (
+        struct IMap * * Map ) = 0;
+    virtual HRESULT __stdcall get_ActiveView (
+        struct IActiveView * * ppActiveView ) = 0;
+};
+
+struct __declspec(uuid("8ed63615-da21-4807-a4ce-97efcfb8fddb"))
+IGxTableView : IUnknown
+{};
+
+struct __declspec(uuid("d342626c-f9da-11d3-a68d-0008c7d3ae8d"))
+IEnumGxView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Next (
+        struct IGxView * * ppView ) = 0;
+    virtual HRESULT __stdcall Reset ( ) = 0;
+};
+
+struct __declspec(uuid("e7e3da73-f904-11d3-a68c-0008c7d3ae8d"))
+IGxViewContainer : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall FindView (
+        struct IUID * pUID,
+        VARIANT_BOOL bRecursive,
+        struct IGxView * * ppView ) = 0;
+    virtual HRESULT __stdcall get_Views (
+        struct IEnumGxView * * ppGxViews ) = 0;
+};
+
+struct __declspec(uuid("22e48ec9-f92d-11d3-a68d-0008c7d3ae8d"))
+IGxContentsViewColumn : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Caption (
+        BSTR * pCaption ) = 0;
+    virtual HRESULT __stdcall put_Caption (
+        BSTR pCaption ) = 0;
+    virtual HRESULT __stdcall get_PropertyName (
+        BSTR * pPropName ) = 0;
+    virtual HRESULT __stdcall put_PropertyName (
+        BSTR pPropName ) = 0;
+    virtual HRESULT __stdcall get_Width (
+        long * pWidth ) = 0;
+    virtual HRESULT __stdcall put_Width (
+        long pWidth ) = 0;
+    virtual HRESULT __stdcall get_Visible (
+        VARIANT_BOOL * pVisible ) = 0;
+    virtual HRESULT __stdcall put_Visible (
+        VARIANT_BOOL pVisible ) = 0;
+    virtual HRESULT __stdcall get_Intrinsic (
+        VARIANT_BOOL * pIntrinsic ) = 0;
+    virtual HRESULT __stdcall put_Intrinsic (
+        VARIANT_BOOL pIntrinsic ) = 0;
+};
+
+struct __declspec(uuid("26212055-ef93-11d3-a685-0008c7d3ae8d"))
+IGxContentsViewColumns : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall InsertColumn (
+        long index,
+        struct IGxContentsViewColumn * pColumn ) = 0;
+    virtual HRESULT __stdcall RemoveColumn (
+        struct IGxContentsViewColumn * pColumn ) = 0;
+    virtual HRESULT __stdcall RemoveAllColumns ( ) = 0;
+    virtual HRESULT __stdcall UpdateColumns ( ) = 0;
+    virtual HRESULT __stdcall get_ColumnCount (
+        long * Count ) = 0;
+    virtual HRESULT __stdcall get_ColumnByIndex (
+        long index,
+        struct IGxContentsViewColumn * * ppColumn ) = 0;
+    virtual HRESULT __stdcall get_ColumnByProperty (
+        BSTR property,
+        struct IGxContentsViewColumn * * ppColumn ) = 0;
+};
+
+struct __declspec(uuid("a6164232-9140-41ad-b3f3-1da263c80d56"))
+IGxViewPrint : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_IsPrintable (
+        VARIANT_BOOL * IsPrintable ) = 0;
+    virtual HRESULT __stdcall Print ( ) = 0;
+};
+
+struct __declspec(uuid("b1de27ad-d892-11d1-aa81-064342000000"))
+GxTreeView;
+    // [ default ] interface IUnknown
+    // interface IGxCatalogEvents
+    // interface IGxSelectionEvents
+    // interface IGxTreeView
+    // interface IGxView
+
+struct __declspec(uuid("b1de27ae-d892-11d1-aa81-064342000000"))
+GxContentsView;
+    // [ default ] interface IUnknown
+    // interface IGxCatalogEvents
+    // interface IGxContentsView
+    // interface IGxContentsViewColumns
+    // interface IGxSelectionEvents
+    // interface IGxView
+    // interface IPersistStream
+
+struct __declspec(uuid("b1de27af-d892-11d1-aa81-064342000000"))
+GxPreview;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxPreview
+    // interface IGxSelectionEvents
+    // interface IGxViewContainer
+
+struct __declspec(uuid("b1de27b0-d892-11d1-aa81-064342000000"))
+GxGeographicView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxGeographicView
+    // interface IGxGeographicView2
+    // interface IGxSelectionEvents
+    // interface IGxCatalogEvents
+    // interface ITransformEvents
+
+struct __declspec(uuid("9c34344d-99dc-11d2-af6a-080009ec734b"))
+GxTableView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxSelectionEvents
+    // interface IGxCatalogEvents
+    // interface IGxTableView
+
+struct __declspec(uuid("22e48ecb-f92d-11d3-a68d-0008c7d3ae8d"))
+GxContentsViewColumn;
+    // [ default ] interface IUnknown
+    // interface IGxContentsViewColumn
+    // interface IPersistStream
+    // interface IClone
+
+struct __declspec(uuid("d342626b-f9da-11d3-a68d-0008c7d3ae8d"))
+GxContentsViewPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("0ed03264-cfed-4bce-9f7f-30830a020394"))
+EnumGxView;
+    // [ default ] interface IUnknown
+    // interface IEnumGxView
+
+struct __declspec(uuid("eab9ce29-e777-11d1-aee7-080009ec734b"))
+IGxDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_AllowMultiSelect (
+        VARIANT_BOOL _arg1 ) = 0;
+    virtual HRESULT __stdcall put_Title (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall put_ButtonCaption (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall put_Name (
+        BSTR Name ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_ReplacingObject (
+        VARIANT_BOOL * ReplacingObject ) = 0;
+    virtual HRESULT __stdcall put_StartingLocation (
+        VARIANT * _arg1 ) = 0;
+    virtual HRESULT __stdcall get_FinalLocation (
+        struct IGxObject * * FinalLocation ) = 0;
+    virtual HRESULT __stdcall put_RememberLocation (
+        VARIANT_BOOL _arg1 ) = 0;
+    virtual HRESULT __stdcall putref_ObjectFilter (
+        struct IGxObjectFilter * filter ) = 0;
+    virtual HRESULT __stdcall get_ObjectFilter (
+        struct IGxObjectFilter * * filter ) = 0;
+    virtual HRESULT __stdcall get_InternalCatalog (
+        struct IGxCatalog * * Catalog ) = 0;
+    virtual HRESULT __stdcall DoModalOpen (
+        OLE_HANDLE parentWindow,
+        struct IEnumGxObject * * Selection,
+        VARIANT_BOOL * result ) = 0;
+    virtual HRESULT __stdcall DoModalSave (
+        OLE_HANDLE parentWindow,
+        VARIANT_BOOL * result ) = 0;
+};
+
+struct __declspec(uuid("eab9ce2a-e777-11d1-aee7-080009ec734b"))
+GxDialog;
+    // [ default ] interface IUnknown
+    // interface IGxDialog
+    // interface IGxObjectFilterCollection
+    // interface IGxSelectionEvents
+
+struct __declspec(uuid("16688540-54c4-11d2-aad3-00c04fa33a15"))
+ISpatialReferenceDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        VARIANT_BOOL hasXY,
+        VARIANT_BOOL hasZ,
+        VARIANT_BOOL hasM,
+        OLE_HANDLE hParent,
+        struct ISpatialReference * * spatialReference ) = 0;
+    virtual HRESULT __stdcall DoModalEdit (
+        struct ISpatialReference * inputSpatialReference,
+        VARIANT_BOOL hasXY,
+        VARIANT_BOOL hasZ,
+        VARIANT_BOOL hasM,
+        VARIANT_BOOL coordPageReadOnly,
+        VARIANT_BOOL domainPageReadOnly,
+        OLE_HANDLE hParent,
+        struct ISpatialReference * * outputSpatialReference ) = 0;
+};
+
+struct __declspec(uuid("b088f162-cdd1-11d3-a097-00c04f6bdf0e"))
+ISpatialReferenceDialog2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        VARIANT_BOOL hasXY,
+        VARIANT_BOOL hasZ,
+        VARIANT_BOOL hasM,
+        OLE_HANDLE hParent,
+        struct ISpatialReference * * spatialReference ) = 0;
+    virtual HRESULT __stdcall DoModalEdit (
+        struct ISpatialReference * inputSpatialReference,
+        VARIANT_BOOL hasXY,
+        VARIANT_BOOL hasZ,
+        VARIANT_BOOL hasM,
+        VARIANT_BOOL coordPageReadOnly,
+        VARIANT_BOOL xyDomainPageReadOnly,
+        VARIANT_BOOL mDomainPageReadOnly,
+        VARIANT_BOOL zDomainPageReadOnly,
+        OLE_HANDLE hParent,
+        struct ISpatialReference * * outputSpatialReference ) = 0;
+};
+
+struct __declspec(uuid("a38cb580-95ce-11d2-ad2a-00c04fa33a15"))
+IGeographicCoordinateSystemDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        OLE_HANDLE hParent,
+        struct IGeographicCoordinateSystem * * gcs ) = 0;
+};
+
+struct __declspec(uuid("a38cb581-95ce-11d2-ad2a-00c04fa33a15"))
+IProjectedCoordinateSystemDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        OLE_HANDLE hParent,
+        struct IProjectedCoordinateSystem * * pcs ) = 0;
+};
+
+struct __declspec(uuid("16688541-54c4-11d2-aad3-00c04fa33a15"))
+SpatialReferenceDialog;
+    // [ default ] interface IUnknown
+    // interface ISpatialReferenceDialog
+    // interface ISpatialReferenceDialog2
+
+struct __declspec(uuid("a38cb582-95ce-11d2-ad2a-00c04fa33a15"))
+GeographicCoordinateSystemDialog;
+    // [ default ] interface IUnknown
+    // interface IGeographicCoordinateSystemDialog
+
+struct __declspec(uuid("a38cb583-95ce-11d2-ad2a-00c04fa33a15"))
+ProjectedCoordinateSystemDialog;
+    // [ default ] interface IUnknown
+    // interface IProjectedCoordinateSystemDialog
+
+struct __declspec(uuid("92f6f58d-e21f-11d2-99c0-0000f80372b4"))
+GeographicCoordSysPropPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("92f6f58e-e21f-11d2-99c0-0000f80372b4"))
+ProjectedCoordSysPropPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("5dbede6b-4cde-11d2-aad2-00c04fa33a15"))
+ITableDefinitionDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreateTable (
+        struct IFeatureWorkspace * workspace,
+        OLE_HANDLE hParent,
+        struct ITable * * table ) = 0;
+    virtual HRESULT __stdcall DoModalCreateFeatureClass (
+        IUnknown * Parent,
+        OLE_HANDLE hParent,
+        struct IFeatureClass * * featureClass ) = 0;
+};
+
+enum esriTableDefFieldsPageContext
+{
+    esriFieldsPageTable = 0,
+    esriFieldsPageFeatureClass = 1,
+    esriFieldsPageRelationshipClass = 2
+};
+
+struct __declspec(uuid("b8eb61d1-6223-11d3-9ff0-00c04f6bc626"))
+ITableDefFieldsPage : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_PageContext (
+        enum esriTableDefFieldsPageContext _arg1 ) = 0;
+    virtual HRESULT __stdcall putref_WorkspaceDomains (
+        struct IWorkspaceDomains * _arg1 ) = 0;
+    virtual HRESULT __stdcall get_Fields (
+        struct IFields * * Fields ) = 0;
+    virtual HRESULT __stdcall WizardNext ( ) = 0;
+    virtual HRESULT __stdcall OnSetActive ( ) = 0;
+};
+
+struct __declspec(uuid("5dbede6c-4cde-11d2-aad2-00c04fa33a15"))
+TableDefinitionDialog;
+    // [ default ] interface IUnknown
+    // interface ITableDefinitionDialog
+
+struct __declspec(uuid("c255d345-cb5c-11d2-9f3c-00c04f6bc626"))
+DomainsPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("4d4b95a2-e153-11d2-99c0-0000f80372b4"))
+TableDefNamePage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("4d4b95a1-e153-11d2-99c0-0000f80372b4"))
+TableDefFieldsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface ITableDefFieldsPage
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("4d4b95a3-e153-11d2-99c0-0000f80372b4"))
+SubtypesPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("4d4b95a4-e153-11d2-99c0-0000f80372b4"))
+TableIndexPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("4d4b95a5-e153-11d2-99c0-0000f80372b4"))
+TableDefRelationshipsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("f64d9ce1-1f15-11d3-9c05-00c04f5b951e"))
+TableDefWeightsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("8f0ff785-d8e2-11d2-99be-0000f80372b4"))
+GxMapPropPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("13463062-3b90-4f50-a04d-4d3c70aa4581"))
+GxPMFMapPropPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("c26879a1-28bd-11d3-9c1b-00c04f5aa6df"))
+GxObjectVisibilityPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("2d6e3e08-e6c4-11d2-99c1-0000f80372b4"))
+GxFileFilterDefinitionPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("6edc31dd-e3ad-11d2-99c1-0000f80372b4"))
+IFeatureDatasetDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        struct IFeatureWorkspace * pFeatWS,
+        OLE_HANDLE parentWindow,
+        struct IFeatureDataset * * ppFeatDS ) = 0;
+};
+
+struct __declspec(uuid("6edc31de-e3ad-11d2-99c1-0000f80372b4"))
+FeatureDatasetDialog;
+    // [ default ] interface IUnknown
+    // interface IFeatureDatasetDialog
+
+struct __declspec(uuid("e813f832-2b3e-11d3-9c25-00c04f5aa6df"))
+FeatDSSpaRefPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("2a4e2f8c-daf1-11d2-9f52-00c04f6bc626"))
+IRelationshipClassDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreate (
+        IUnknown * pUnk,
+        OLE_HANDLE hParent,
+        struct IRelationshipClass * * relationshipClass ) = 0;
+};
+
+struct __declspec(uuid("2a4e2f8d-daf1-11d2-9f52-00c04f6bc626"))
+RelationshipClassDialog;
+    // [ default ] interface IUnknown
+    // interface IRelationshipClassDialog
+
+struct __declspec(uuid("38b5eafb-de47-11d2-9f54-00c04f6bc626"))
+GeneralRelationshipClassPropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("21f4070d-e167-11d2-9f59-00c04f6bc626"))
+RelationshipRulesPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("d0579ffe-5918-4c35-9f03-d9833f728df1"))
+ICreateRasterCatalogWizard : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModal (
+        struct IFeatureWorkspace * pWorkspace,
+        OLE_HANDLE Parent ) = 0;
+};
+
+struct __declspec(uuid("9c204f5e-59b2-475a-a52b-37b0f750f0f6"))
+IGxObjectEnumerator : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Current (
+        struct IGxObject * * ppSelected ) = 0;
+    virtual HRESULT __stdcall get_CurrentPos (
+        long * pIdx ) = 0;
+    virtual HRESULT __stdcall put_CurrentPos (
+        long pIdx ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        long * pCount ) = 0;
+};
+
+struct __declspec(uuid("9fbea74e-9bac-4c3e-9588-24da5eeb327c"))
+CreateRasterCatalogWizard;
+    // [ default ] interface IUnknown
+    // interface ICreateRasterCatalogWizard
+
+struct __declspec(uuid("979fea13-d5ae-11d2-9f28-00c04f6bc69e"))
+IGxApplicationEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnClipboardChanged ( ) = 0;
+    virtual HRESULT __stdcall OnViewChanged ( ) = 0;
+};
+
+struct __declspec(uuid("65ebba7e-7816-11d3-a662-0008c7d3ae8d"))
+GxShapefileIndexPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("c65a2bb6-32ed-11d3-9f33-00c04f79927c"))
+Pre70CoveragePropertyPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("b14315a8-098a-11d4-a676-0008c7df88db"))
+GxDataGraphView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxSelectionEvents
+    // interface IGxCatalogEvents
+
+struct __declspec(uuid("da1862eb-95f8-11d2-af67-080009ec734b"))
+IGxDocumentationView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Edit ( ) = 0;
+    virtual HRESULT __stdcall EditProperties ( ) = 0;
+    virtual HRESULT __stdcall Synchronize ( ) = 0;
+};
+
+struct __declspec(uuid("7ad0da09-0d4a-11d3-a626-0008c7d3ae50"))
+IMetadataEditor : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall Edit (
+        struct IPropertySet * props,
+        OLE_HANDLE hWnd,
+        VARIANT_BOOL * pOk ) = 0;
+};
+
+struct __declspec(uuid("055b2b9a-f2c9-11d2-9fc1-00c04f8ed211"))
+IMetadataHelper : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Refresh (
+        struct IGxObject * ipObject ) = 0;
+    virtual HRESULT __stdcall put_Editor (
+        struct IUID * Editor ) = 0;
+    virtual HRESULT __stdcall get_Editor (
+        struct IUID * * Editor ) = 0;
+    virtual HRESULT __stdcall put_Stylesheet (
+        BSTR Name ) = 0;
+    virtual HRESULT __stdcall get_Stylesheet (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall put_DefaultStylesheet (
+        BSTR Name ) = 0;
+    virtual HRESULT __stdcall get_DefaultStylesheet (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_StylesheetPath (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_WebPagePath (
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall put_SynchronizationOption (
+        enum esriSynchronizationOption option ) = 0;
+    virtual HRESULT __stdcall get_SynchronizationOption (
+        enum esriSynchronizationOption * option ) = 0;
+    virtual HRESULT __stdcall put_SynchronizationInterval (
+        long interval ) = 0;
+    virtual HRESULT __stdcall get_SynchronizationInterval (
+        long * interval ) = 0;
+};
+
+struct __declspec(uuid("43390ccd-5906-4c57-81fd-7a2f95a7a84e"))
+IMetadataEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall OnStylesheetChanged (
+        BSTR Stylesheet ) = 0;
+};
+
+struct __declspec(uuid("b1de27b1-d892-11d1-aa81-064342000000"))
+GxDocumentationView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxDocumentationView
+    // interface IGxCatalogEvents
+    // interface IGxSelectionEvents
+    // interface IGxViewPrint
+
+struct __declspec(uuid("055b2b99-f2c9-11d2-9fc1-00c04f8ed211"))
+MetadataExtension;
+    // [ default ] interface IUnknown
+    // interface IExtension
+    // interface IMetadataHelper
+    // interface IPersistStream
+    // interface IConnectionPointContainer
+    // [ default, source ] interface IMetadataEvents
+
+struct __declspec(uuid("b1c0a748-d6c7-4477-9c84-e83da6f60617"))
+IXmlQuery : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall BuildExpressions ( ) = 0;
+    virtual HRESULT __stdcall get_NumExpressions (
+        int * Count ) = 0;
+    virtual HRESULT __stdcall GetExpression (
+        int index,
+        BSTR * Name ) = 0;
+    virtual HRESULT __stdcall get_IsAnd (
+        VARIANT_BOOL * IsAnd ) = 0;
+    virtual HRESULT __stdcall put_IsAnd (
+        VARIANT_BOOL IsAnd ) = 0;
+};
+
+struct __declspec(uuid("4ea3e4ec-9dfa-11d3-a6cb-0008c7d3ae50"))
+IFileSystemQuery : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Location (
+        BSTR * Location ) = 0;
+    virtual HRESULT __stdcall put_Location (
+        BSTR Location ) = 0;
+    virtual HRESULT __stdcall get_IncludeSubFolders (
+        VARIANT_BOOL * IncludeSubFolders ) = 0;
+    virtual HRESULT __stdcall put_IncludeSubFolders (
+        VARIANT_BOOL IncludeSubFolders ) = 0;
+};
+
+struct __declspec(uuid("3155eef7-8734-43a5-87e7-62bd658363af"))
+IArcIMSQuery : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ContentType (
+        enum esriContentType * type ) = 0;
+    virtual HRESULT __stdcall put_ContentType (
+        enum esriContentType type ) = 0;
+};
+
+struct __declspec(uuid("52e909ba-552e-4ae2-87e7-9ed84c703d1e"))
+IFindDialogSettings : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_BackgroundMap (
+        BSTR * pBackgroundMap ) = 0;
+    virtual HRESULT __stdcall put_BackgroundMap (
+        BSTR pBackgroundMap ) = 0;
+};
+
+struct __declspec(uuid("d18306a2-9d3c-11d3-a6cb-0008c7d3ae50"))
+ISearchEngine : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Name (
+        BSTR * pName ) = 0;
+    virtual HRESULT __stdcall put_Enabled (
+        VARIANT_BOOL isEnabled ) = 0;
+    virtual HRESULT __stdcall get_Enabled (
+        VARIANT_BOOL * isEnabled ) = 0;
+    virtual HRESULT __stdcall putref_Query (
+        struct IQuery * _arg1 ) = 0;
+    virtual HRESULT __stdcall ExecuteAsynchronous ( ) = 0;
+    virtual HRESULT __stdcall Stop ( ) = 0;
+    virtual HRESULT __stdcall get_IsExecuting (
+        VARIANT_BOOL * IsExecuting ) = 0;
+};
+
+struct __declspec(uuid("b46f085c-db78-4862-a391-fcfdc92c62cb"))
+ISearchEngineProperties : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Edit (
+        OLE_HANDLE parentHWnd ) = 0;
+    virtual HRESULT __stdcall Load (
+        struct IPropertySet * pPropertySet ) = 0;
+    virtual HRESULT __stdcall Save (
+        struct IPropertySet * pPropertySet ) = 0;
+    virtual HRESULT __stdcall get_LocationString (
+        BSTR * pLocation ) = 0;
+    virtual HRESULT __stdcall put_LocationString (
+        BSTR pLocation ) = 0;
+};
+
+struct __declspec(uuid("d18306a3-9d3c-11d3-a6cb-0008c7d3ae50"))
+ISearchEngineEvents : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall ObjectFound (
+        struct IGxObject * anObject,
+        BSTR Location ) = 0;
+    virtual HRESULT __stdcall SearchFinished ( ) = 0;
+    virtual HRESULT __stdcall SearchFailed ( ) = 0;
+    virtual HRESULT __stdcall SearchCanceled ( ) = 0;
+    virtual HRESULT __stdcall SearchLocationChanged (
+        BSTR Location ) = 0;
+};
+
+struct __declspec(uuid("70e62545-d396-11d3-a6f3-0008c7d3ae50"))
+IFindDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Show (
+        VARIANT_BOOL bShow ) = 0;
+    virtual HRESULT __stdcall get_IsVisible (
+        VARIANT_BOOL * pVisible ) = 0;
+    virtual HRESULT __stdcall DoSearch (
+        struct IQuery * pQuery ) = 0;
+    virtual HRESULT __stdcall StopSearch ( ) = 0;
+    virtual HRESULT __stdcall Initialize (
+        struct IQuery * pQuery ) = 0;
+    virtual HRESULT __stdcall GetNumSearchEngines (
+        int * num ) = 0;
+    virtual HRESULT __stdcall GetSearchEngine (
+        int index,
+        struct ISearchEngine * * ppSearchEngine ) = 0;
+};
+
+struct __declspec(uuid("4ea3e4ea-9dfa-11d3-a6cb-0008c7d3ae50"))
+FileSystemQuery;
+    // [ default ] interface IUnknown
+    // interface IQuery
+    // interface IXmlQuery
+    // interface IArcIMSQuery
+    // interface IFindDialogSettings
+
+struct __declspec(uuid("d18306a4-9d3c-11d3-a6cb-0008c7d3ae50"))
+FileSystemXmlSearchEngine;
+    // [ default ] interface IUnknown
+    // interface ISearchEngine
+    // interface ISearchEngineProperties
+    // interface IFileSystemQuery
+    // interface IConnectionPointContainer
+    // [ default, source ] interface ISearchEngineEvents
+
+struct __declspec(uuid("2d9e0a39-9bcd-4313-9452-4c5e35318e7a"))
+CatalogSearchEngine;
+    // [ default ] interface IUnknown
+    // interface ISearchEngine
+    // interface ISearchEngineProperties
+    // interface IConnectionPointContainer
+    // [ default, source ] interface ISearchEngineEvents
+
+struct __declspec(uuid("ad0b37a9-d396-11d3-a6f3-0008c7d3ae50"))
+FindDialog;
+    // [ default ] interface IUnknown
+    // interface IFindDialog
+    // interface ISearchEngineEvents
+    // interface IGxSelectionEvents
+    // interface IDllThreadManager
+
+struct __declspec(uuid("cac7e0e9-bde5-4a18-a18f-92b6b0bf86f4"))
+IAGSObjectAdminDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreateServerObject (
+        OLE_HANDLE hParent,
+        struct IAGSServerConnectionName * pServerConnName,
+        struct IAGSObjectCreationProperties * * ppProps ) = 0;
+};
+
+struct __declspec(uuid("b2772436-4029-4b58-abd2-8e4ad62ea569"))
+IAGSConnectionAdminDialog : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModalCreateServerConnection (
+        OLE_HANDLE hParent,
+        VARIANT * selectedResources,
+        struct IAGSServerConnection * * ppServerConnection ) = 0;
+    virtual HRESULT __stdcall DoModalUpdateServerConnection (
+        OLE_HANDLE hParent,
+        VARIANT * selectedResources,
+        struct IGxAGSConnection * * ppGxAGSConn ) = 0;
+};
+
+struct __declspec(uuid("dfb425ab-5ebb-4a99-a215-b1bbfeb5f96a"))
+AGSGeneralPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("6cf43581-586c-4da6-aca3-3a24766d69da"))
+AGSMapParameterPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("00150f78-ff50-4bd4-aefb-7e85e63dd317"))
+AGSGeocodeParameterPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("9cf979d8-f2a1-41d2-80aa-01ea5e2480e4"))
+AGSProcessPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("e3fbb0f0-8ca9-45dd-aa17-e2197d452eb3"))
+AGSPoolingPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("7f97972e-a634-4def-ad97-4b6c23a9ec25"))
+AGSServerHostsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("e432528b-c2ca-4955-b9af-5b2426fcc525"))
+AGSServerDirsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("02c6bb7a-6678-4bb3-899b-05227c07dcc2"))
+AGSServerGeneralPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("20b0de7d-1084-447c-8e17-1d1058c05b39"))
+AGSServerStatisticsPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("8cb4298c-5e83-4df6-9ad8-a5788a3a7448"))
+AGSServerTypesPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("f66c99f8-d7c0-43c6-88c7-dc15435c5321"))
+ProxyServerPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("0d0281c4-cb32-432e-adb1-58978969b1fc"))
+MapServerObjectPropPage;
+    // [ default ] interface IUnknown
+    // interface IPropertyPage
+    // interface IPropertyPageContext
+    // interface IComPropertyPage
+    // interface IComPropertyPage2
+
+struct __declspec(uuid("216da6f2-116e-4ae7-9634-c6986654b46e"))
+AGSObjectAdminDialog;
+    // [ default ] interface IUnknown
+    // interface IAGSObjectAdminDialog
+
+struct __declspec(uuid("d7da5943-3246-493e-b561-8bc9ced4c1c4"))
+AGSConnectionAdminDialog;
+    // [ default ] interface IUnknown
+    // interface IAGSConnectionAdminDialog
+
+struct __declspec(uuid("40f59116-40c0-4cf1-830b-dca136cc1c8f"))
+ICreateRasterDatasetDlg : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall DoModal (
+        OLE_HANDLE hParent ) = 0;
+    virtual HRESULT __stdcall get_RasterDef (
+        struct IRasterDef * * ppRasterDef ) = 0;
+    virtual HRESULT __stdcall putref_RasterDef (
+        struct IRasterDef * ppRasterDef ) = 0;
+    virtual HRESULT __stdcall get_RasterStorageDef (
+        struct IRasterStorageDef * * ppRasterStorageDef ) = 0;
+    virtual HRESULT __stdcall putref_RasterStorageDef (
+        struct IRasterStorageDef * ppRasterStorageDef ) = 0;
+    virtual HRESULT __stdcall get_Name (
+        BSTR * ppName ) = 0;
+    virtual HRESULT __stdcall put_Name (
+        BSTR ppName ) = 0;
+    virtual HRESULT __stdcall get_Bands (
+        long * pBamds ) = 0;
+    virtual HRESULT __stdcall put_Bands (
+        long pBamds ) = 0;
+    virtual HRESULT __stdcall get_PixelType (
+        enum rstPixelType * pPixelType ) = 0;
+    virtual HRESULT __stdcall put_PixelType (
+        enum rstPixelType pPixelType ) = 0;
+    virtual HRESULT __stdcall put_SupportEnterprise (
+        VARIANT_BOOL _arg1 ) = 0;
+};
+
+struct __declspec(uuid("0eda5f3d-fe01-40d1-9018-1b2e4a01fd2e"))
+IGxRasterCatalogSubView : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_SupportMultiSelection (
+        VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("0b0ba0e2-c445-4e2d-b57b-d3431afe015d"))
+GxRasterCatalogContentView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxPreview
+    // interface IGxSelectionEvents
+    // interface IGxCatalogEvents
+    // interface IGxContentsView
+    // interface IObjectClassEvents
+    // interface IObjectClassSchemaEvents
+
+struct __declspec(uuid("643f3ba9-0352-4f05-9393-1f403e6cbb29"))
+GxRasterCatalogSubPropertyView;
+    // [ default ] interface IUnknown
+    // interface IGxView
+    // interface IGxRasterCatalogSubView
+
+struct __declspec(uuid("d40f0567-7ade-480b-b77b-87db16cb3d78"))
+MetadataServiceEngine;
+    // [ default ] interface IUnknown
+    // interface IConnectionPointContainer
+    // interface ISearchEngine
+    // interface ISearchEngineProperties
+    // [ default, source ] interface ISearchEngineEvents
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_esriCatalogUI =
+    {0xc0fc1503,0x7e6f,0x11d2,{0xaa,0xbf,0x00,0xc0,0x4f,0xa3,0x75,0xf1}};
+extern "C" const GUID __declspec(selectany) IID_IGxApplication =
+    {0xd1bf6a01,0x7a1c,0x11d0,{0xb7,0x7d,0x00,0x80,0x5f,0x7c,0xed,0x21}};
+extern "C" const GUID __declspec(selectany) IID_IGxView =
+    {0xb1de27ab,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) IID_IGxTreeView =
+    {0x2ef87699,0xec64,0x11d1,{0xaa,0x96,0x00,0xc0,0x4f,0xa3,0x75,0xe3}};
+extern "C" const GUID __declspec(selectany) IID_IGxContentsView =
+    {0xda1862ea,0x95f8,0x11d2,{0xaf,0x67,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) IID_IGxPreview =
+    {0xda1862ec,0x95f8,0x11d2,{0xaf,0x67,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) IID_IGxGeographicView =
+    {0x19bd00a9,0xe455,0x11d1,{0xae,0xe4,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) IID_IGxGeographicView2 =
+    {0x20f44eeb,0xf618,0x11d3,{0xa6,0x8b,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) IID_IGxTableView =
+    {0x8ed63615,0xda21,0x4807,{0xa4,0xce,0x97,0xef,0xcf,0xb8,0xfd,0xdb}};
+extern "C" const GUID __declspec(selectany) IID_IEnumGxView =
+    {0xd342626c,0xf9da,0x11d3,{0xa6,0x8d,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) IID_IGxViewContainer =
+    {0xe7e3da73,0xf904,0x11d3,{0xa6,0x8c,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) IID_IGxContentsViewColumn =
+    {0x22e48ec9,0xf92d,0x11d3,{0xa6,0x8d,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) IID_IGxContentsViewColumns =
+    {0x26212055,0xef93,0x11d3,{0xa6,0x85,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) IID_IGxViewPrint =
+    {0xa6164232,0x9140,0x41ad,{0xb3,0xf3,0x1d,0xa2,0x63,0xc8,0x0d,0x56}};
+extern "C" const GUID __declspec(selectany) CLSID_GxTreeView =
+    {0xb1de27ad,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_GxContentsView =
+    {0xb1de27ae,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_GxPreview =
+    {0xb1de27af,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_GxGeographicView =
+    {0xb1de27b0,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_GxTableView =
+    {0x9c34344d,0x99dc,0x11d2,{0xaf,0x6a,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) CLSID_GxContentsViewColumn =
+    {0x22e48ecb,0xf92d,0x11d3,{0xa6,0x8d,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) CLSID_GxContentsViewPage =
+    {0xd342626b,0xf9da,0x11d3,{0xa6,0x8d,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) CLSID_EnumGxView =
+    {0x0ed03264,0xcfed,0x4bce,{0x9f,0x7f,0x30,0x83,0x0a,0x02,0x03,0x94}};
+extern "C" const GUID __declspec(selectany) IID_IGxDialog =
+    {0xeab9ce29,0xe777,0x11d1,{0xae,0xe7,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) CLSID_GxDialog =
+    {0xeab9ce2a,0xe777,0x11d1,{0xae,0xe7,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) IID_ISpatialReferenceDialog =
+    {0x16688540,0x54c4,0x11d2,{0xaa,0xd3,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) IID_ISpatialReferenceDialog2 =
+    {0xb088f162,0xcdd1,0x11d3,{0xa0,0x97,0x00,0xc0,0x4f,0x6b,0xdf,0x0e}};
+extern "C" const GUID __declspec(selectany) IID_IGeographicCoordinateSystemDialog =
+    {0xa38cb580,0x95ce,0x11d2,{0xad,0x2a,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) IID_IProjectedCoordinateSystemDialog =
+    {0xa38cb581,0x95ce,0x11d2,{0xad,0x2a,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_SpatialReferenceDialog =
+    {0x16688541,0x54c4,0x11d2,{0xaa,0xd3,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_GeographicCoordinateSystemDialog =
+    {0xa38cb582,0x95ce,0x11d2,{0xad,0x2a,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_ProjectedCoordinateSystemDialog =
+    {0xa38cb583,0x95ce,0x11d2,{0xad,0x2a,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_GeographicCoordSysPropPage =
+    {0x92f6f58d,0xe21f,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_ProjectedCoordSysPropPage =
+    {0x92f6f58e,0xe21f,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) IID_ITableDefinitionDialog =
+    {0x5dbede6b,0x4cde,0x11d2,{0xaa,0xd2,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) IID_ITableDefFieldsPage =
+    {0xb8eb61d1,0x6223,0x11d3,{0x9f,0xf0,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) CLSID_TableDefinitionDialog =
+    {0x5dbede6c,0x4cde,0x11d2,{0xaa,0xd2,0x00,0xc0,0x4f,0xa3,0x3a,0x15}};
+extern "C" const GUID __declspec(selectany) CLSID_DomainsPropertyPage =
+    {0xc255d345,0xcb5c,0x11d2,{0x9f,0x3c,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) CLSID_TableDefNamePage =
+    {0x4d4b95a2,0xe153,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_TableDefFieldsPage =
+    {0x4d4b95a1,0xe153,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_SubtypesPropertyPage =
+    {0x4d4b95a3,0xe153,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_TableIndexPage =
+    {0x4d4b95a4,0xe153,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_TableDefRelationshipsPage =
+    {0x4d4b95a5,0xe153,0x11d2,{0x99,0xc0,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_TableDefWeightsPage =
+    {0xf64d9ce1,0x1f15,0x11d3,{0x9c,0x05,0x00,0xc0,0x4f,0x5b,0x95,0x1e}};
+extern "C" const GUID __declspec(selectany) CLSID_GxMapPropPage =
+    {0x8f0ff785,0xd8e2,0x11d2,{0x99,0xbe,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_GxPMFMapPropPage =
+    {0x13463062,0x3b90,0x4f50,{0xa0,0x4d,0x4d,0x3c,0x70,0xaa,0x45,0x81}};
+extern "C" const GUID __declspec(selectany) CLSID_GxObjectVisibilityPage =
+    {0xc26879a1,0x28bd,0x11d3,{0x9c,0x1b,0x00,0xc0,0x4f,0x5a,0xa6,0xdf}};
+extern "C" const GUID __declspec(selectany) CLSID_GxFileFilterDefinitionPage =
+    {0x2d6e3e08,0xe6c4,0x11d2,{0x99,0xc1,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) IID_IFeatureDatasetDialog =
+    {0x6edc31dd,0xe3ad,0x11d2,{0x99,0xc1,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_FeatureDatasetDialog =
+    {0x6edc31de,0xe3ad,0x11d2,{0x99,0xc1,0x00,0x00,0xf8,0x03,0x72,0xb4}};
+extern "C" const GUID __declspec(selectany) CLSID_FeatDSSpaRefPage =
+    {0xe813f832,0x2b3e,0x11d3,{0x9c,0x25,0x00,0xc0,0x4f,0x5a,0xa6,0xdf}};
+extern "C" const GUID __declspec(selectany) IID_IRelationshipClassDialog =
+    {0x2a4e2f8c,0xdaf1,0x11d2,{0x9f,0x52,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) CLSID_RelationshipClassDialog =
+    {0x2a4e2f8d,0xdaf1,0x11d2,{0x9f,0x52,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) CLSID_GeneralRelationshipClassPropertyPage =
+    {0x38b5eafb,0xde47,0x11d2,{0x9f,0x54,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) CLSID_RelationshipRulesPage =
+    {0x21f4070d,0xe167,0x11d2,{0x9f,0x59,0x00,0xc0,0x4f,0x6b,0xc6,0x26}};
+extern "C" const GUID __declspec(selectany) IID_ICreateRasterCatalogWizard =
+    {0xd0579ffe,0x5918,0x4c35,{0x9f,0x03,0xd9,0x83,0x3f,0x72,0x8d,0xf1}};
+extern "C" const GUID __declspec(selectany) IID_IGxObjectEnumerator =
+    {0x9c204f5e,0x59b2,0x475a,{0xa5,0x2b,0x37,0xb0,0xf7,0x50,0xf0,0xf6}};
+extern "C" const GUID __declspec(selectany) CLSID_CreateRasterCatalogWizard =
+    {0x9fbea74e,0x9bac,0x4c3e,{0x95,0x88,0x24,0xda,0x5e,0xeb,0x32,0x7c}};
+extern "C" const GUID __declspec(selectany) IID_IGxApplicationEvents =
+    {0x979fea13,0xd5ae,0x11d2,{0x9f,0x28,0x00,0xc0,0x4f,0x6b,0xc6,0x9e}};
+extern "C" const GUID __declspec(selectany) CLSID_GxShapefileIndexPage =
+    {0x65ebba7e,0x7816,0x11d3,{0xa6,0x62,0x00,0x08,0xc7,0xd3,0xae,0x8d}};
+extern "C" const GUID __declspec(selectany) CLSID_Pre70CoveragePropertyPage =
+    {0xc65a2bb6,0x32ed,0x11d3,{0x9f,0x33,0x00,0xc0,0x4f,0x79,0x92,0x7c}};
+extern "C" const GUID __declspec(selectany) CLSID_GxDataGraphView =
+    {0xb14315a8,0x098a,0x11d4,{0xa6,0x76,0x00,0x08,0xc7,0xdf,0x88,0xdb}};
+extern "C" const GUID __declspec(selectany) IID_IGxDocumentationView =
+    {0xda1862eb,0x95f8,0x11d2,{0xaf,0x67,0x08,0x00,0x09,0xec,0x73,0x4b}};
+extern "C" const GUID __declspec(selectany) IID_IMetadataEditor =
+    {0x7ad0da09,0x0d4a,0x11d3,{0xa6,0x26,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) IID_IMetadataHelper =
+    {0x055b2b9a,0xf2c9,0x11d2,{0x9f,0xc1,0x00,0xc0,0x4f,0x8e,0xd2,0x11}};
+extern "C" const GUID __declspec(selectany) IID_IMetadataEvents =
+    {0x43390ccd,0x5906,0x4c57,{0x81,0xfd,0x7a,0x2f,0x95,0xa7,0xa8,0x4e}};
+extern "C" const GUID __declspec(selectany) CLSID_GxDocumentationView =
+    {0xb1de27b1,0xd892,0x11d1,{0xaa,0x81,0x06,0x43,0x42,0x00,0x00,0x00}};
+extern "C" const GUID __declspec(selectany) CLSID_MetadataExtension =
+    {0x055b2b99,0xf2c9,0x11d2,{0x9f,0xc1,0x00,0xc0,0x4f,0x8e,0xd2,0x11}};
+extern "C" const GUID __declspec(selectany) IID_IXmlQuery =
+    {0xb1c0a748,0xd6c7,0x4477,{0x9c,0x84,0xe8,0x3d,0xa6,0xf6,0x06,0x17}};
+extern "C" const GUID __declspec(selectany) IID_IFileSystemQuery =
+    {0x4ea3e4ec,0x9dfa,0x11d3,{0xa6,0xcb,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) IID_IArcIMSQuery =
+    {0x3155eef7,0x8734,0x43a5,{0x87,0xe7,0x62,0xbd,0x65,0x83,0x63,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_IFindDialogSettings =
+    {0x52e909ba,0x552e,0x4ae2,{0x87,0xe7,0x9e,0xd8,0x4c,0x70,0x3d,0x1e}};
+extern "C" const GUID __declspec(selectany) IID_ISearchEngine =
+    {0xd18306a2,0x9d3c,0x11d3,{0xa6,0xcb,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) IID_ISearchEngineProperties =
+    {0xb46f085c,0xdb78,0x4862,{0xa3,0x91,0xfc,0xfd,0xc9,0x2c,0x62,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_ISearchEngineEvents =
+    {0xd18306a3,0x9d3c,0x11d3,{0xa6,0xcb,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) IID_IFindDialog =
+    {0x70e62545,0xd396,0x11d3,{0xa6,0xf3,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) CLSID_FileSystemQuery =
+    {0x4ea3e4ea,0x9dfa,0x11d3,{0xa6,0xcb,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) CLSID_FileSystemXmlSearchEngine =
+    {0xd18306a4,0x9d3c,0x11d3,{0xa6,0xcb,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) CLSID_CatalogSearchEngine =
+    {0x2d9e0a39,0x9bcd,0x4313,{0x94,0x52,0x4c,0x5e,0x35,0x31,0x8e,0x7a}};
+extern "C" const GUID __declspec(selectany) CLSID_FindDialog =
+    {0xad0b37a9,0xd396,0x11d3,{0xa6,0xf3,0x00,0x08,0xc7,0xd3,0xae,0x50}};
+extern "C" const GUID __declspec(selectany) IID_IAGSObjectAdminDialog =
+    {0xcac7e0e9,0xbde5,0x4a18,{0xa1,0x8f,0x92,0xb6,0xb0,0xbf,0x86,0xf4}};
+extern "C" const GUID __declspec(selectany) IID_IAGSConnectionAdminDialog =
+    {0xb2772436,0x4029,0x4b58,{0xab,0xd2,0x8e,0x4a,0xd6,0x2e,0xa5,0x69}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSGeneralPage =
+    {0xdfb425ab,0x5ebb,0x4a99,{0xa2,0x15,0xb1,0xbb,0xfe,0xb5,0xf9,0x6a}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSMapParameterPage =
+    {0x6cf43581,0x586c,0x4da6,{0xac,0xa3,0x3a,0x24,0x76,0x6d,0x69,0xda}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSGeocodeParameterPage =
+    {0x00150f78,0xff50,0x4bd4,{0xae,0xfb,0x7e,0x85,0xe6,0x3d,0xd3,0x17}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSProcessPage =
+    {0x9cf979d8,0xf2a1,0x41d2,{0x80,0xaa,0x01,0xea,0x5e,0x24,0x80,0xe4}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSPoolingPage =
+    {0xe3fbb0f0,0x8ca9,0x45dd,{0xaa,0x17,0xe2,0x19,0x7d,0x45,0x2e,0xb3}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSServerHostsPage =
+    {0x7f97972e,0xa634,0x4def,{0xad,0x97,0x4b,0x6c,0x23,0xa9,0xec,0x25}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSServerDirsPage =
+    {0xe432528b,0xc2ca,0x4955,{0xb9,0xaf,0x5b,0x24,0x26,0xfc,0xc5,0x25}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSServerGeneralPage =
+    {0x02c6bb7a,0x6678,0x4bb3,{0x89,0x9b,0x05,0x22,0x7c,0x07,0xdc,0xc2}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSServerStatisticsPage =
+    {0x20b0de7d,0x1084,0x447c,{0x8e,0x17,0x1d,0x10,0x58,0xc0,0x5b,0x39}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSServerTypesPage =
+    {0x8cb4298c,0x5e83,0x4df6,{0x9a,0xd8,0xa5,0x78,0x8a,0x3a,0x74,0x48}};
+extern "C" const GUID __declspec(selectany) CLSID_ProxyServerPage =
+    {0xf66c99f8,0xd7c0,0x43c6,{0x88,0xc7,0xdc,0x15,0x43,0x5c,0x53,0x21}};
+extern "C" const GUID __declspec(selectany) CLSID_MapServerObjectPropPage =
+    {0x0d0281c4,0xcb32,0x432e,{0xad,0xb1,0x58,0x97,0x89,0x69,0xb1,0xfc}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSObjectAdminDialog =
+    {0x216da6f2,0x116e,0x4ae7,{0x96,0x34,0xc6,0x98,0x66,0x54,0xb4,0x6e}};
+extern "C" const GUID __declspec(selectany) CLSID_AGSConnectionAdminDialog =
+    {0xd7da5943,0x3246,0x493e,{0xb5,0x61,0x8b,0xc9,0xce,0xd4,0xc1,0xc4}};
+extern "C" const GUID __declspec(selectany) IID_ICreateRasterDatasetDlg =
+    {0x40f59116,0x40c0,0x4cf1,{0x83,0x0b,0xdc,0xa1,0x36,0xcc,0x1c,0x8f}};
+extern "C" const GUID __declspec(selectany) IID_IGxRasterCatalogSubView =
+    {0x0eda5f3d,0xfe01,0x40d1,{0x90,0x18,0x1b,0x2e,0x4a,0x01,0xfd,0x2e}};
+extern "C" const GUID __declspec(selectany) CLSID_GxRasterCatalogContentView =
+    {0x0b0ba0e2,0xc445,0x4e2d,{0xb5,0x7b,0xd3,0x43,0x1a,0xfe,0x01,0x5d}};
+extern "C" const GUID __declspec(selectany) CLSID_GxRasterCatalogSubPropertyView =
+    {0x643f3ba9,0x0352,0x4f05,{0x93,0x93,0x1f,0x40,0x3e,0x6c,0xbb,0x29}};
+extern "C" const GUID __declspec(selectany) CLSID_MetadataServiceEngine =
+    {0xd40f0567,0x7ade,0x480b,{0xb7,0x7b,0x87,0xdb,0x16,0xcb,0x3d,0x78}};
+
+#pragma pack(pop)

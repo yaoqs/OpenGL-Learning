@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="f:\rtm\vctools\crt_bld\self_x86\crt\src\heapinit.c" md5="f641587a9f27bd7e16082f33d6dda9ca">
+    <snippet line="199">
+      <line line="196">        //  Initialize the "big-block" heap first.</line>
+      <line line="197">        if ( (_crtheap = HeapCreate( mtflag ? 0 : HEAP_NO_SERIALIZE,</line>
+      <line line="198">                                     BYTES_PER_PAGE, 0 )) == NULL )</line>
+      <line line="199">            return 0;</line>
+      <line line="200"/>
+    </snippet>
+  </file>
+  <file name="f:\rtm\vctools\crt_bld\self_x86\crt\src\initcrit.c" md5="39be8f7d7ab837a8a803ede29cfba377">
+    <snippet line="161">
+      <line line="158">         * API is not available.</line>
+      <line line="159">         */</line>
+      <line line="160">        ret = pfnInitCritSecAndSpinCount(lpCriticalSection, dwSpinCount);</line>
+      <line line="161">    }</line>
+      <line line="162">    __except (_exception_code()== STATUS_NO_MEMORY ? EXCEPTION_EXECUTE_HANDLER:EXCEPTION_CONTINUE_SEARCH) {</line>
+    </snippet>
+  </file>
+  <file name="f:\rtm\vctools\crt_bld\self_x86\crt\src\dbgheap.c" md5="5ae483a65007be765b0f30fdc245c20e">
+    <snippet line="561">
+      <line line="558">         */</line>
+      <line line="559"/>
+      <line line="560">        pvBlk = _malloc_dbg(nSize, nBlockUse, szFileName, nLine);</line>
+      <line line="561"/>
+      <line line="562">        /*</line>
+    </snippet>
+  </file>
+</snippets>
